@@ -195,6 +195,28 @@ AIモデルを継続学習する場合, 課題になる。
 人間データなしでの自己対局による強化学習という中核的な手法を確立した。
 </p>
 
+<h3>● Slip Connection (スキップ接続)</h3>
+<p>
+『Deep residual learning for image recognition』(2015)
+　論文は<a href="https://arxiv.org/abs/1512.03385">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1512.03385v1">こちら</a><br>
+<br>
+ResNetとスキップコネクションを用いた深層残差学習の概念を導入。
+スキップコネクションがいかにしてはるかに深いネットワークの訓練を可能にし、性能劣化の問題を克服するかを示し、議論されるその後の多くの研究の基礎を形成した。
+</p>
+<p>
+『Highway networks』(2015)<br>
+　論文は<a href="https://arxiv.org/abs/1505.00387">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1505.00387v2">こちら</a><br>
+<br>
+ResNetの重要な前身。<br>
+非常に深いネットワークにおける情報フローを促進するために、スキップコネクションとゲーティングメカニズムを使用するというアイデアを導入した。
+</p>
+<p>
+『U-net: Convolutional networks for biomedical image segmentation』(2015)<br>
+　論文は<a href="https://arxiv.org/abs/1505.04597">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1505.04597v1">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2015_UNet/2015_U-Net%20-%20Convolutional%20Networks%20for%20Biomedical%20Image%20Segmentation.html">こちら</a><br>
+<br>
+セグメンテーションにおける正確な局在化のために、エンコーダパスからの特徴をデコーダパスと結合するために長距離スキップコネクションを効果的に利用する画期的なアーキテクチャーを導入した
+</p>
+
 <h3>● Transformer</h3>
 <p>
 『Attention is all you need』(2017) <br>
@@ -214,6 +236,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
