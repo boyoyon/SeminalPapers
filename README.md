@@ -123,7 +123,7 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 　論文は<a href="https://arxiv.org/abs/2303.07507">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2303.07507v1">こちら</a>
 </p>
 <p>
-非定常環境で動作する深層強化学習エージェントにおいて「可塑性の喪失」を特定し、エージェントが新しい情報を学習する能力を徐々に失うことを示した。
+非定常環境で動作する深層強化学習エージェントにおいて「可塑性の喪失」を特定し、エージェントが新しい情報を学習する能力を徐々に失うことを示した。この現象は、ニューロンが不活性になる「活性化崩壊」が主な原因であり、標準のReLU活性化関数をConcatenated ReLU（CReLU）に置き換えることで大幅に軽減され、学習能力が維持された。
 </p>
 
 <h3>● Lottery Ticket Hyposis (宝くじ仮説)</h3>
@@ -205,6 +205,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
