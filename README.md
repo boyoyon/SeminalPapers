@@ -98,6 +98,20 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 古典的なバイアス-バリアンスのトレードオフと、より大きなモデルが深層学習でより良く機能するという観察を調和させるために、「二重降下」の概念を紹介している。さまざまな設定で二重降下の経験的証拠を提供する。
 </p>
 
+<h3>● Dropout</h3>
+<p>
+『Improving neural networks by preventing co-adaptation of feature detectors.』(2012)<br>
+　論文は<a href="https://arxiv.org/abs/1207.0580">こちら</a><br>
+<br>
+　ドロップアウト技術を導入した先駆的な論文
+</p>
+<p>
+『Dropout: a simple way to prevent neural networks from overfitting』(2014)<br>
+　論文は<a href="https://www.jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf">こちら</a><br>
+<br>
+　過学習を防ぐための正則化手法としてのドロップアウトについて包括的な分析を提供
+</p>
+
 <h3>● Grokking</h3>
 <p>
 『Grokking: Generalization beyond overfitting on small algorithmic datasets』(2022)<br>
@@ -236,6 +250,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
