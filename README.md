@@ -186,6 +186,15 @@ AIモデルを継続学習する場合, 課題になる。
 タイトル(最適脳損傷)が怖い･･･
 </p>
 
+<h3>● Self-Play(自己対局), Without human knowledge (人間知識なし)</h3>
+<p>
+『Mastering the game of go without human knowledge』()<br>
+　論文は<a href="https://discovery.ucl.ac.uk/id/eprint/10045895/1/agz_unformatted_nature.pdf">こちら</a>
+</p>
+<p>
+人間データなしでの自己対局による強化学習という中核的な手法を確立した。
+</p>
+
 <h3>● Transformer</h3>
 <p>
 『Attention is all you need』(2017) <br>
@@ -205,6 +214,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
