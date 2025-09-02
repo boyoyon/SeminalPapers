@@ -117,6 +117,15 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 蒸留のインスピレーションはお酒かと思ったら昆虫で, 「教師」が「幼虫」. 「生徒」が「成虫」というのも意外･･･
 </p>
 
+<h3>● Loss of Plasticity (可塑性喪失) </h3>
+<p>
+『Loss of Plasticity in Continual Deep Reinforcement Learning』(2023)<br>
+　論文は<a href="https://arxiv.org/abs/2303.07507">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2303.07507v1">こちら</a>
+</p>
+<p>
+非定常環境で動作する深層強化学習エージェントにおいて「可塑性の喪失」を特定し、エージェントが新しい情報を学習する能力を徐々に失うことを示した。
+</p>
+
 <h3>● Lottery Ticket Hyposis (宝くじ仮説)</h3>
 <p>
 『The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks』(2019)<br>
@@ -196,6 +205,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
