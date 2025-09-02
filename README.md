@@ -188,7 +188,7 @@ AIモデルを継続学習する場合, 課題になる。
 
 <h3>● Self-Play(自己対局), Without human knowledge (人間知識なし)</h3>
 <p>
-『Mastering the game of go without human knowledge』()<br>
+『Mastering the game of go without human knowledge』(2017)<br>
 　論文は<a href="https://discovery.ucl.ac.uk/id/eprint/10045895/1/agz_unformatted_nature.pdf">こちら</a>
 </p>
 <p>
@@ -214,6 +214,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
