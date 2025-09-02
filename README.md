@@ -197,7 +197,7 @@ AIモデルを継続学習する場合, 課題になる。
 
 <h3>● Slip Connection (スキップ接続)</h3>
 <p>
-『Deep residual learning for image recognition』(2015)
+『Deep residual learning for image recognition』(2015)<br>
 　論文は<a href="https://arxiv.org/abs/1512.03385">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1512.03385v1">こちら</a><br>
 <br>
 ResNetとスキップコネクションを用いた深層残差学習の概念を導入。
@@ -236,6 +236,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
