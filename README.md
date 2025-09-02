@@ -42,7 +42,7 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 　(問題の形式化)
 <p>
 『Catastrophic interference in connectionist networks: The sequential learning problem.』(1989)<br>
-　論文は<a href="https://www.sciencedirect.com/science/article/abs/pii/S0079742108605368">こちら</a>(有償)
+　論文は<a href="https://www.andywills.info/hbab/mccloskeycohen.pdf">こちら</a>
 </p>
 <p>
 ニューラルネットワークが新しい情報を順次学習する際に生じる破局的干渉 (あるいは忘却) の問題を形式的に定義した基礎的な論文<br>
@@ -190,5 +190,6 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
