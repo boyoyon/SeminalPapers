@@ -46,6 +46,12 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 </p>
 <p>
 ニューラルネットワークが新しい情報を順次学習する際に生じる破局的干渉 (あるいは忘却) の問題を形式的に定義した基礎的な論文<br>
+<br>
+『Catastrophic forgetting in connectionist networks』(1999)<br>
+　論文は<a href="https://lead.ube.fr/wp-content/uploads/2023/09/000282-catastrophic-forgetting-in-connectionist-networks.pdf">こちら</a><br>
+<br>
+壊滅的な忘却/干渉に関する非常に影響力のある論文。以前に習得した知識を上書きする現象を概説している。<br>
+<br>
 AIモデルを継続学習する場合, 課題になる。
 </p>
 　(解決手法)
@@ -190,6 +196,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
