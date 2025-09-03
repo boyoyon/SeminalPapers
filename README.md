@@ -131,6 +131,14 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 蒸留のインスピレーションはお酒かと思ったら昆虫で, 「教師」が「幼虫」. 「生徒」が「成虫」というのも意外･･･
 </p>
 
+<h3>● Linear mode connectivity (線形モード接続性)</h3>
+<p>
+『Linear mode connectivity and the lottery ticket hypothesis』(2019)<br>
+　論文は<a href="https://arxiv.org/abs/1912.05671">こちら</a><br>
+<br>
+同じ初期化から訓練されたモデルが損失ランドスケープ内で連結され得ることを示唆
+</p>
+
 <h3>● Loss of Plasticity (可塑性喪失) </h3>
 <p>
 『Loss of Plasticity in Continual Deep Reinforcement Learning』(2023)<br>
@@ -289,6 +297,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
