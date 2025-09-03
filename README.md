@@ -200,6 +200,38 @@ AIモデルを継続学習する場合, 課題になる。
 タイトル(最適脳損傷)が怖い･･･
 </p>
 
+<h3>● ReLU: Rectified Linear Unit </h3>
+<p>
+『Neocognitron: A Self-organizing Neural Network Model
+for a Mechanism of Pattern Recognition
+Unaffected by Shift in Position 』(1980)<br>
+ 論文は<a href="https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf">こちら</a><br>
+<br>
+強調されていないが, さりげなく ReLU (まだ命名されていない)が使われている。
+</p>
+
+<p>
+『Deep sparse rectifier neural networks』(2011)<br>
+ 論文は<a href="https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf">こちら</a><br>
+<br>
+ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性の促進におけるその利点を議論すると同時に、「ReLUの死滅問題(dying ReLU problem)」を特定した
+</p>
+
+<p>
+『Imagenet classification with deep convolutional neural networks (AlexNet論文)』(2012)<br>
+
+　論文は<a href="https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2012_AlexNet/2012_Imagenet-classification-with-deep-convolutional-neural-networks.html">こちら</a><br>
+<br>
+　深層畳み込みネットワークにおけるReLUの有効性を示すことにより、ReLUを普及させる上で極めて重要であり、その結果、広く採用されるようになった。
+</p>
+
+<p>
+『Dying relu and initialization: Theory and numerical examples』(2019)<br>
+　論文は<a href="https://arxiv.org/abs/1903.06733">こちら</a><br>
+<br>
+「ReLUの死滅問題」に関する詳細な分析と特定の実験設定を提供
+</p>
+
 <h3>● Self-Play(自己対局), Without human knowledge (人間知識なし)</h3>
 <p>
 『Mastering the game of go without human knowledge』(2017)<br>
@@ -250,6 +282,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
