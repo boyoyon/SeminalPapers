@@ -222,7 +222,7 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 
 　論文は<a href="https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2012_AlexNet/2012_Imagenet-classification-with-deep-convolutional-neural-networks.html">こちら</a><br>
 <br>
-　深層畳み込みネットワークにおけるReLUの有効性を示すことにより、ReLUを普及させる上で極めて重要であり、その結果、広く採用されるようになった。
+　深層畳み込みネットワークにおけるReLUの有効性を示すことにより(図1.「tanhの6倍･･･])、ReLUを普及させる上で極めて重要であり、その結果、広く採用されるようになった。 
 </p>
 
 <p>
@@ -282,6 +282,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
