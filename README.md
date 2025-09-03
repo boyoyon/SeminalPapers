@@ -62,7 +62,16 @@ AIモデルを継続学習する場合, 課題になる。
 <p>
 継続学習における正則化ベースの基盤的アプローチであるElastic Weight Consolidation (EWC) を導入した論文
 </p>
-<h3>● CoT (Chain-of-Thought 思考連鎖)</h3>
+
+<h3>● Cognitive Agent (認知エージェント)</h3>
+<p>
+『Computational mechanics: Pattern and prediction, structure and simplicity』(1999)<br>
+　論文は<a href="https://arxiv.org/abs/cond-mat/9907176">こちら</a>, 要約はなし。引用論文の要約は<a href="https://www.alphaxiv.org/ja/overview/2505.19275v1">こちら</a><br>
+<br>
+「認知エージェント」概念の基礎となる計算力学とε-マシンが導入される。
+</p>
+
+<h3>● CoT: Chain-of-Thought (思考連鎖)</h3>
 <p>
 『Chain-of-thought prompting elicits reasoning in large language models』(2022)<br>
 　論文は<a href="https://arxiv.org/abs/2201.11903">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2201.11903v6">こちら</a>
@@ -110,6 +119,22 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 　論文は<a href="https://www.jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf">こちら</a><br>
 <br>
 　過学習を防ぐための正則化手法としてのドロップアウトについて包括的な分析を提供
+</p>
+
+<h3>● Episodic Memory (エピソード記憶)</h3>
+<p>
+『Episodic and semantic memory』(1972)<br>
+　本の一部は<a href="https://alicekim.ca/EMSM72.pdf">こちら</a>, 引用論文の要約は<a href="https://www.alphaxiv.org/ja/overview/2505.03434v1">こちら</a><br>
+<br>
+認知科学におけるエピソード記憶と意味記憶の重要な区別を提示している。
+</p>
+
+<h3>● Generative Model (生成モデル)</h3>
+<p>
+『Generative Adversarial Networks』(2014)<br>
+　論文は<a href="https://arxiv.org/abs/1406.2661">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1406.2661v1">こちら</a><br>
+<br>
+　敵対的生成ネットワーク（GAN）アーキテクチャを導入した基礎的な論文
 </p>
 
 <h3>● Grokking</h3>
@@ -165,6 +190,16 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 　　モデルを大きくしていき、当りくじが取り込まれると高精度になる。<br>
 　　枝刈りしても当りくじが削られなければ高精度は維持される。<br>
 　　んじゃないの? 仮説<br>
+
+</p>
+
+<h3>● Measurement Semantics (計測意味論)</h3>
+<p>
+『Nonlinear Modeling and Forecasting』(1992)<br>
+　論文は<a href="https://www.amazon.co.jp/-/en/Martin-Casdagli/dp/0201587882">アマゾン</a>で中古で購入可能, 引用論文の要約は<a href="https://www.alphaxiv.org/ja/overview/2505.19275v1">こちら</a><br>
+<br>
+「計測意味論」の起源。<br>
+観測の意味がエージェントの内部モデルをどのように更新するかによって決定されるという考えを確立。
 </p>
 
 <h3>● Modality Gap </h3>
@@ -179,8 +214,9 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 <h3>● Neural Collapse </h3>
 <p>
 『Prevalence of neural collapse during the terminal phase of deep learning training』(2020)<br>
-　論文は<a href="https://arxiv.org/abs/2008.08186">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/2008.08186v2">こちら</a><br>
-<br>
+　論文は<a href="https://arxiv.org/abs/2008.08186">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/2008.08186v2">こちら</a>
+</p>
+<p>
 深層学習の訓練中にデータの特徴が単純で規則的な幾何学構造に収束するという「Neural Collapse(NC)」現象を観察、命名し、包括的に文書化した画期的な論文
 </p>
 
@@ -251,7 +287,7 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 
 　論文は<a href="https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2012_AlexNet/2012_Imagenet-classification-with-deep-convolutional-neural-networks.html">こちら</a><br>
 <br>
-　深層畳み込みネットワークにおけるReLUの有効性を示すことにより(図1.「tanhの6倍･･･])、ReLUを普及させる上で極めて重要であり、その結果、広く採用されるようになった。 
+　深層畳み込みネットワークにおけるReLUの有効性を示すことにより(図1.[tanhの6倍･･･」)、ReLUを普及させる上で極めて重要であり、その結果、広く採用されるようになった。
 </p>
 
 <p>
@@ -260,6 +296,7 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 <br>
 「ReLUの死滅問題」に関する詳細な分析と特定の実験設定を提供
 </p>
+
 
 <h3>● Self-Play(自己対局), Without human knowledge (人間知識なし)</h3>
 <p>
@@ -292,44 +329,49 @@ ResNetの重要な前身。<br>
 セグメンテーションにおける正確な局在化のために、エンコーダパスからの特徴をデコーダパスと結合するために長距離スキップコネクションを効果的に利用する画期的なアーキテクチャーを導入した
 </p>
 
+<h3>● ToT: Tree of Thoughts (思考ツリー)</h3>
+<p>
+『Tree of thoughts: Deliberate problem solving with large language models』(2023)<br>
+　論文は<a href="https://arxiv.org/abs/2305.10601">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2305.10601v2">こちら</a><br>
+<br>
+　複数の思考パスを探索することによってLLMの推論能力を向上させる最先端の手法を示している。
+</p>
+
+
 <h3>● Transformer</h3>
 <p>
 『Attention is all you need』(2017) <br>
 　論文は<a href="https://arxiv.org/abs/1706.03762">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/1706.03762v7">こちら</a>
 </p>
 <p>
-Transformerアーキテクチャを導入した。
+　Transformerアーキテクチャを導入した。
+</p>
+
+<h4>　・ViT: Vision Transformer</h4>
+<p>
+　　『An image is worth 16x16 words: Transformers for image recognition at scale』(2020)<br>
+　　　論文は<a href="https://arxiv.org/abs/2010.11929">こちら</a><br>
+<br>
+　　　純粋なTransformerアーキテクチャを画像分類に適用することに初めて成功した。<br>
+　　　画像をパッチに分割して入力トークンとするパラダイムを確立し、他の後続のVision Transformerが踏襲する基礎となるステップとなった。
+</p>
+
+<h4>　・DETR: Detection with Transformer</h4>
+<p>
+　　『End-to-end object detection with transformers』(2005)<br>
+　　論文は<a href="https://arxiv.org/abs/2005.12872">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2005.12872v3">こちら</a><br>
+<br>
+　　物体検出を直接的な集合予測問題として再構築する検出トランスフォーマー (DETR) を導入した。<br>
+　　この斬新なアプローチにより、検出パイプラインで一般的に用いられていた多くの手作業で設計されたコンポーネントが不要となった。これはパラダイムシフトを意味し、分類以外の主要なコンピュータビジョンタスクにおけるトランスフォーマーの礎石となる応用事例となった。
+　　
 </p>
 
 <h3>● World Model</h3>
 <p>
 『Recurrent world models facilitate policy evolution』(2018)<br>
-　論文は<a href="https://arxiv.org/abs/1809.01999">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/1809.01999v1">こちら</a>
-</p>
-<p>
+　論文は<a href="https://arxiv.org/abs/1809.01999">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/1809.01999v1">こちら</a><br>
+<br>
 「ワールドモデル」の概念を定義した初期の研究の一つ。
 </p>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
