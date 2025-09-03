@@ -207,7 +207,7 @@ for a Mechanism of Pattern Recognition
 Unaffected by Shift in Position 』(1980)<br>
  論文は<a href="https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf">こちら</a><br>
 <br>
-強調されていないが, さりげなく ReLU (まだ命名されていない)が使われている。
+強調されていないが, さりげなく ReLU (まだ命名されていない)が使われている(式(2))。
 </p>
 
 <p>
@@ -282,6 +282,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
