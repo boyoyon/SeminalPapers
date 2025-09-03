@@ -238,6 +238,22 @@ Neural Radiance Fields (NeRF)を導入した論文
 Neural Tangent Kernel (NTK) を導入した画期的な論文
 </p>
 
+<h3>● PINNs: Physics Informed Neural Networks</h3>
+<p>
+『Artificial Neural Networks for Solving Ordinary and Partial Differential Equations』(1997)<br>
+　論文は<a href="https://arxiv.org/abs/physics/9705023">こちら</a><br>
+<br>
+ニューラルネットワークの出力の導関数を計算することによって、微分方程式を解くためにニューラルネットワークを制約することを初めて提案した、<br>
+PINNsは後に解析的微分ではなくバックプロパゲーションを用いることで発展した。
+</P>
+
+<p>
+『Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations』(2019)<br>
+論文は<a href="https://pdf.sciencedirectassets.com/272570/1-s2.0-S0021999118X00229/1-s2.0-S0021999118307125/am.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQC1gHlI4ZNDUmlFkjk9Ty4S%2B3qV7gQApMN5htGoFm%2FE8QIhAK%2FsM6Hj%2FAFaafewJF9VV8cVPuez%2Bgiq2or%2BrbV3PxvLKrMFCEcQBRoMMDU5MDAzNTQ2ODY1IgxL6uJPM2aSR%2Bme0%2B8qkAXGjhdKZ%2BEcLI3hNVAfK4lXUg%2F0PxkQjVHnolGkZ4WEruwxJ1TQ1gIWOng9zPZ7U7T06U%2FYPbMRdDkkcQ2tUhndddKLmjdV%2B1xpwZAp%2FywPWV95Pii7zgxNYSiDyF4aBcT7knUaKjLPBswqE9u92T6ZGMX8tUtFSOl1yiG4Dc7xSAoaozLlLGt8EtZrUt3qGeUwFL0q7h%2FVLEvoiGpi5UjRfLLcziKZIRqLVdXRtyo1tfxzqHYCqW29SmJsg0czR2K0zEsUtz0CP8YE3bchtnz3rs9PwwBBhNVppmNRUFOOFSSoysio3CQro3pH%2BJ%2BoRhfyUQjrbU18lJf4AswAXWhQ5JWTcFCm5wuvuubIhmy7xNIuAjbYBc90sFbhj65Qx0q2sR2RG3r1ZjZjcfz3Llt%2FBuQ9PMgcmf8ku8sDwoIGASB%2BY2KA8vZzlVwg%2FtyaW6AtqeSmwrlyUs%2FODqvj%2Fv17MXRyjqKHxj2NVy9d8b3GGjup5YjUKimd9%2Bf7MpU8iCadhet4cL0rmO2eQ2eUjHt%2BGRtkqdikLQR%2Fqs%2FE9Mpv456s164cCBNgs5S89G4LS%2Brnsm8TE8PEnEKTNNWC7JoPUbV9cFDEPILFfD4HN1lDpI8bRV3R1Jm%2BysWaeQ05gjfdTIVZy7RgO17w7CBlouUEnD84xQXRcE%2BmJmed5IHAQkNkaKvDVrwqqb78iQBHg7aBEt2Q1My9xMFw3PQ5oRq8XZ2kL%2B%2BQCzmKx%2BrJHEPJkeDGuGrAbVb6uE%2FnOFkEmcX%2Ff6FdtGVpxX6kb16VTbWxffS1rvWda2vKQKZeEmjq7QTlgeJUhGLdMdXwr2GIhfdgU99akXmeCcYO0cbfNtAoTTiEzvsk7y6Hir6nIeArfjCejuHFBjqwAZDcHnUonVWCm6faEoMIgSKyW0cIU1jLmzvWJDe2ZI2fDEd%2F806eIXYmNzXCJeW0Eh85jJaqxhJWwCo5IIAKejegn8XL3sB5%2FpUwL2THTcmCsBZNTERBtSBZXKAhE%2Fu5Jdpn0mYbEzGadXVlCQh5G8NakAfiy3LJaevr97wGSFmEMycz0rWuUM1DdTHNvoqYJZ5rey8GgAWVhSXpxaolWaIoNT1iIPmT3Wp5IJCUvI%2BB&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250903T142032Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY2STUEZT4%2F20250903%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=032cc2ad1e6000e4fcfe2001e1b3dd4c8b81c401065e9c48a0243babd6f4c9e5&hash=e9b0d2a95266ebde86e6aab9fd4e8f230d5f0dd6e6ba14fa6b7730770b2548f7&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0021999118307125&tid=pdf-8b93dc05-8a64-4954-8798-3d904f49b4f4&sid=a3c42a9b720cb5408878d409baf2629898aegxrqa&type=client">こちら</a><br>
+<br>
+現代の物理情報ニューラルネットワーク (PINN) フレームワークを導入した
+</p>
+
 <h3>● Primacy Bias (プライマシーバイアス, 初頭バイアス)</h3>
 <p>
 『The role of first impression in operant learning』(2012)<br>
@@ -375,3 +391,4 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
