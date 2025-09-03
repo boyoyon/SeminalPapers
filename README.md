@@ -374,7 +374,7 @@ ResNetの重要な前身。<br>
 
 <h4>　・DETR: Detection with Transformer</h4>
 <p>
-　　『End-to-end object detection with transformers』(2005)<br>
+　　『End-to-end object detection with transformers』(2020)<br>
 　　論文は<a href="https://arxiv.org/abs/2005.12872">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2005.12872v3">こちら</a><br>
 <br>
 　　物体検出を直接的な集合予測問題として再構築する検出トランスフォーマー (DETR) を導入した。<br>
@@ -391,4 +391,5 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
