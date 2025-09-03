@@ -211,6 +211,13 @@ Unaffected by Shift in Position 』(1980)<br>
 </p>
 
 <p>
+『Rectified linear units improve restricted boltzmann machines』(2010)<br>
+　論文は<a href="https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf">こちら</a><br>
+Rectified Linear Unit (ReLU) を導入した基礎的な論文。
+<br>
+</p>
+
+<p>
 『Deep sparse rectifier neural networks』(2011)<br>
  論文は<a href="https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf">こちら</a><br>
 <br>
@@ -282,6 +289,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
