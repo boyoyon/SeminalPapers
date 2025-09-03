@@ -167,6 +167,15 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 　　んじゃないの? 仮説<br>
 </p>
 
+<h3>● Modality Gap </h3>
+<p>
+『Mind the gap: Understanding the modality gap in multi-modal contrastive representation learning』(2022)<br>
+　論文は<a href="https://arxiv.org/abs/2203.02053">こちら</a><br>
+<br>
+「モダリティギャップ」を初めて特定し、命名した論文。<br>
+異なるデータモダリティ（画像とテキストなど）が共有表現に近接して埋め込まれていることを示す。体系的な分析により、このギャップはモデルの初期化と対照学習による最適化の組み合わせによって引き起こされることが実証された。
+</p>
+
 <h3>● Neural Collapse </h3>
 <p>
 『Prevalence of neural collapse during the terminal phase of deep learning training』(2020)<br>
@@ -301,6 +310,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
