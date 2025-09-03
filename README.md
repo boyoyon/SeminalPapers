@@ -165,10 +165,9 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 <h3>● Neural Collapse </h3>
 <p>
 『Prevalence of neural collapse during the terminal phase of deep learning training』(2020)<br>
-　論文は<a href="https://arxiv.org/abs/2008.08186">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/2008.08186v2">こちら</a>
-</p>
-<p>
-最初に「ニューラルコラプス」（NC）現象を観察、命名し、包括的に文書化した画期的な論文
+　論文は<a href="https://arxiv.org/abs/2008.08186">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/2008.08186v2">こちら</a><br>
+<br>
+深層学習の訓練中にデータの特徴が単純で規則的な幾何学構造に収束するという「Neural Collapse(NC)」現象を観察、命名し、包括的に文書化した画期的な論文
 </p>
 
 <h3>● NeRF</h3>
@@ -297,6 +296,7 @@ Transformerアーキテクチャを導入した。
 </p>
     </body>
 </html>
+
 
 
 
