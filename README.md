@@ -457,6 +457,18 @@ ResNetの重要な前身。<br>
 
 <h3>● World Model</h3>
 <p>
+『Making the world differentiable』(1990)<br>
+　論文は<a href="https://people.idsia.ch/~juergen/FKI-126-90_(revised)bw_ocr.pdf">こちら</a><br>
+<br>
+　RNN を予測的な世界モデルとして訓練する「コントローラー–モデル(C–M)アーキテクチャ」を最初に提案した論文のひとつ
+</p>
+<p>
+『World models』(2018)<br>
+　論文は<a href="https://arxiv.org/abs/1803.10122">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1803.10122v4">こちら</a><br>
+<br>
+　生成ニューラルネットワーク (VAEとMDN-RNN) を用いて環境の圧縮された予測モデルを学習し、効率的なエージェント制御を促進する。
+</p>
+<p>
 『Recurrent world models facilitate policy evolution』(2018)<br>
 　論文は<a href="https://arxiv.org/abs/1809.01999">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/1809.01999v1">こちら</a><br>
 <br>
@@ -464,6 +476,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
