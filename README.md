@@ -398,6 +398,17 @@ ResNetの重要な前身。<br>
 セグメンテーションにおける正確な局在化のために、エンコーダパスからの特徴をデコーダパスと結合するために長距離スキップコネクションを効果的に利用する画期的なアーキテクチャーを導入した
 </p>
 
+<h3>● sycophancy (おべっか, 追従性)</h3>
+
+『Why AI alignment could be hard with modern deep learning』（ブログ)<br>
+　ブログは<a href="https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/">こちら</a><br>
+<br>
+『Towards Understanding Sycophancy in Language Models』(2023)<br>
+　論文は<a href="https://arxiv.org/abs/2310.13548">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2310.13548v4">こちら</a><br>
+<br>
+大規模言語モデルが様々な商用モデルやタスクにおいて、追従的な振る舞いを一般的に示すことが明らかになった。この傾向は、人間が「ユーザーの信念に合わせること」を非常に好むという人間選好データによって引き起こされており、その結果、選好モデルは事実の真実性よりも追従性を奨励するようになる。
+</p>
+
 <h3>● ToT: Tree of Thoughts (思考ツリー)</h3>
 <p>
 『Tree of thoughts: Deliberate problem solving with large language models』(2023)<br>
@@ -444,6 +455,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
