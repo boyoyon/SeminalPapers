@@ -274,6 +274,22 @@ PINNsは後に解析的微分ではなくバックプロパゲーションを用
 タイトル(最適脳損傷)が怖い･･･
 </p>
 
+<h3>●RAG: Retrieval-Augmented Generation (検索拡張生成, 取得拡張生成)</h3>
+<p>
+『Retrieval-augmented generation for knowledge-intensive nlp tasks』(2020)<br>
+　論文は<a href="https://arxiv.org/abs/2005.11401">こちら</a>, 要約は<a href="">こちら</a><br>
+<br>
+質問に関連する文書を検索(Retrieval)し, 取得した文書をもとに(Augmented) LLM で回答を生成(Generation)することで、より正確で信頼性の高い回答を生成する技術。<br> 
+RAG パラダイムを導入した画期的な論文。<br>
+RAG は "open-book"QAパラダイムの実装手法の一つ。<br>
+『Reading Wikipedia to answer open-domain questions』(2017)<br>
+　論文は<a href="https://arxiv.org/abs/1704.00051">こちら</a><br>
+
+⇔ "closed-book" QAパラダイム：知識をモデルのパラメータ内に完全に格納する<br>
+『How much knowledge can you pack into the parameters of a language model?』(2020)<br>
+　要約は<a href="https://www.alphaxiv.org/ja/overview/2002.08910v4">こちら</a>
+</p>
+
 <h3>● ReLU: Rectified Linear Unit </h3>
 <p>
 『Neocognitron: A Self-organizing Neural Network Model
@@ -281,7 +297,7 @@ for a Mechanism of Pattern Recognition
 Unaffected by Shift in Position 』(1980)<br>
  論文は<a href="https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf">こちら</a><br>
 <br>
-強調されていないが, さりげなく ReLU (まだ命名されていない)が使われている(式(2))。
+強調されていないが, さりげなく(まだ命名されていない) ReLU が使われている(式(2))。
 </p>
 
 <p>
@@ -391,5 +407,6 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
