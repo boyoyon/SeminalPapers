@@ -160,6 +160,15 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 内在的ハルシネーションと外在的ハルシネーションという決定的な区別を導入し、抽象的要約の文脈においてハルシネーションの基礎的な定義（情報源への不忠実性）を提示した。
 </p>
 
+<h3>● IRL: Inverse Reinforcement Learning (逆強化学習)</h3>
+<p>
+エキスパートの行動を観察し, エキスパートは何をどう行動するかを学習する。<br>
+『 Generative adversarial imitation learning.』(2016)<br>
+　論文は<a href="https://arxiv.org/abs/1606.03476">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1606.03476v1">こちら</a><br>
+<br>
+　Generative Adversarial Imitation Learning (GAIL) フレームワークを導入し、GANとIRLの関連性を確立した基礎的な論文
+</p>
+
 <h3>● Knowledge Distillation (知識蒸留)</h3>
 <p>
 『Distilling the knowledge in a neural network』(2015)<br>
@@ -455,6 +464,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
