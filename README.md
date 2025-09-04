@@ -167,6 +167,16 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 同じ初期化から訓練されたモデルが損失ランドスケープ内で連結され得ることを示唆
 </p>
 
+<h3>●LoRA: Low-rank adaptation of LLM (低ランク適応)</h3>
+<p>
+『Lora: Low-rank adaptation of large language models』(2021)<br>
+　論文は<a href="https://arxiv.org/abs/2106.09685">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2106.09685v2">こちら</a><br>
+<br>
+低ランク適応 (LoRA) を導入した基礎的な論文。<br>
+大規模言語モデルを下流タスクに適応させるための効率の良いファインチューニング手法。<br>
+すべてのモデルパラメータを更新するのではなく、重みを近似する低ランク分解行列を学習することで、学習可能なパラメータ数を劇的に削減しつつ、競争力のあるパフォーマンスを維持する。
+</p>
+
 <h3>● Loss of Plasticity (可塑性喪失) </h3>
 <p>
 『Loss of Plasticity in Continual Deep Reinforcement Learning』(2023)<br>
@@ -407,6 +417,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
