@@ -146,6 +146,20 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 最初に「グロッキング」現象を発見し、命名し、調査した論文
 </p>
 
+<h3>● Hallucination (幻覚)</h3>
+<p>
+『Hallucinations in Neural Machine Translation』(2019)<br>
+　論文は<a href="https://openreview.net/forum?id=SkxJ-309FQ">こちら</a><br>
+<br>
+ニューラル機械翻訳（NMT）におけるハルシネーション問題に特化して焦点を当てた先駆的な研究
+</p>
+<p>
+『On Faithfulness and Factuality in Abstractive Summarization』(2020)<br>
+　論文は<a href="https://arxiv.org/abs/2005.00661">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2005.00661v1">こちら</a><br>
+<br>
+内在的ハルシネーションと外在的ハルシネーションという決定的な区別を導入し、抽象的要約の文脈においてハルシネーションの基礎的な定義（情報源への不忠実性）を提示した。
+</p>
+
 <h3>● Knowledge Distillation (知識蒸留)</h3>
 <p>
 『Distilling the knowledge in a neural network』(2015)<br>
@@ -417,6 +431,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
