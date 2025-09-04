@@ -162,7 +162,7 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 
 <h3>● IRL: Inverse Reinforcement Learning (逆強化学習)</h3>
 <p>
-エキスパートの行動を観察し, エキスパートは何をどう行動するかを学習する。<br>
+エキスパートの行動を観察し, エキスパートは何を報酬として, どう行動するか(Policy)を学習する。<br>
 『 Generative adversarial imitation learning.』(2016)<br>
 　論文は<a href="https://arxiv.org/abs/1606.03476">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1606.03476v1">こちら</a><br>
 <br>
@@ -464,6 +464,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
