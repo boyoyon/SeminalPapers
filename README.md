@@ -181,6 +181,19 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 同じ初期化から訓練されたモデルが損失ランドスケープ内で連結され得ることを示唆
 </p>
 
+<h3>●LLM Alignment, RLHF, SFT, RM, PPO</h3>
+<p>
+大規模言語モデル(LLM)の出力を人間の価値観・倫理観・意図に沿うように調整すること。<br>
+『Training language models to follow instructions with human feedback,』(2022)<br>
+　論文は<a href="https://arxiv.org/abs/2203.02155">こちら</a>, サーベイ論文の要約は<a href="https://www.alphaxiv.org/ja/overview/2407.16216v1">こちら</a><br>
+<br>
+LLMをアライメントするための影響力のある3段階RLHFフレームワーク（SFT、RM、PPO）を確立した<br>
+・RLHF: Reinforcement Learning from Human Feedback<br>
+・SFT: Supervised Fine-Tuning<br>
+・RM: Reward Model<br>
+・PRO: Proximal Policy Optimization<br>
+</p>
+
 <h3>●LoRA: Low-rank adaptation of LLM (低ランク適応)</h3>
 <p>
 『Lora: Low-rank adaptation of large language models』(2021)<br>
@@ -431,6 +444,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
