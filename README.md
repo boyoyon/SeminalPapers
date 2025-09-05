@@ -422,6 +422,19 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 
 <h3>● SSL: Self-Supervised Learning (自己教師あり学習)</h3>
 <p>
+『Dimensionality reduction by learning an invariant mapping』(2006)<br>
+　論文は<a href="https://hal.science/hal-05094360/document">こちら</a><br>
+<br>
+　表現学習のためのコントラスト損失という概念を導入した画期的な論文
+</p>
+<p>
+『Momentum Contrast for Unsupervised Visual Representation Learning』(2019)<br>
+　論文は<a href="https://arxiv.org/abs/1911.05722">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1911.05722v3">こちら</a><br>
+<br>
+　自己教師あり視覚表現学習のための汎用フレームワーク Momentum Contrast を導入。
+MoCo として知られる論文。
+</p>
+<p>
 『Bootstrap your own latent: A new approach to self-supervised learning』(2020)<br>
 　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2006.07733v3">こちら</a><br>
 <br>
@@ -525,6 +538,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
