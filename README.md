@@ -257,22 +257,35 @@ LLMをアライメントするための影響力のある3段階RLHFフレーム
 異なるデータモダリティ（画像とテキストなど）が共有表現に近接して埋め込まれていることを示す。体系的な分析により、このギャップはモデルの初期化と対照学習による最適化の組み合わせによって引き起こされることが実証された。
 </p>
 
-<h3>● Neural Collapse </h3>
-<p>
-『Prevalence of neural collapse during the terminal phase of deep learning training』(2020)<br>
-　論文は<a href="https://arxiv.org/abs/2008.08186">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/2008.08186v2">こちら</a>
-</p>
-<p>
-深層学習の訓練中にデータの特徴が単純で規則的な幾何学構造に収束するという「Neural Collapse(NC)」現象を観察、命名し、包括的に文書化した画期的な論文
-</p>
-
 <h3>● NeRF</h3>
 <p>
 『NeRF: Representing scenes as neural radiance fields for view synthesis』(2020)<br>
 　論文は<a href="https://arxiv.org/abs/2003.08934">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2003.08934v2">こちら</a>
 </p>
 <p>
-Neural Radiance Fields (NeRF)を導入した論文
+　Neural Radiance Fields (NeRF)を導入した論文
+</p>
+
+<h3>● Neural Collapse </h3>
+<p>
+『Prevalence of neural collapse during the terminal phase of deep learning training』(2020)<br>
+　論文は<a href="https://arxiv.org/abs/2008.08186">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/2008.08186v2">こちら</a>
+</p>
+<p>
+　深層学習の訓練中にデータの特徴が単純で規則的な幾何学構造に収束するという「Neural Collapse(NC)」現象を観察、命名し、包括的に文書化した画期的な論文
+</p>
+
+<h3>● Neural ODE</h3>
+<p>
+『Stable architectures for deep neural networks』(2017)
+　論文は<a href="https://arxiv.org/abs/1705.03341">こちら</a><br>
+<br>
+　残差ネットワーク（Residual Networks）のようなモデルが、連続的な変換のオイラー離散化として解釈できるという重要な洞察を提供している
+</p>
+『Neural Ordinary Differential Equations』(2018)<br>
+　論文は<a href="https://arxiv.org/abs/1806.07366">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1806.07366v5">こちら</a><br>
+<p>
+　ネットワーク層を常微分方程式に支配される連続的な変換としてモデル化する新しい深層学習アーキテクチャであるニューラル常微分方程式（Neural ODEs）を導入した。
 </p>
 
 <h3>● NTK: Neural Tanget Kernel</h3>
@@ -488,6 +501,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
