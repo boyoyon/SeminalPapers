@@ -232,7 +232,7 @@ LLMをアライメントするための影響力のある3段階RLHFフレーム
 非定常環境で動作する深層強化学習エージェントにおいて「可塑性の喪失」を特定し、エージェントが新しい情報を学習する能力を徐々に失うことを示した。この現象は、ニューロンが不活性になる「活性化崩壊」が主な原因であり、標準のReLU活性化関数をConcatenated ReLU（CReLU）に置き換えることで大幅に軽減され、学習能力が維持された。
 </p>
 
-<h3>● Lottery Ticket Hyposis (宝くじ仮説)</h3>
+<h3>● LTH: Lottery Ticket Hyposis (宝くじ仮説)</h3>
 <p>
 『The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks』(2019)<br>
 　論文は<a href="https://arxiv.org/abs/1803.03635">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/2007.12223v2">こちら</a>,　機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2019_The%20Lottery%20Ticket%20Hypothesis/2019_The%20Lottery%20Ticket%20Hypothesis%20-%20Finding%20Sparse,%20Trainable%20Neural%20Networks.html">こちら</a>
@@ -420,6 +420,20 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 　また, 報酬ハッキングに関する重要な問題を提起している。
 </p>
 
+<h3>● SSL: Self-Supervised Learning (自己教師あり学習)</h3>
+<p>
+『Bootstrap your own latent: A new approach to self-supervised learning』(2020)<br>
+　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2006.07733v3">こちら</a><br>
+<br>
+　ネガティブサンプルを用いることなく表現学習を行うために、モーメンタムエンコーダを備えた教師-生徒フレームワークを使用。BYOLとして知られる論文。
+</p>
+<p>
+『Emerging properties in self-supervised vision transformers』(2021)<br>
+　論文は<a href="https://arxiv.org/abs/2104.14294">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2104.14294v2">こちら</a><br>
+<br>
+　学生-教師フレームワークを普及させた、基盤となる自己教師あり学習手法であるDINO(DIstillation with NO labels)を導入している。
+</p>
+
 <h3>● Skip Connection (スキップ接続)</h3>
 <p>
 『Deep residual learning for image recognition』(2015)<br>
@@ -511,6 +525,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
