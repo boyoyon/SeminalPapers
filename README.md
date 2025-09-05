@@ -160,6 +160,13 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 内在的ハルシネーションと外在的ハルシネーションという決定的な区別を導入し、抽象的要約の文脈においてハルシネーションの基礎的な定義（情報源への不忠実性）を提示した。
 </p>
 
+<h3>●Implicit Bias (暗黙のバイアス)</h3>
+<p>
+『Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings』(2016)<br>
+　(男性とコンピュータープログラマーの関係は、女性と主婦の関係と同じ？単語埋め込みのバイアス除去する)<br>
+　論文は<a href="https://arxiv.org/abs/1607.06520">こちら</a><br>
+</p>
+
 <h3>● IRL: Inverse Reinforcement Learning (逆強化学習)</h3>
 <p>
 エキスパートの行動を観察し, エキスパートは何を報酬として, どう行動するか(Policy)を学習する。<br>
@@ -501,6 +508,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
