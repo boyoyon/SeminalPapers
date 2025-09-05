@@ -165,6 +165,9 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 『Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings』(2016)<br>
 　(男性とコンピュータープログラマーの関係は、女性と主婦の関係と同じ？単語埋め込みのバイアス除去する)<br>
 　論文は<a href="https://arxiv.org/abs/1607.06520">こちら</a><br>
+<br>
+　影響力のある論文。言語モデルにおけるバイアスへの懸念を高めた主要な研究の一つ。
+単語埋め込みにおける強い性別ステレオタイプを実証している。
 </p>
 
 <h3>● IRL: Inverse Reinforcement Learning (逆強化学習)</h3>
@@ -508,6 +511,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
