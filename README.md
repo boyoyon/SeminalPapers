@@ -277,7 +277,7 @@ LLMをアライメントするための影響力のある3段階RLHFフレーム
 
 <h3>● Neural ODE</h3>
 <p>
-『Stable architectures for deep neural networks』(2017)
+『Stable architectures for deep neural networks』(2017)<br>
 　論文は<a href="https://arxiv.org/abs/1705.03341">こちら</a><br>
 <br>
 　残差ネットワーク（Residual Networks）のようなモデルが、連続的な変換のオイラー離散化として解釈できるという重要な洞察を提供している
@@ -501,6 +501,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
