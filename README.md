@@ -96,14 +96,6 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 <br>
     継続学習（CL）、別名「生涯学習」の分野を定義した。
 </p>
-<h3>● Deep Reinforment Learning (深層強化学習)</h3>
-<p>
-『Human-level control through deep reinforcement learning』(2015)<br>
-　論文は<a href="https://training.incf.org/sites/default/files/2023-05/Human-level%20control%20through%20deep%20reinforcement%20learning.pdf">こちら</a>
-</p>
-<p>
-Deep Q-Networks（DQN）と深層RLにおける経験リプレイの顕著な使用法を導入した。
-</P>
 
 <h3>● Contrastive Learning (対照学習)</h3>
 <p>
@@ -112,6 +104,15 @@ Deep Q-Networks（DQN）と深層RLにおける経験リプレイの顕著な使
 <br>
 　画期的なコントラスト学習手法であるSimCLRを導入   
 </p>
+
+<h3>● Deep Reinforment Learning (深層強化学習)</h3>
+<p>
+『Human-level control through deep reinforcement learning』(2015)<br>
+　論文は<a href="https://training.incf.org/sites/default/files/2023-05/Human-level%20control%20through%20deep%20reinforcement%20learning.pdf">こちら</a>
+</p>
+<p>
+Deep Q-Networks（DQN）と深層RLにおける経験リプレイの顕著な使用法を導入した。
+</P>
 
 <h3>● Diffusion Model (拡散モデル)</h3>
 <p>
@@ -631,6 +632,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
