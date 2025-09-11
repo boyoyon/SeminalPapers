@@ -30,9 +30,9 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 
 <h3>● AI-image detectors</h3>
 <p>
-『CNN-generated images are surprisingly easy to spot... for now』(2020)
+『CNN-generated images are surprisingly easy to spot... for now』(2019)<br>
 　(CNN生成画像は驚くほど見破りやすい…今のところは)<br>
-　論文は<ahref="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_CNN-Generated_Images_Are_Surprisingly_Easy_to_Spot..._for_Now_CVPR_2020_paper.pdf">こちら</a><br>
+　論文は<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_CNN-Generated_Images_Are_Surprisingly_Easy_to_Spot..._for_Now_CVPR_2020_paper.pdf">こちら</a><br>
 <br>
 　AI画像検出器における汎化問題を初めて浮き彫りにした基礎的な論文    
 </p>
@@ -655,6 +655,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
