@@ -37,6 +37,14 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 　AI画像検出器における汎化問題を初めて浮き彫りにした基礎的な論文    
 </p>
 
+<h3>● Attention Sinks</h3>
+<p>
+　『Efficient streaming language models with attention sinks』(2023)<br>
+　論文は<a href="https://arxiv.org/abs/2309.17453">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2309.17453v4">こちら</a><br>
+<br>
+　「アテンションシンク」現象を初めて特定し、命名した基礎的な論文    
+</p>
+
 <h3>● Bening Overfitting (良性過学習)</h3>
 <p>
 『Benign overfitting in linear regression』(2019)<br>
@@ -356,6 +364,14 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
     ニューラルネットワークに外部メモリを付加することに関する画期的な論文<br>
 </p>
 
+<h3>● Over-Squashing</h3>
+<p>
+『On the bottleneck of graph neural networks and its practical implications』(2020)<br>
+　論文は<a href="https://arxiv.org/abs/2006.05205">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2006.05205v4">こちら</a><br>
+<br>
+　GNNにおける「オーバースクワッシング」問題を初めて特定し命名した点で、現在の研究の基礎となっている。   
+</p>
+
 <h3>● PINNs: Physics Informed Neural Networks</h3>
 <p>
 『Artificial Neural Networks for Solving Ordinary and Partial Differential Equations』(1997)<br>
@@ -582,7 +598,6 @@ ResNetの重要な前身。<br>
 　複数の思考パスを探索することによってLLMの推論能力を向上させる最先端の手法を示している。
 </p>
 
-
 <h3>● Transformer</h3>
 <p>
 『Attention is all you need』(2017) <br>
@@ -611,6 +626,14 @@ ResNetの重要な前身。<br>
 　　
 </p>
 
+<h3>● Vanishing gradient problems (勾配消失問題), gradient exploding  problems (勾配爆発問題)</h3>
+<p>
+　『Learning long-term dependencies with gradient descent is difficult』(1994)<br>
+　論文は<a href="https://www.comp.hkbu.edu.hk/~markus/teaching/comp7650/tnn-94-gradient.pdf">こちら</a><br>
+<br>
+　勾配消失問題と勾配爆発問題という課題を初めて詳細に特定し、分析した基礎的な論文    
+</p>
+
 <h3>● World Model</h3>
 <p>
 『Making the world differentiable』(1990)<br>
@@ -632,6 +655,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
