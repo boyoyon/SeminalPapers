@@ -80,6 +80,13 @@ AIモデルを継続学習する場合, 課題になる。
 Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画期的な論文
 </p>
 
+<h3>● Continual Learning (継続学習), Lifelong Learning(生涯学習)</h3>
+<p>
+  『Lifelong machine learning』(2018)<br>
+　　論文は<a href="https://link.springer.com/content/pdf/bfm:978-3-031-01581-6/1?pdf=chapter+toc">こちら</a><br>
+<br>
+    継続学習（CL）、別名「生涯学習」の分野を定義した。
+</p>
 <h3>● Deep Reinforment Learning (深層強化学習)</h3>
 <p>
 『Human-level control through deep reinforcement learning』(2015)<br>
@@ -568,6 +575,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
