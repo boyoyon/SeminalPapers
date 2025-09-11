@@ -28,6 +28,15 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 3D Gaussian Splatting (GS) 技術を導入した画期的な論文
 </p>
 
+<h3>● AI-image detectors</h3>
+<p>
+『CNN-generated images are surprisingly easy to spot... for now』(2020)
+　(CNN生成画像は驚くほど見破りやすい…今のところは)<br>
+　論文は<ahref="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_CNN-Generated_Images_Are_Surprisingly_Easy_to_Spot..._for_Now_CVPR_2020_paper.pdf">こちら</a><br>
+<br>
+　AI画像検出器における汎化問題を初めて浮き彫りにした基礎的な論文    
+</p>
+
 <h3>● Bening Overfitting (良性過学習)</h3>
 <p>
 『Benign overfitting in linear regression』(2019)<br>
@@ -96,6 +105,14 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 Deep Q-Networks（DQN）と深層RLにおける経験リプレイの顕著な使用法を導入した。
 </P>
 
+<h3>● Contrastive Learning (対照学習)</h3>
+<p>
+ 『A simple framework for contrastive learning of visual representations』(2020)<br>
+　論文は<a href="https://arxiv.org/abs/2002.05709">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2002.05709v3">こちら</a><br>
+<br>
+　画期的なコントラスト学習手法であるSimCLRを導入   
+</p>
+
 <h3>● Diffusion Model (拡散モデル)</h3>
 <p>
 『Denoising diffusion probabilistic models』(2020)<br>
@@ -103,6 +120,14 @@ Deep Q-Networks（DQN）と深層RLにおける経験リプレイの顕著な使
 </p>
 <p>
 Denoising Diffusion Probabilistic Model (DDPM) を紹介している
+</p>
+
+<h3>● Dimensional Collapse (次元崩壊)</h3>
+<p>
+『Understanding dimensional collapse in contrastive self-supervised learning』(2021)<br>
+　論文は<a href="https://arxiv.org/abs/2110.09348">こちら</a><br>
+<br>
+　表現がより低次元のサブスペースを占める「次元崩壊」を特定し分析した   
 </p>
 
 <h3>● Double Descent (二重降下)</h3>
@@ -165,6 +190,14 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 　論文は<a href="https://arxiv.org/abs/2005.00661">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2005.00661v1">こちら</a><br>
 <br>
 内在的ハルシネーションと外在的ハルシネーションという決定的な区別を導入し、抽象的要約の文脈においてハルシネーションの基礎的な定義（情報源への不忠実性）を提示した。
+</p>
+
+<h3>● Hubness (ハブ性)</h3>
+<p>
+　『Hubs in space: Popular nearest neighbors in high-dimensional data』(2010)<br>
+　論文は<a href="https://www.jmlr.org/papers/volume11/radovanovic10a/radovanovic10a.pdf">こちら</a><br>
+<br>
+　高次元データにおけるハブ性現象を提唱し、定義した基礎的な論文
 </p>
 
 <h3>●Implicit Bias (暗黙のバイアス)</h3>
@@ -333,9 +366,17 @@ PINNsは後に解析的微分ではなくバックプロパゲーションを用
 
 <p>
 『Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations』(2019)<br>
-論文は<a href="https://pdf.sciencedirectassets.com/272570/1-s2.0-S0021999118X00229/1-s2.0-S0021999118307125/am.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQC1gHlI4ZNDUmlFkjk9Ty4S%2B3qV7gQApMN5htGoFm%2FE8QIhAK%2FsM6Hj%2FAFaafewJF9VV8cVPuez%2Bgiq2or%2BrbV3PxvLKrMFCEcQBRoMMDU5MDAzNTQ2ODY1IgxL6uJPM2aSR%2Bme0%2B8qkAXGjhdKZ%2BEcLI3hNVAfK4lXUg%2F0PxkQjVHnolGkZ4WEruwxJ1TQ1gIWOng9zPZ7U7T06U%2FYPbMRdDkkcQ2tUhndddKLmjdV%2B1xpwZAp%2FywPWV95Pii7zgxNYSiDyF4aBcT7knUaKjLPBswqE9u92T6ZGMX8tUtFSOl1yiG4Dc7xSAoaozLlLGt8EtZrUt3qGeUwFL0q7h%2FVLEvoiGpi5UjRfLLcziKZIRqLVdXRtyo1tfxzqHYCqW29SmJsg0czR2K0zEsUtz0CP8YE3bchtnz3rs9PwwBBhNVppmNRUFOOFSSoysio3CQro3pH%2BJ%2BoRhfyUQjrbU18lJf4AswAXWhQ5JWTcFCm5wuvuubIhmy7xNIuAjbYBc90sFbhj65Qx0q2sR2RG3r1ZjZjcfz3Llt%2FBuQ9PMgcmf8ku8sDwoIGASB%2BY2KA8vZzlVwg%2FtyaW6AtqeSmwrlyUs%2FODqvj%2Fv17MXRyjqKHxj2NVy9d8b3GGjup5YjUKimd9%2Bf7MpU8iCadhet4cL0rmO2eQ2eUjHt%2BGRtkqdikLQR%2Fqs%2FE9Mpv456s164cCBNgs5S89G4LS%2Brnsm8TE8PEnEKTNNWC7JoPUbV9cFDEPILFfD4HN1lDpI8bRV3R1Jm%2BysWaeQ05gjfdTIVZy7RgO17w7CBlouUEnD84xQXRcE%2BmJmed5IHAQkNkaKvDVrwqqb78iQBHg7aBEt2Q1My9xMFw3PQ5oRq8XZ2kL%2B%2BQCzmKx%2BrJHEPJkeDGuGrAbVb6uE%2FnOFkEmcX%2Ff6FdtGVpxX6kb16VTbWxffS1rvWda2vKQKZeEmjq7QTlgeJUhGLdMdXwr2GIhfdgU99akXmeCcYO0cbfNtAoTTiEzvsk7y6Hir6nIeArfjCejuHFBjqwAZDcHnUonVWCm6faEoMIgSKyW0cIU1jLmzvWJDe2ZI2fDEd%2F806eIXYmNzXCJeW0Eh85jJaqxhJWwCo5IIAKejegn8XL3sB5%2FpUwL2THTcmCsBZNTERBtSBZXKAhE%2Fu5Jdpn0mYbEzGadXVlCQh5G8NakAfiy3LJaevr97wGSFmEMycz0rWuUM1DdTHNvoqYJZ5rey8GgAWVhSXpxaolWaIoNT1iIPmT3Wp5IJCUvI%2BB&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250903T142032Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY2STUEZT4%2F20250903%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=032cc2ad1e6000e4fcfe2001e1b3dd4c8b81c401065e9c48a0243babd6f4c9e5&hash=e9b0d2a95266ebde86e6aab9fd4e8f230d5f0dd6e6ba14fa6b7730770b2548f7&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0021999118307125&tid=pdf-8b93dc05-8a64-4954-8798-3d904f49b4f4&sid=a3c42a9b720cb5408878d409baf2629898aegxrqa&type=client">こちら</a><br>
+論文は Google Scholar で検索すると pdf に辿り着ける<br>
 <br>
 現代の物理情報ニューラルネットワーク (PINN) フレームワークを導入した
+</p>
+
+<h3>● POMDPs: Partially Observable Markov Decision Proces (部分観測マルコフ決定過程)</h3>
+<p>
+『Planning and acting in partially observable stochastic domains』(1998)<br>
+　論文は Google Scholar で検索すると pdf に辿り着ける<br>
+<br>
+　部分観測マルコフ決定過程 (POMDPs) に関する基礎的な論文   
 </p>
 
 <h3>● Primacy Bias (プライマシーバイアス, 初頭バイアス)</h3>
@@ -483,6 +524,12 @@ MoCo として知られる論文。
 <br>
 　学生-教師フレームワークを普及させた、基盤となる自己教師あり学習手法であるDINO(DIstillation with NO labels)を導入している。
 </p>
+<p>
+ 『Understanding contrastive representation learning through alignment and uniformity on the hypersphere』(2020)<br>
+　論文は<a href="https://arxiv.org/abs/2005.10242">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2005.10242v10">こちら</a><br>
+<br>
+　自己教師あり表現を評価するためのアライメントと均一性という指標を導入した基礎論文   
+</p>
 
 <h3>● Skip Connection (スキップ接続)</h3>
 <p>
@@ -515,6 +562,15 @@ ResNetの重要な前身。<br>
 　論文は<a href="https://arxiv.org/abs/2310.13548">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2310.13548v4">こちら</a><br>
 <br>
 大規模言語モデルが様々な商用モデルやタスクにおいて、追従的な振る舞いを一般的に示すことが明らかになった。この傾向は、人間が「ユーザーの信念に合わせること」を非常に好むという人間選好データによって引き起こされており、その結果、選好モデルは事実の真実性よりも追従性を奨励するようになる。
+</p>
+
+<h3>● Task Arithmetic (タスク算術)</h3>
+<p>
+『Editing Models with Task Arithmetic』(2022)<br>
+　論文は<a href="https://arxiv.org/abs/2212.04089">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2212.04089v3">こちら</a><br>
+<br>
+「タスク算術」という中核的なモデル融合概念を導入した基礎研究。
+ファインチューニングされたモデルの重みと事前学習済みの初期化との差が、タスク固有の知識をエンコードするベクトルとして扱えることを示している。   
 </p>
 
 <h3>● ToT: Tree of Thoughts (思考ツリー)</h3>
@@ -575,6 +631,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
