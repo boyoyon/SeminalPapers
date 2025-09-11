@@ -515,6 +515,14 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 　また, 報酬ハッキングに関する重要な問題を提起している。
 </p>
 
+<h3>● Softmax Collapse</h3>
+<p>
+『Grokking at the Edge of Numerical Stability』(2025)<br>
+　論文は<a href="https://arxiv.org/abs/2501.04697">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2501.04697v2">こちら</a><br>
+<br>
+　grokkingとして知られる遅延汎化現象が、Softmax関数の数値的不安定性（「Softmax Collapse」(SC)と名付けられた）と「素朴な損失最小化」(NLM: Naive Loss Minimization)と呼ばれる特定の訓練ダイナミクスによって引き起こされることを明らかにしている。StableMaxでSCを防ぐこと、または⊥GradオプティマイザでNLMを軽減することが迅速な汎化を可能にし、grokkingにおける正則化とMSE損失の役割に対する統一的な説明を提供することを示している。
+</p>
+
 <h3>● SSL: Self-Supervised Learning (自己教師あり学習)</h3>
 <p>
 『Dimensionality reduction by learning an invariant mapping』(2006)<br>
@@ -655,6 +663,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
