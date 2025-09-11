@@ -398,6 +398,28 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 「ReLUの死滅問題」に関する詳細な分析と特定の実験設定を提供
 </p>
 
+<h3>● Scaling Law (べき則)</h3>
+<p>
+　『Scaling laws for neural language models』(2020)<br>
+　論文は<a href="https://arxiv.org/abs/2001.08361">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2001.08361v1">こちら</a><br>
+ <br>
+ディープラーニングにおけるスケーリングの予測可能性を探求し、経験的結果と性能を結びつけている。べき乗則スケーリングに関する発見にとって重要な文脈を提供している。<br>
+<br>
+『Deep learning scaling is predictable, empirically』(2017)<br>
+　論文は<a href="https://arxiv.org/abs/1712.00409">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1712.00409v1">こちら</a><br>
+<br>
+「スケーリング則」を確立。言語モデルの性能が、スケール（より多くのパラメータ、データ、計算資源）の増加に伴って、滑らかに、かつ予測可能な形で向上すると予測している。<br>
+<br>
+　『A Universal Theorem on Learning Curves』(1993)<br>
+　論文は<a href="https://bsi-ni.brain.riken.jp/database/file/134/132.pdf">こちら</a><br>
+<br>
+ 甘利さんの論文。べき乗則の学習曲線を予測するもう1つの重要な理論論文。べき乗則の学習曲線の期待に対する理論的根拠を追加。<br>
+<br>
+　『Four Types of Learning Curves』(1992)<br>
+　論文は<a href="https://bsi-ni.brain.riken.jp/database/file/130/128.pdf">こちら</a><br>
+<br>
+甘利さんの論文。統計力学的手法を使用して、汎化誤差が指数-0.5、-1、または-2のべき乗則として減少することを示している。予測される指数は経験的に観察されたものとは異なるが、べき乗則の学習曲線を期待するための理論的な基礎を築く。
+</p>
 
 <h3>● Self-Play(自己対局), Without human knowledge (人間知識なし)</h3>
 <p>
@@ -538,6 +560,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
