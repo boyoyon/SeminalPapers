@@ -307,6 +307,14 @@ LLMをアライメントするための影響力のある3段階RLHFフレーム
 Neural Tangent Kernel (NTK) を導入した画期的な論文
 </p>
 
+<h3>● NTM: Neural Turing Machines</h3>
+<p>
+　『Neural turing machines』(2014)<br>  
+　論文は<a href="https://arxiv.org/abs/1410.5401">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1410.5401v2">こちら</a><br>
+<br>
+    ニューラルネットワークに外部メモリを付加することに関する画期的な論文<br>
+</p>
+
 <h3>● PINNs: Physics Informed Neural Networks</h3>
 <p>
 『Artificial Neural Networks for Solving Ordinary and Partial Differential Equations』(1997)<br>
@@ -560,6 +568,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
