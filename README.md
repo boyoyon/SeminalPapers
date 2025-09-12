@@ -476,6 +476,13 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 
 <h3>● NAS: Neural Architecture Search</h3>
 <p>
+『Efficient Global Neural Architecture Search』(2025)<br>
+　(効率的なグローバルニューラルアーキテクチャ探索)<br>
+　論文は<a href="https://arxiv.org/abs/2502.03553">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/2502.03553v1">こちら</a><br>
+<br>
+　効率的なグローバルニューラルアーキテクチャ探索（NAS）フレームワークは、ニューラルネットワークのエンドツーエンド設計を自動化し、非常に正確でパラメータ効率の高いモデルを生成する。EMNISTやKMNISTなどのデータセットで最先端の結果を達成し、CIFARで競合する性能を発揮するとともに、探索時間を大幅に短縮し、実世界の顔認識タスクへの高い転用可能性を示している。
+</p>
+<p>
 『Neural architecture search with reinforcement learning.』(2016)<br>
 　(強化学習を用いたニューラルアーキテクチャ探索)<br>
 　論文は<a href="https://arxiv.org/abs/1611.01578">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1611.01578v2">こちら</a><br>
@@ -942,6 +949,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
