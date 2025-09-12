@@ -748,6 +748,15 @@ ResNetの重要な前身。<br>
 　勾配消失問題と勾配爆発問題という課題を初めて詳細に特定し、分析した基礎的な論文    
 </p>
 
+<h3>● Word Embeddings (単語埋め込み) </h3>
+<p>
+『Unsupervised word embeddings capture latent knowledge from materials science literature』(2019)<br>
+　(材料科学文献から潜在的知識を抽出する教師なし単語埋め込み)<br>
+　論文は<a href="https://escholarship.org/content/qt082091b4/qt082091b4_noSplash_ddb3beb657d7f25dd560454fe4eccf99.pdf">こちら</a><br>
+<br>
+　単語埋め込みモデルがテキストから複雑な材料科学の概念を自律的に学習できることを実証した画期的な論文
+</p>
+
 <h3>● World Model</h3>
 <p>
 『Making the world differentiable』(1990)<br>
@@ -769,6 +778,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
