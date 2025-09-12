@@ -723,13 +723,19 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 </p>
 
 <h3>● The semantic hub hypothesis (意味ハブ仮説)</h3>
-
 <p>
 『The semantic hub hypothesis: Language models share semantic representations across languages and modalities.』(2024)<br>
 　(意味ハブ仮説：言語モデルは多言語・多モダリティ間で意味表現を共有する)<br>
 　論文は<a href="https://arxiv.org/abs/2411.04986">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2411.04986v3">こちら</a><br>
 <br>
 　意味的ハブ仮説は、現代の言語モデルが、その中間層において、表面的な形式にかかわらず、意味的に類似した入力が互いにクラスターを形成するような、モダリティに依存しない表現空間を学習することを提案
+</p>
+<p>
+『Where do you know what you know? the representation of semantic knowledge in the human brain』(2007<br>
+　(知識はどこに宿るのか？：ヒトの脳における意味記憶の表象)<br>
+　論文は Google Scholar で検索すると pdf に辿り着ける<br>
+<br>
+　神経科学のこの論文は、「ハブ・アンド・スポーク」モデルを導入している。このモデルは、人間の脳における意味知識が超モダリティハブを中心に構成されていると提唱している。
 </p>
 
 <h3>● Softmax Collapse</h3>
@@ -897,6 +903,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
