@@ -595,6 +595,19 @@ PINNsは後に解析的微分ではなくバックプロパゲーションを用
 → AIモデルを継続学習する場合, 課題になる。
 </p>
 
+<h3>● Priming</h3>
+<p>
+『Automaticity of social behavior: Direct effects of trait construct and stereotype activation on action』(1996)<br>
+　(社会的行動の自動性：特性構成概念とステレオタイプ活性化の行動への直接的効果)<br>
+　論文は<a href="https://acs.ist.psu.edu/misc/dirk-files/Papers/Automaticity%20of%20social%20behavior/AutomaticitySocBeh_BarghChenBurrows.pdf">こちら</a><br>
+<br>
+認知心理学における記念碑的な論文。プライミングの概念を確立した。<br>
+<br>
+プライミング･･･先行する刺激や情報が、後続の認知や行動に無意識的に影響を与える現象。<br>
+(神様視点だと入知恵っぽい感じ)
+LLM, AIエージェントの社会などで同様の現象が研究されている。
+</p>
+
 <h3>● Proxy Token</h3>
 <p>
 『Generalized Decoupled Learning for Enhancing Open-Vocabulary Dense Perception』(2025)<br>
@@ -949,6 +962,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
