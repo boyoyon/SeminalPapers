@@ -484,6 +484,13 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 <p>
 　深層学習の訓練中にデータの特徴が単純で規則的な幾何学構造に収束するという「Neural Collapse(NC)」現象を観察、命名し、包括的に文書化した画期的な論文
 </p>
+<p>
+『Neural Collapse versus Low-rank Bias: Is Deep Neural Collapse Really Optimal?』(2024)<br>
+　(ニューラル縮退 対 低ランクバイアス：深層ニューラル縮退は本当に最適なのか？)<br>
+　論文は<a href="https://arxiv.org/abs/2405.14468">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2405.14468v2">こちら</a><br>
+<br>
+　多層、多クラスの深層ニューラルネットワークにおいて、特にクラス平均の直交性に関して、ディープニューラルコラプス（DNC）が一般的に最適ではないことを実証しました。彼らは、正則化における暗黙の低ランクバイアスが、より優れた低損失の解、例えば大幅に低い中間ランクを持つ彼らの新しい「Strongly Regular Graph (SRG) 解」につながることを特定しました。
+</p>
 
 <h3>● Neural ODE</h3>
 <p>
@@ -912,6 +919,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
