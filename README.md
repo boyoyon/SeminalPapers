@@ -449,15 +449,6 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 異なるデータモダリティ（画像とテキストなど）が共有表現に近接して埋め込まれていることを示す。体系的な分析により、このギャップはモデルの初期化と対照学習による最適化の組み合わせによって引き起こされることが実証された。
 </p>
 
-<h3>●MoE: Mixture-of-Experts (専門家混合)</h3>
-<p>
-『Outrageously large neural networks: The sparsely-gated mixture-of-experts layer』(2017)<br>
-　(途方もなく巨大なニューラルネットワーク：疎にゲートされた専門家混合層)<br>
-　論文は<a href="https://openreview.net/forum?id=B1ckMDqlg">こちら</a><br>
-<br>
-　スパース活性化に対する基礎的な学習ベースのアプローチであるスパースゲート型混合専門家（MoE）層を導入した画期的な論文。
-</p>
-
 <h3>● Model soups (モデルスープ)</h3>
 <p>
 『Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time』(2022)<br>
@@ -465,6 +456,15 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 　論文は<a href="https://arxiv.org/abs/2203.05482">こちら</a><br>
 <br>
 この影響力のある論文は、単純な重み平均の力を実証することで、モデルマージングの普及に貢献した。その成功は、モデルマージングの実用的な関連性と潜在的なセキュリティリスクを浮き彫りにし、MergeLockのような保護ソリューションの開発を直接的に動機付けた。
+</p>
+
+<h3>●MoE: Mixture-of-Experts (専門家混合)</h3>
+<p>
+『Outrageously large neural networks: The sparsely-gated mixture-of-experts layer』(2017)<br>
+　(途方もなく巨大なニューラルネットワーク：疎にゲートされた専門家混合層)<br>
+　論文は<a href="https://openreview.net/forum?id=B1ckMDqlg">こちら</a><br>
+<br>
+　スパース活性化に対する基礎的な学習ベースのアプローチであるスパースゲート型混合専門家（MoE）層を導入した画期的な論文。
 </p>
 
 <h3>● NeRF</h3>
@@ -878,6 +878,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
