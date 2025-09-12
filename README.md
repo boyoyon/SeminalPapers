@@ -510,7 +510,7 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 「ReLUの死滅問題」に関する詳細な分析と特定の実験設定を提供
 </p>
 
-<h3>●Representation Biases (表現バイアス)<br>
+<h3>●Representation Biases (表現バイアス)</h3>
 
 <p>
 『Representation biases: will we achieve complete understanding by analyzing representations?』(2025)<br>
@@ -723,3 +723,4 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
