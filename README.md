@@ -86,12 +86,6 @@ AIモデルを継続学習する場合, 課題になる。
 <br>
 　海馬が新しい情報の迅速な学習を可能にし、大脳新皮質が既存の知識への緩やかな統合をサポートするという相補的学習システム理論を提唱した基礎論文。脳がどのように安定性-可塑性ジレンマを解決し、AIにおける中心的な問題である壊滅的忘却を回避するかを説明
 </p>
-<p>
-『What Neuroscience Can Teach AI About Learning in Continuously Changing Environments』(2025)<br>
-　(神経科学がAIに教えうる、継続的に変化する環境における学習)<br>
-　論文は<a href="https://arxiv.org/abs/2507.02103">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2507.02103v1">こちら</a><br>
-　神経科学の原理が、絶えず変化する環境で学習できるAIシステムの開発にどのように役立つかを探る。    
-</p>
 
 <h3>● Cognitive Agent (認知エージェント)</h3>
 <p>
@@ -116,6 +110,12 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 　　論文は<a href="https://link.springer.com/content/pdf/bfm:978-3-031-01581-6/1?pdf=chapter+toc">こちら</a><br>
 <br>
     継続学習（CL）、別名「生涯学習」の分野を定義した。
+</p>
+<p>
+『What Neuroscience Can Teach AI About Learning in Continuously Changing Environments』(2025)<br>
+　(神経科学がAIに教えうる、継続的に変化する環境における学習)<br>
+　論文は<a href="https://arxiv.org/abs/2507.02103">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2507.02103v1">こちら</a><br>
+　神経科学の原理が、絶えず変化する環境で学習できるAIシステムの開発にどのように役立つかを探る。    
 </p>
 
 <h3>● Contrastive Learning (対照学習)</h3>
@@ -676,6 +676,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
