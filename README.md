@@ -369,6 +369,37 @@ LLMをアライメントするための影響力のある3段階RLHFフレーム
 非定常環境で動作する深層強化学習エージェントにおいて「可塑性の喪失」を特定し、エージェントが新しい情報を学習する能力を徐々に失うことを示した。この現象は、ニューロンが不活性になる「活性化崩壊」が主な原因であり、標準のReLU活性化関数をConcatenated ReLU（CReLU）に置き換えることで大幅に軽減され、学習能力が維持された。
 </p>
 
+<h3>● Lost in the Middle (「真ん中が失われる」現象)</h3>
+<p>
+『Lost in the middle: How language models use long contexts』(2023)<br>
+　(中間での情報喪失：言語モデルはいかに長いコンテキストを利用するか)<br>
+　論文は<a href="https://arxiv.org/abs/2307.03172">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2307.03172v3">こちら</a><br>
+<br>
+LLMの注意バイアスである「真ん中が失われる」現象を特定してい
+</p>
+<p>
+『The serial position effect of free recall』(1962)<br>
+　(自由想起における系列位置効果)<br>
+<br>
+この基礎的な心理学の論文は、「"serial-position effect(系列位置効果)」という概念を導入してる。
+</p>
+<p>
+『Sharp nearby, fuzzy far away: How neural language models use context』(2018)<br>
+　(近くは鮮明に、遠くはぼやけて：ニューラル言語モデルは文脈をどのように利用するか)<br>
+　論文は<a href="https://aclanthology.org/P18-1027/">こちら</a><br>
+<br>
+　言語モデルが強い直近性バイアス（遠い文脈よりも近い文脈をより良く利用する傾向）を持つことを確立した。
+</p>
+<p>
+『Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries』
+　(多様でパーソナライズされた複数文書要約のための原則に基づいたコンテンツ選択)<br>
+　論文は<a href="https://arxiv.org/abs/2505.21859">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.21859v1">こちら</a><br>
+<br>
+
+「中間を見失う(lost in the middle)」現象の経験的証拠を提供し、原理に基づいたコンテンツ選択がLLM固有の限界をどのように克服できるかを示している。
+</p>
+
+
 <h3>● LTH: Lottery Ticket Hyposis (宝くじ仮説)</h3>
 <p>
 『The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks』(2019)<br>
@@ -824,6 +855,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
