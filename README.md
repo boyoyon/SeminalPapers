@@ -458,6 +458,15 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 　スパース活性化に対する基礎的な学習ベースのアプローチであるスパースゲート型混合専門家（MoE）層を導入した画期的な論文。
 </p>
 
+<h3>● Model soups (モデルスープ)</h3>
+<p>
+『Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time』(2022)<br>
+　(モデルスープ：複数のファインチューニング済みモデルの重み平均による、推論時間増加なしの精度向上)<br>
+　論文は<a href="https://arxiv.org/abs/2203.05482">こちら</a><br>
+<br>
+この影響力のある論文は、単純な重み平均の力を実証することで、モデルマージングの普及に貢献した。その成功は、モデルマージングの実用的な関連性と潜在的なセキュリティリスクを浮き彫りにし、MergeLockのような保護ソリューションの開発を直接的に動機付けた。
+</p>
+
 <h3>● NeRF</h3>
 <p>
 『NeRF: Representing scenes as neural radiance fields for view synthesis』(2020)<br>
@@ -869,6 +878,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
