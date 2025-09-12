@@ -152,6 +152,15 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 　表現がより低次元のサブスペースを占める「次元崩壊」を特定し分析した   
 </p>
 
+<h3>● Distributed representations  (分散表現)</h3>
+<p>
+　『Distributed representations of words and phrases and their compositionality』
+　(単語とフレーズの分散表現およびその構成性)<br>
+　論文はこちら<br>
+<br>
+word2vecに関するこの記念碑的な論文は、言語モデルが構造的な関係性を捉える「分布的意味論」を学習するという重要な証拠を提供。
+</p>
+
 <h3>● Double Descent (二重降下)</h3>
 <p>
 『Reconciling modern machine learning practice and the bias-variance trade-off』 (2018)<br>
@@ -701,6 +710,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
