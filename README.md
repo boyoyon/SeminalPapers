@@ -342,6 +342,13 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 「教師」モデルの出力(Softmax 適用前の Logit。Dark Knowlegeと呼ばれる)があると,「おしい」とか「全然違う」とか<br>
 ヒントが貰えるので「生徒」モデルでも学習がはかどる･･･という感じ
 </p>
+<p>
+『Fantastic Gains and Where to Find Them: On the Existence and Prospect of General Knowledge Transfer between Any Pretrained Model』(2023)<br>
+　(目覚ましい成果とその見つけ方：あらゆる事前学習済みモデル間での汎用的な知識転移の存在と展望)<br>
+　論文は<a href="https://arxiv.org/abs/2310.17653">こちら</a>, 要約は<a href="目覚ましい成果とその見つけ方：あらゆる事前学習済みモデル間での汎用的な知識転移の存在と展望">こちら</a><br>
+<br>
+事前学習済み深層学習モデルの任意のペア間で、弱いモデルから強いモデルへの転送を含め、相補的な知識を一貫して転送し、学生モデルの精度を向上させる手法を提案している。信頼度に基づくデータ分割を伴う継続的知識蒸留（KL-Dist + DP）は、多様なモデルの組み合わせにおいて、ポジティブな知識転送で92.5%の中央値成功率を達成した。
+</p>
 
 <h3>● Linear mode connectivity (線形モード接続性)</h3>
 <p>
@@ -919,6 +926,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
