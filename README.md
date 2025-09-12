@@ -696,7 +696,7 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 <p>
 『Language Model Perplexity Predicts Scientific Surprise and Transformative Impact』(2025)<br>
 　(言語モデルのパープレキシティは、科学的驚きと変革的インパクトを予測する)<br>
-　論文は<ahref="https://arxiv.org/abs/2509.05591">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.05591v1">こちら</a><br>
+　論文は<a href="https://arxiv.org/abs/2509.05591">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.05591v1">こちら</a><br>
 <br>
 　科学的斬新さの代理として言語モデルの予測の失敗を利用する
 </p>
@@ -887,6 +887,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
