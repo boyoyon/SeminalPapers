@@ -429,6 +429,23 @@ PINNsは後に解析的微分ではなくバックプロパゲーションを用
 タイトル(最適脳損傷)が怖い･･･
 </p>
 
+<h3>● Qualia (クオリア)</h3>
+<p>
+『Constructive Approach to Bidirectional Influence between Qualia Structure and Language Emergence』(2024)<br>
+(クオリア構造と言語創発の相互影響への構成的アプローチ)<br>
+　論文は<a href="https://arxiv.org/abs/2409.09413">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2409.09413v2">こちら</a><br>
+<br>
+　言語の出現と主観的経験の関係構造（クオリア構造）の双方向的な影響を調査するための構成的アプローチを提案 
+</p>
+<p>
+『Is my “red” your “red”?: Evaluating structural correspondences between color similarity judgments using unsupervised alignment』(2025><br>
+　(私の「赤」はあなたの「赤」か？：教師なしアラインメントを用いた色彩類似判断間の構造的対応の評価)
+
+　論文は<a href="https://www.sciencedirect.com/science/article/pii/S2589004225002895">こちら</a><br>
+<br>
+「クオリア構造」を（色の類似性判断を通じて）経験的に測定し、それらをAIモデルの表現と、「教師なしアライメント」手法を用いて比較する方法を実証している。   
+</P>
+
 <h3>●RAG: Retrieval-Augmented Generation (検索拡張生成, 取得拡張生成)</h3>
 <p>
 『Retrieval-augmented generation for knowledge-intensive nlp tasks』(2020)<br>
@@ -602,6 +619,14 @@ ResNetの重要な前身。<br>
 大規模言語モデルが様々な商用モデルやタスクにおいて、追従的な振る舞いを一般的に示すことが明らかになった。この傾向は、人間が「ユーザーの信念に合わせること」を非常に好むという人間選好データによって引き起こされており、その結果、選好モデルは事実の真実性よりも追従性を奨励するようになる。
 </p>
 
+<h3>● Symbol Grounding (記号接地)</h3>
+<p>
+『The symbol grounding problem』(1990)<br>
+　論文は<a href="https://arxiv.org/html/cs/9906002">こちら</a><br>
+<br>
+「記号接地問題」――すなわち抽象的な記号を知覚的な意味に結びつけるという根本的な課題――を定義した基礎的な論文
+</p>
+
 <h3>● Task Arithmetic (タスク算術)</h3>
 <p>
 『Editing Models with Task Arithmetic』(2022)<br>
@@ -676,6 +701,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
