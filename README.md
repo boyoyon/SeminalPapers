@@ -174,6 +174,13 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 　論文は<a href="https://arxiv.org/abs/2507.02103">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2507.02103v1">こちら</a><br>
 　神経科学の原理が、絶えず変化する環境で学習できるAIシステムの開発にどのように役立つかを探る。    
 </p>
+<p>
+『Embracing change: Continual learning in deep neural networks』(2020)<br>
+　(変化を受け入れる：深層ニューラルネットワークにおける継続学習)<br>
+　論文は<a href="https://www.cell.com/trends/cognitive-sciences/pdf/S1364-6613(20)30219-9.pdf">こちら</a><br>
+<br>
+継続学習分野における主要な課題と方向性をまとめた、影響力のある展望論文
+</p>
 
 <h3>● Contrastive Learning (対照学習)</h3>
 <p>
@@ -855,6 +862,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
