@@ -84,6 +84,14 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 <br>
 　「アテンションシンク」現象を初めて特定し、命名した基礎的な論文    
 </p>
+<p>
+『Massive activations in large language models』(2024)<br>
+　(大規模言語モデルにおける大規模な活性化)<br>
+　論文は<a href="https://arxiv.org/abs/2402.17762">こちら</a>,要約は<a href="https://www.alphaxiv.org/ja/overview/2402.17762v2">こちら</a><br>
+
+<br>
+言語モデルにおける「大規模な活性化 (massive activations)」が「アテンションシンク (attention sinks)」を引き起こすという並行現象を特定しており、トランスフォーマーにおける高ノルムトークンの問題に対し、より広範な文脈を提供する
+</p>
 
 <h3>● Bening Overfitting (良性過学習)</h3>
 <p>
@@ -796,6 +804,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
