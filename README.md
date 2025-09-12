@@ -88,9 +88,18 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 『Massive activations in large language models』(2024)<br>
 　(大規模言語モデルにおける大規模な活性化)<br>
 　論文は<a href="https://arxiv.org/abs/2402.17762">こちら</a>,要約は<a href="https://www.alphaxiv.org/ja/overview/2402.17762v2">こちら</a><br>
-
 <br>
 言語モデルにおける「大規模な活性化 (massive activations)」が「アテンションシンク (attention sinks)」を引き起こすという並行現象を特定しており、トランスフォーマーにおける高ノルムトークンの問題に対し、より広範な文脈を提供する
+</p>
+<p>
+『Vision Transformers Don't Need Trained Registers』(2025)
+　(ビジョン・トランスフォーマーに学習済みレジスタは不要)<br>
+　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2506.08010v4">こちら</a><br>
+<br>
+
+Vision Transformer (ViT) のMLPブロック内の特定の「レジスタニューロン」が、高ノルムトークンの因果的な発生源であることを特定した。未学習のトークンを付加し、これらの高ノルム活性をリダイレクトする訓練不要の手法「テスト時レジスタ」を導入した。これにより、よりクリーンなアテンションマップ、密な視覚タスクと物体発見における性能向上、そしてVision-Languageモデルにおける解釈可能性の向上がもたらされた。<br>
+<br>
+言語モデルにおける同様の現象（「アテンションシンク」）と関連しており、このような計算パターンがモダリティを超えたトランスフォーマーアーキテクチャにとって基本的なものである可能性を示唆している。
 </p>
 
 <h3>● Bening Overfitting (良性過学習)</h3>
@@ -804,6 +813,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
