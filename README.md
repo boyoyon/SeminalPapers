@@ -510,6 +510,19 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 「ReLUの死滅問題」に関する詳細な分析と特定の実験設定を提供
 </p>
 
+<h3>●Representation Biases (表現バイアス)<br>
+
+<p>
+『Representation biases: will we achieve complete understanding by analyzing representations?』(2025)<br>
+　(表現バイアス：表現の分析を通じて、我々は完全な理解に到達できるのか？)
+
+　論文は<a href="https://arxiv.org/abs/2507.22216">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2507.22216v2">こちら</a><br>
+<br>
+深層学習モデルの内部表現に顕著なバイアスがある。
+これらのバイアスは、PCAやRSAのような一般的な分析方法を使用する際に誤解を招く推論につながり、表現の強度が計算上の重要性を確実に示すという前提に異議を唱えている。
+神経科学と機械学習の研究者全体にとって重要な警告となる。それは、広く用いられている分析的仮定が体系的に破られ得ることを示しており、システムの機能に関して不完全または誤解を招く結論につながる可能性がある。
+</p>
+
 <h3>● Scaling Law (べき則)</h3>
 <p>
 　『Scaling laws for neural language models』(2020)<br>
@@ -710,35 +723,3 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
