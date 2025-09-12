@@ -154,9 +154,9 @@ Denoising Diffusion Probabilistic Model (DDPM) を紹介している
 
 <h3>● Distributed representations  (分散表現)</h3>
 <p>
-　『Distributed representations of words and phrases and their compositionality』
+　『Distributed representations of words and phrases and their compositionality』(2013)<br>
 　(単語とフレーズの分散表現およびその構成性)<br>
-　論文はこちら<br>
+　論文は<a href="https://arxiv.org/abs/1310.4546">こちら</a><br>
 <br>
 word2vecに関するこの記念碑的な論文は、言語モデルが構造的な関係性を捉える「分布的意味論」を学習するという重要な証拠を提供。
 </p>
@@ -710,6 +710,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
