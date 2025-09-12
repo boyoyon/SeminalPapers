@@ -504,6 +504,17 @@ PINNsは後に解析的微分ではなくバックプロパゲーションを用
 → AIモデルを継続学習する場合, 課題になる。
 </p>
 
+<h3>● Proxy Token</h3>
+<p>
+『Generalized Decoupled Learning for Enhancing Open-Vocabulary Dense Perception』(2025)<br>
+　(汎用デカップル学習によるオープンボキャブラリ密認識の強化)<br>
+　論文は<a href="https://arxiv.org/abs/2508.11256">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2508.11256v1">こちら</a><br>
+
+CLIPのアテンションメカニズムの詳細な分析を通じて、CLIPのアーキテクチャにおける重大な問題を特定した。
+CLIPの画像トークンは「密な相関の消失」を示す。つまり、意味的または空間的に関連する領域に注意を向ける代わりに、特定の「プロキシトークン」に焦点を当てる。
+DeCLIPは、CLIPの自己注意を分離し、「コンテンツ」と「コンテキスト」の特徴をVFMとStable Diffusionを用いて個別にガイドすることで、空間的一貫性と局所的な識別性を向上させる
+</p>
+
 <h3>● Pruning (枝刈り)</h3>
 <p>
 『Optimal Brain Damage』(1989)<br>
@@ -813,6 +824,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
