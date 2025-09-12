@@ -28,6 +28,46 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 3D Gaussian Splatting (GS) 技術を導入した画期的な論文
 </p>
 
+<h3>●Adversarial Vulnerabilities (敵対的脆弱性)</h3>
+<p>
+『Intriguing properties of neural networks』(2013)<br>
+　(ニューラルネットワークの興味深い特)<br>
+　論文は<a href="https://arxiv.org/abs/1312.6199">こちら</a><br>
+<br>
+　ニューラルネットワークにおける敵対的脆弱性を初めて発見したもの。
+</p>
+<p>
+『Explaining and Harnessing Adversarial Examples』(2014)<Br>
+　(敵対的サンプルの解明と活用)<br>
+　論文は<a href="https://arxiv.org/abs/1412.6572">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1412.6572v3">こちら</a><br>
+<br>
+パンダ画像に少しノイズを加えるとテナガザルと誤認識する、という例の論文。
+最先端のモデルが知覚できない摂動によって体系的に騙されることを実証することで、安全性に重要なアプリケーションに展開されているAIシステムにおける重大な脆弱性を浮き彫りにした。
+</p>
+<p>
+『Extracting training data from large language models』(2020)<br>
+　(大規模言語モデルからの学習データ抽出)<br>
+　論文は<a href="https://arxiv.org/abs/2012.07805">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2012.07805v2">こちら</a><br>
+<br>
+この画期的な研究は、大規模言語モデルからの学習データ抽出における具体的なリスクを実証し、プライバシーの脆弱性に対する重要な証拠を提供
+した。
+</p>
+<p>
+『The secret sharer: Evaluating and testing unintended memorization in neural networks』(2018)<br>
+　(秘密の共有者：ニューラルネットワークにおける意図せざる記憶の評価と検証)<br>
+　論文は<a href="https://arxiv.org/abs/1802.08232">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1802.08232v3">こちら</a><br>
+<br>
+　「カナリア」挿入を用いてニューラルネットワークから学習データを抽出する概念を確立。
+
+</p>
+<p>
+『Membership inference attacks against machine learning models』(2016)<br>
+　(機械学習モデルに対するメンバーシップ推論攻撃)<br>
+　論文は<a href="https://arxiv.org/abs/1610.05820">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1610.05820v2">こちら</a><br>
+<br>
+攻撃者が特定の例が訓練セットに含まれていたかどうかを判断する、密接に関連した問題であるメンバーシップ推論攻撃に関する基礎的な研究
+</p>
+
 <h3>● AI-image detectors</h3>
 <p>
 『CNN-generated images are surprisingly easy to spot... for now』(2019)<br>
@@ -729,5 +769,6 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
