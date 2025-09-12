@@ -873,6 +873,15 @@ ResNetの重要な前身。<br>
 　勾配消失問題と勾配爆発問題という課題を初めて詳細に特定し、分析した基礎的な論文    
 </p>
 
+<h3>● Weak-to-strong generalization (弱から強への一般化)</h3>
+<p>
+『Weak-to-strong generalization: Eliciting strong capabilities with weak supervision』(2023)<br>
+　(弱から強への一般化：弱い教師あり学習で強い能力を引き出す)<br>
+　論文は<a href="https://arxiv.org/abs/2312.09390">こちら</a><br>, 要約はこちら<br>
+<br>
+弱い教師あり学習の下で、強力な生徒が弱い教師よりも優れた性能を発揮できる、弱から強への汎化という概念を初めて導入した。
+</p>
+
 <h3>● Word Embeddings (単語埋め込み) </h3>
 <p>
 『Unsupervised word embeddings capture latent knowledge from materials science literature』(2019)<br>
@@ -903,6 +912,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
