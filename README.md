@@ -438,7 +438,7 @@ PINNsは後に解析的微分ではなくバックプロパゲーションを用
 　言語の出現と主観的経験の関係構造（クオリア構造）の双方向的な影響を調査するための構成的アプローチを提案 
 </p>
 <p>
-『Is my “red” your “red”?: Evaluating structural correspondences between color similarity judgments using unsupervised alignment』(2025><br>
+『Is my “red” your “red”?: Evaluating structural correspondences between color similarity judgments using unsupervised alignment』(2025)<br>
 　(私の「赤」はあなたの「赤」か？：教師なしアラインメントを用いた色彩類似判断間の構造的対応の評価)
 
 　論文は<a href="https://www.sciencedirect.com/science/article/pii/S2589004225002895">こちら</a><br>
@@ -701,6 +701,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
