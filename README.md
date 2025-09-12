@@ -474,6 +474,22 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 　スパース活性化に対する基礎的な学習ベースのアプローチであるスパースゲート型混合専門家（MoE）層を導入した画期的な論文。
 </p>
 
+<h3>● NAS: Neural Architecture Search</h3>
+<p>
+『Neural architecture search with reinforcement learning.』(2016)<br>
+　(強化学習を用いたニューラルアーキテクチャ探索)<br>
+　論文は<a href="https://arxiv.org/abs/1611.01578">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1611.01578v2">こちら</a><br>
+<br>
+強化学習を用いてニューラルアーキテクチャ探索（NAS）の概念を導入した記念碑的な論文
+</p>
+<p>
+『Random search for hyper-parameter optimization』(2012)<br>
+　(ハイパーパラメータ最適化におけるランダム探索)<br>
+　論文は<a href="https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf">こちら</a><br>
+<br>
+ハイパーパラメータ最適化における強力なベースラインとしてランダムサーチを確立した。
+</p>
+
 <h3>● NeRF</h3>
 <p>
 『NeRF: Representing scenes as neural radiance fields for view synthesis』(2020)<br>
@@ -926,6 +942,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
