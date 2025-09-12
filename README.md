@@ -224,6 +224,15 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 　過学習を防ぐための正則化手法としてのドロップアウトについて包括的な分析を提供
 </p>
 
+<h3>●DVS: Dynamic Vision Sensors. Event Camera, Temporal Trailing(時間的引きずり)</h3>
+<p>
+『From video frames to realistic dvs events』(2021)<br>
+　(v2e: ビデオフレームから現実的なDVSイベントへ)<br>
+　論文は<a href="https://arxiv.org/abs/2006.07722">こちら</a><br>
+<br>
+センサーがローパスフィルターのように振る舞うという物理モデルが、低照度下でのイベントの「時間的引きずり（temporal trailing）」現象を説明する
+</p>
+
 <h3>● Episodic Memory (エピソード記憶)</h3>
 <p>
 『Episodic and semantic memory』(1972)<br>
@@ -376,6 +385,15 @@ LLMをアライメントするための影響力のある3段階RLHFフレーム
 <br>
 「モダリティギャップ」を初めて特定し、命名した論文。<br>
 異なるデータモダリティ（画像とテキストなど）が共有表現に近接して埋め込まれていることを示す。体系的な分析により、このギャップはモデルの初期化と対照学習による最適化の組み合わせによって引き起こされることが実証された。
+</p>
+
+<h3>●MoE: Mixture-of-Experts (専門家混合)</h3>
+<p>
+『Outrageously large neural networks: The sparsely-gated mixture-of-experts layer』(2017)<br>
+　(途方もなく巨大なニューラルネットワーク：疎にゲートされた専門家混合層)<br>
+　論文は<a href="https://openreview.net/forum?id=B1ckMDqlg">こちら</a><br>
+<br>
+　スパース活性化に対する基礎的な学習ベースのアプローチであるスパースゲート型混合専門家（MoE）層を導入した画期的な論文。
 </p>
 
 <h3>● NeRF</h3>
@@ -778,6 +796,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
