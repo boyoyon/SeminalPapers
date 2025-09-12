@@ -692,6 +692,15 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 甘利さんの論文。統計力学的手法を使用して、汎化誤差が指数-0.5、-1、または-2のべき乗則として減少することを示している。予測される指数は経験的に観察されたものとは異なるが、べき乗則の学習曲線を期待するための理論的な基礎を築く。
 </p>
 
+<h3>● Scientific Surprise</h3>
+<p>
+『Language Model Perplexity Predicts Scientific Surprise and Transformative Impact』(2025)<br>
+　(言語モデルのパープレキシティは、科学的驚きと変革的インパクトを予測する)<br>
+　論文は<ahref="https://arxiv.org/abs/2509.05591">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.05591v1">こちら</a><br>
+<br>
+　科学的斬新さの代理として言語モデルの予測の失敗を利用する
+</p>
+
 <h3>● Self-Play(自己対局), Without human knowledge (人間知識なし)</h3>
 <p>
 『Mastering the game of go without human knowledge』(2017)<br>
@@ -878,6 +887,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
