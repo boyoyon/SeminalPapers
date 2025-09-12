@@ -160,6 +160,13 @@ AIモデルを継続学習する場合, 課題になる。
 <p>
 Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画期的な論文
 </p>
+<p>
+『Large language models are zero-shot reasoners』(2022)<br>
+　(大規模言語モデルはゼロショット推論器である)<br>
+　論文は<a href="https://arxiv.org/abs/2205.11916">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2205.11916v4">こちら</a><br>
+<br>
+本論文は、影響力のある「Let's think step by step」プロンプトを導入し、zero-shot Chain-of-Thought (CoT) パラダイムを確立した。
+</p>
 
 <h3>● Continual Learning (継続学習), Lifelong Learning(生涯学習)</h3>
 <p>
@@ -862,6 +869,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
