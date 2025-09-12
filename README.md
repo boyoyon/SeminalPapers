@@ -92,7 +92,7 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 言語モデルにおける「大規模な活性化 (massive activations)」が「アテンションシンク (attention sinks)」を引き起こすという並行現象を特定しており、トランスフォーマーにおける高ノルムトークンの問題に対し、より広範な文脈を提供する
 </p>
 <p>
-『Vision Transformers Don't Need Trained Registers』(2025)
+『Vision Transformers Don't Need Trained Registers』(2025)<br>
 　(ビジョン・トランスフォーマーに学習済みレジスタは不要)<br>
 　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2506.08010v4">こちら</a><br>
 <br>
@@ -813,6 +813,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
