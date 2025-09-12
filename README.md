@@ -522,7 +522,13 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 これらのバイアスは、PCAやRSAのような一般的な分析方法を使用する際に誤解を招く推論につながり、表現の強度が計算上の重要性を確実に示すという前提に異議を唱えている。
 神経科学と機械学習の研究者全体にとって重要な警告となる。それは、広く用いられている分析的仮定が体系的に破られ得ることを示しており、システムの機能に関して不完全または誤解を招く結論につながる可能性がある。
 </p>
-
+<p>
+『Could a neuroscientist understand a microprocessor? 』(2017)<br>
+　(神経科学者はマイクロプロセッサを理解し得るか？)<br>
+　論文は<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268">こちら</a><br>
+<br>
+この影響力のある論文は、標準的な神経科学の分析手法が、既知の計算システムを正確に説明できない可能性があると論じている。
+</p>
 <h3>● Scaling Law (べき則)</h3>
 <p>
 　『Scaling laws for neural language models』(2020)<br>
@@ -723,4 +729,5 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
