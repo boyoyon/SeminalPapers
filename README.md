@@ -79,6 +79,19 @@ AIモデルを継続学習する場合, 課題になる。
 <p>
 継続学習における正則化ベースの基盤的アプローチであるElastic Weight Consolidation (EWC) を導入した論文
 </p>
+<p>
+『Why there are complementary learning systems in the hippocampus and neocortex: insights from the successes and failures of connectionist models of learning and memory』(1995)<br>
+　(海馬と新皮質に相補的学習システムが存在する理由：学習と記憶のコネクショニストモデルの成功と失敗から得られた知見)<br>
+　論文は Google Scholar で検索すると pdf に辿り着ける<br>
+<br>
+　海馬が新しい情報の迅速な学習を可能にし、大脳新皮質が既存の知識への緩やかな統合をサポートするという相補的学習システム理論を提唱した基礎論文。脳がどのように安定性-可塑性ジレンマを解決し、AIにおける中心的な問題である壊滅的忘却を回避するかを説明
+</p>
+<p>
+『What Neuroscience Can Teach AI About Learning in Continuously Changing Environments』(2025)<br>
+　(神経科学がAIに教えうる、継続的に変化する環境における学習)<br>
+　論文は<a href="https://arxiv.org/abs/2507.02103">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2507.02103v1">こちら</a><br>
+　神経科学の原理が、絶えず変化する環境で学習できるAIシステムの開発にどのように役立つかを探る。    
+</p>
 
 <h3>● Cognitive Agent (認知エージェント)</h3>
 <p>
@@ -663,6 +676,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
