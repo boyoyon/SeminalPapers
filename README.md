@@ -678,7 +678,7 @@ RAG は "open-book"QAパラダイムの実装手法の一つ。<br>
 『Neocognitron: A Self-organizing Neural Network Model
 for a Mechanism of Pattern Recognition
 Unaffected by Shift in Position 』(1980)<br>
- 論文は<a href="https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf">こちら</a><br>
+ 論文は<a href="https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf">こちら</a>,日本語の解説論文は<a href="https://www.jstage.jst.go.jp/article/mii/36/2/36_17/_pdf/-char/en#:~:text=ネオコグニトロンは、変形,正しくパターンを認識する．">こちら</a><br>
 <br>
 強調されていないが, さりげなく(まだ命名されていない) ReLU が使われている(式(2))。
 </p>
@@ -974,6 +974,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
