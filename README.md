@@ -937,11 +937,11 @@ ResNetの重要な前身。<br>
 
 <h3>● Variable-Binding (変数束縛), VSA: Vector Symbolic Architectures </h3>
 <p>
-『Connectionism and cognitive architecture: A critical analysis』(1988)
+『Connectionism and cognitive architecture: A critical analysis』(1988)<br>
 　(コネクショニズムと認知アーキテクチャ：批判的分析)<br>
 　論文は<a href="https://uh.edu/~garson/F&P1.PDF">こちら</a><br>
 <br>
-ニューラルネットワークが記号計算と人間の認知の重要な特徴である「変数束縛」を扱えないことを批判した。<br>
+　ニューラルネットワークが記号計算と人間の認知の重要な特徴である「変数束縛」を扱えないことを批判した。<br>
 <br>
 ※ 例えば「Xは人間である」のような命題論理では, X に具体的な値
 (例えばソクラテス)をバインドすることで推論が可能になる。
@@ -954,9 +954,17 @@ ResNetの重要な前身。<br>
 　(Transformerはどのようにして記号プログラムにおける変数束縛を学習するのか？)<br>
 　論文は<a href="https://arxiv.org/abs/2505.20896">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.20896v1">こちら</a><br>
 <br>
-Transformerが変数バインディングを、明示的なアーキテクチャサポートなしに学習できることを示しており、ニューラルネットワークがパターン認識に限定されるという概念に異議を唱えている
+　Transformerが変数バインディングを、明示的なアーキテクチャサポートなしに学習できることを示しており、ニューラルネットワークがパターン認識に限定されるという概念に異議を唱えている
 </p>
 
+<p>
+『Developing a Foundation of Vector Symbolic Architectures Using Category Theory』
+　(圏論を用いたベクトル記号アーキテクチャの基盤構築)<br>
+　論文は<ahref="https://arxiv.org/abs/2501.05368">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2501.05368v2">こちら</a><br>
+<br>
+　圏論を用いてベクトル記号アーキテクチャ (VSA) のための基礎的な数学的枠組みを確立している。VSAの最適な結合およびバンドル操作が要素ごとの乗算と加算であることを厳密に導出し、多くの既存のVSA実装に理論的な正当性を提供するとともに、新しいアーキテクチャの原則に基づいた設計を可能にする。
+</p>
+     
 <p>
 『Discovering variable binding circuitry with desiderata』(2023)<br>
 　(Desiderataによる変数結合回路の発見)<br>
@@ -965,19 +973,11 @@ Transformerが変数バインディングを、明示的なアーキテクチャ
 </p>
 
 <p>
-『Developing a Foundation of Vector Symbolic Architectures Using Category Theory』
-　(圏論を用いたベクトル記号アーキテクチャの基盤構築)<br>
-　論文は<ahref="https://arxiv.org/abs/2501.05368">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2501.05368v2">こちら</a><br>
-<br>
-圏論を用いてベクトル記号アーキテクチャ (VSA) のための基礎的な数学的枠組みを確立している。VSAの最適な結合およびバンドル操作が要素ごとの乗算と加算であることを厳密に導出し、多くの既存のVSA実装に理論的な正当性を提供するとともに、新しいアーキテクチャの原則に基づいた設計を可能にする。
-</p>
-
-<p>
 『Holographic reduced representations』(1995)
 　(ホログラフィック縮約表現)<br>
 　論文は<a href="https://pages.ucsd.edu/~msereno/_170_2006/readings/06-Holographic.pdf">こちら</a><br>
 <br>
-代表的かつ影響力のあるVSA（Vector Symbolic Architectures）であるホログラフィック縮小表現 (HRR) を導入
+　代表的かつ影響力のあるVSA（Vector Symbolic Architectures）であるホログラフィック縮小表現 (HRR) を導入
 </p>
 
 <p>
@@ -985,7 +985,7 @@ Transformerが変数バインディングを、明示的なアーキテクチャ
 　(テンソル積変数束縛およびコネクショニストシステムにおける記号構造の表現)<br>
 　論文は<a href="http://www.lscp.net/persons/dupoux/teaching/AT1_2012/papers/Smolensky_1990_TensorProductVariableBinding.AI.pdf">こちら</a><br>
 <br>
-テンソル積表現（TPR）を導入。シンボル構造をニューラルネットで表現するために、テンソル積を使って「ロール」と「フィラー」を結びつける手法で, 最初のVSA。
+　テンソル積表現（TPR）を導入。シンボル構造をニューラルネットで表現するために、テンソル積を使って「ロール」と「フィラー」を結びつける手法で, 最初のVSA。
 </p>
 
 <h3>● Weak-to-strong generalization (弱から強への一般化)</h3>
@@ -994,7 +994,7 @@ Transformerが変数バインディングを、明示的なアーキテクチャ
 　(弱から強への一般化：弱い教師あり学習で強い能力を引き出す)<br>
 　論文は<a href="https://arxiv.org/abs/2312.09390">こちら</a><br>
 <br>
-弱い教師あり学習の下で、強力な生徒が弱い教師よりも優れた性能を発揮できる、弱から強への汎化という概念を初めて導入した。
+　弱い教師あり学習の下で、強力な生徒が弱い教師よりも優れた性能を発揮できる、弱から強への汎化という概念を初めて導入した。
 </p>
 
 <h3>● Word Embeddings (単語埋め込み) </h3>
@@ -1027,3 +1027,4 @@ Transformerが変数バインディングを、明示的なアーキテクチャ
 </p>
     </body>
 </html>
+
