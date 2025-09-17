@@ -280,6 +280,21 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 　敵対的生成ネットワーク（GAN）アーキテクチャを導入した基礎的な論文
 </p>
 
+<h3>● GNN: Graph Neural Networks</h3>
+<p>
+『Semi-supervised classification with graph convolutional networks』(2016)<br>
+　(グラフ畳み込みネットワークを用いた半教師あり分類)<br>
+　論文は<a href="https://arxiv.org/abs/1609.02907">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1609.02907v4">こちら</a><br>
+<br>
+　グラフニューラルネットワーク（GNNs）の基本的な種類の一つであるグラフ畳み込みネットワーク（GCNs）を導入した記念碑的な論文
+</p>
+<p>
+『Graph attention networks』(2017><br>
+　論文は<a href="https://arxiv.org/abs/1710.10903">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1710.10903v3">こちら</a><br>
+<br>
+　アテンション機構が組み込みの解釈性を提供するGNNアーキテクチャであるGraph Attention Networks（GAT）を導入した。
+</p>
+
 <h3>● Grokking</h3>
 <p>
 『Grokking: Generalization beyond overfitting on small algorithmic datasets』(2022)<br>
@@ -572,6 +587,29 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 　GNNにおける「オーバースクワッシング」問題を初めて特定し命名した点で、現在の研究の基礎となっている。   
 </p>
 
+<h3>● Perceptual Metric (知覚メトリック, 知覚的距離)</h3>
+<p>
+『The Unreasonable Effectiveness of Deep Features as a Perceptual Metric』(2018)
+　(深層特徴量の知覚メトリックとしての不合理な有効性)<br>
+　論文は<a href="https://arxiv.org/abs/1801.03924">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2018_LPIPS/2018_The%20Unreasonable%20Effectiveness%20of%20Deep%20Features%20as%20a%20Perceptual%20Metric.html">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1801.03924v2">こちら</a><br>
+<br>
+　人間の知覚的類似性のメトリックとしての深層特徴の有効性を経験的に評価し、従来のメソッドに対する優位性を示している。LPIPS（Learned Perceptual Image Patch Similarity）という新しいメトリックと大規模データセットを導入した。
+</p>
+<p>
+『Perceptual losses for real-time style transfer and super-resolution』(2016<br>
+　(リアルタイムスタイル変換と超解像のための知覚損失)<br>
+　論文は<a href="https://arxiv.org/abs/1603.08155">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1603.08155v1">こちら</a><br>
+<br>
+　事前学習済み深層ネットワーク（VGGなど）からの特徴量を「知覚損失（perceptual loss）」として画像合成や超解像タスクに用いる手法を普及させた
+</p>
+<p>
+『Image quality assessment: from error visibility to structural similarity』(2004)<br>
+　(画質評価：誤差可視性から構造類似性へ)<br>
+　論文は<a href="https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf">こちら</a><br>
+<br>
+　非常に影響力があり広く用いられている従来の知覚評価指標である構造的類似度指標 (SSIM:Structural similarity index measure) を導入した。
+</p>
+
 <h3>● PINNs: Physics Informed Neural Networks</h3>
 <p>
 『Artificial Neural Networks for Solving Ordinary and Partial Differential Equations』(1997)<br>
@@ -754,6 +792,39 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 甘利さんの論文。統計力学的手法を使用して、汎化誤差が指数-0.5、-1、または-2のべき乗則として減少することを示している。予測される指数は経験的に観察されたものとは異なるが、べき乗則の学習曲線を期待するための理論的な基礎を築く。
 </p>
 
+<h3>● Scientific Discovery (科学的発見),  Scientific Research (科学研究)</h3>
+<p>
+『Virtuous Machines: Towards Artificial General Science』(2025)<br>
+　(高潔な機械：汎用人工科学の実現へ)<br>
+　論文は<a href="https://arxiv.org/abs/2508.13421">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2508.13421v1">こちら</a><br>
+<br>
+　自律的なエンドツーエンドAIシステムが、仮説の策定からデータ収集、分析、報告に至るまで、人間を被験者とする実世界の科学実験を実施し、完全な論文を生成する。
+</p>
+
+<p>
+『When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research』(2025)<br>
+　(AI共同研究者の失敗：科学研究の自動検証のためのベンチマークSPOT)<br>
+　論文は<a href="https://arxiv.org/abs/2505.11855">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.11855v1">こちら</a><br>
+<br>
+　83の公開論文と、訂正または撤回につながった91の確認されたエラーをペアにしたベンチマークデータセットSPOTを発表した。最先端の言語モデルでさえ、科学的エラーの検出において再現率21.1%、適合率6.1%しか達成できず、自信のキャリブレーションが不十分で、ドメイン知識において学生レベルの誤解に似た間違いを犯すことが明らかになった。
+</p>
+
+<p>
+『Scaling Laws of Scientific Discovery with AI and Robot Scientists』(2025)<br>
+　(AIとロボット科学者による科学的発見のスケーリング則：概要)<br>
+　論文は<a href="https://arxiv.org/abs/2503.22444">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2503.22444v1">こちら</a><br>
+<br>
+　AIとロボット工学を統合して科学研究の全ライフサイクルを自動化するシステムである、自律型汎用科学者（AGS）の概念的フレームワークを提案
+</p>
+
+<p>
+『The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery』(2024)<br>
+　(AI科学者：完全自動化されたオープンエンドな科学的発見に向けて)<br>
+　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2408.06292v1">こちら</a><br>
+<br>
+　LLMを活用してアイデア創出から論文発表までの科学プロセス全体を自動化する包括的なフレームワーク「The AI Scientist」を開発した。
+</p>
+
 <h3>● Scientific Surprise</h3>
 <p>
 『Language Model Perplexity Predicts Scientific Surprise and Transformative Impact』(2025)<br>
@@ -881,6 +952,16 @@ ResNetの重要な前身。<br>
 <br>
 「記号接地問題」――すなわち抽象的な記号を知覚的な意味に結びつけるという根本的な課題――を定義した基礎的な論文
 </p>
+
+<h3>● Syntax Dependencies (統語的依存関係)</h3>
+<p>
+『Assessing the Ability of LSTMs to Learn Syntax-Sensitive Dependencies』
+　(LSTMの統語的に敏感な依存関係学習能力の評価)<br>
+　論文はこちら, 要約はこちら<br>
+<br>
+　LSTMsが文法的な依存関係を学習できるかを評価するために用いられる主語と動詞の一致タスクを導入した、記念碑的な論文
+</p>
+
 
 <h3>● Task Arithmetic (タスク算術)</h3>
 <p>
@@ -1027,4 +1108,5 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
