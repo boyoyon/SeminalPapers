@@ -348,6 +348,20 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 単語埋め込みにおける強い性別ステレオタイプを実証している。
 </p>
 
+<h3>●intent extraction (意図抽出), goal understanding (目標理解)</h3>
+<p>
+　(UI軌跡からのユーザー目標の特定)<br>
+　論文はこちら, 要約は<a href="https://www.alphaxiv.org/ja/overview/2406.14314v2">こちら</a><br>
+<br>
+　UI軌跡からの目標識別の最初の形式的な定義を提供し、タスクの成功裏の完了とユーザーの熟練度に関する明確な前提を確立した。
+<p>
+『Learning Intents behind Interactions with Knowledge Graph for Recommendation』(2021)
+　(推薦のための知識グラフを用いたインタラクションの背後にある意図学習)<br>
+　論文は<a href="https://arxiv.org/abs/2102.07057">こちら</a><br>
+<br>
+　インタラクションデータのみからユーザーの意図をモデル化し、知識グラフを用いてユーザーの嗜好の多様な側面を捉えるための基礎的な研究
+</p>
+
 <h3>● IRL: Inverse Reinforcement Learning (逆強化学習)</h3>
 <p>
 エキスパートの行動を観察し, エキスパートは何を報酬として, どう行動するか(Policy)を学習する。<br>
@@ -1125,6 +1139,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
