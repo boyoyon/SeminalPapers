@@ -350,8 +350,9 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 
 <h3>●intent extraction (意図抽出), goal understanding (目標理解)</h3>
 <p>
+『Identifying User Goals from UI Trajectories』(2024)<br>
 　(UI軌跡からのユーザー目標の特定)<br>
-　論文はこちら, 要約は<a href="https://www.alphaxiv.org/ja/overview/2406.14314v2">こちら</a><br>
+　論文は<a href="https://arxiv.org/abs/2406.14314">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2406.14314v2">こちら</a><br>
 <br>
 　UI軌跡からの目標識別の最初の形式的な定義を提供し、タスクの成功裏の完了とユーザーの熟練度に関する明確な前提を確立した。
 <p>
@@ -1139,6 +1140,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
