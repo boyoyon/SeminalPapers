@@ -289,7 +289,7 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 　グラフニューラルネットワーク（GNNs）の基本的な種類の一つであるグラフ畳み込みネットワーク（GCNs）を導入した記念碑的な論文
 </p>
 <p>
-『Graph attention networks』(2017><br>
+『Graph attention networks』(2017)<br>
 　論文は<a href="https://arxiv.org/abs/1710.10903">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1710.10903v3">こちら</a><br>
 <br>
 　アテンション機構が組み込みの解釈性を提供するGNNアーキテクチャであるGraph Attention Networks（GAT）を導入した。
@@ -1008,6 +1008,23 @@ ResNetの重要な前身。<br>
 　　
 </p>
 
+<h3>●VAE: Variational Auto Encoder</h3>
+<p>
+『Auto-Encoding Variational Bayes』(2013)<br>
+　(オートエンコーディング変分ベイズ)<br>
+　論文は<a href="https://arxiv.org/abs/1312.6114">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1809.01999v1">こちら</a><br>
+<br>
+　連続潜在変数を持つ有向確率モデルにおける効率的な推論と学習のために、リパラメトリゼーショントリックを特徴とする自己符号化変分ベイズ（AEVB）アルゴリズムを導入した。このアプローチにより、変分自己符号化器（VAE）が生まれ、生成モデルの堅牢な学習、効果的な周辺尤度推定、およびデータ生成のための構造化された潜在表現の学習能力が実証された。
+</p>
+
+<p>
+『Stochastic Variational Inference』(2012)<br>
+　(確率的変分推論)<br>
+　論文は<a href="https://arxiv.org/abs/1206.7051">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1206.7051v3">こちら</a><br>
+<br>
+　確率的変分推論（SVI）の現代的な枠組みを確立した
+</p>
+
 <h3>● Vanishing gradient problems (勾配消失問題), gradient exploding  problems (勾配爆発問題)</h3>
 <p>
 　『Learning long-term dependencies with gradient descent is difficult』(1994)<br>
@@ -1108,5 +1125,6 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
