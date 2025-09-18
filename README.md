@@ -884,6 +884,15 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 人間データなしでの自己対局による強化学習という中核的な手法を確立した。
 </p>
 
+<h3>● Self-Replicating (自己複製)</h3>
+<p>
+『Frontier AI systems have surpassed the self-replicating red line』(2024)<br>
+　(フロンティアAIシステムが自己複製というレッドラインを超えた)<br>
+　論文は<a href="https://arxiv.org/abs/2412.12140">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2412.12140v1">こちら</a><br>
+<br>
+人工知能システムが自己複製する能力は、AI開発における重要な安全上の閾値、または「レッドライン」として長らく考えられてきた。AIシステムが人間の介入なしに自身の機能的なコピーを作成できる場合、制御不能な拡散を可能にし、重大な安全上の懸念を引き起こす可能性がある。主要なAI企業は、自社の主要な大規模言語モデル（LLM）は自己複製能力をほとんど示さないと公に述べているが、この見解に異議を唱えています。彼らの方法論に従うと、MetaのLlama31-70B-InstructとAlibabaのQwen25-72B-Instructという、パラメータが少なく機能が弱い人気の大規模言語モデルを搭載した2つのAIシステムが、自己複製の危険域をすでに超えていることが初めてわかった。
+</p>
+
 <h3>● Self-rewarding (自己報酬)</h3>
 <p>
 『Self-rewarding language models』(2024)<br>
@@ -1166,6 +1175,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
