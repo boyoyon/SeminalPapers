@@ -41,7 +41,7 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 <h3>●Adversarial Vulnerabilities (敵対的脆弱性)</h3>
 <p>
 『Intriguing properties of neural networks』(2013)<br>
-　(ニューラルネットワークの興味深い特)<br>
+　(ニューラルネットワークの興味深い特性)<br>
 　論文は<a href="https://arxiv.org/abs/1312.6199">こちら</a><br>
 <br>
 　ニューラルネットワークにおける敵対的脆弱性を初めて発見したもの。
@@ -905,7 +905,7 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 　また, 報酬ハッキングに関する重要な問題を提起している。
 </p>
 
-<h3>● The semantic hub hypothesis (意味ハブ仮説)</h3>
+<h3>● Semantic hub hypothesis (意味ハブ仮説)</h3>
 <p>
 『The semantic hub hypothesis: Language models share semantic representations across languages and modalities.』(2024)<br>
 　(意味ハブ仮説：言語モデルは多言語・多モダリティ間で意味表現を共有する)<br>
@@ -919,6 +919,25 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 　論文は Google Scholar で検索すると pdf に辿り着ける<br>
 <br>
 　神経科学のこの論文は、「ハブ・アンド・スポーク」モデルを導入している。このモデルは、人間の脳における意味知識が超モダリティハブを中心に構成されていると提唱している。
+</p>
+
+<h3>● Shortcut Learning</h3>
+<p>
+『Shortcut Learning in Deep Neural Networks』(2020)<br>
+　(深層ニューラルネットワークにおけるショートカット学習)<br>
+　論文は<a href="https://arxiv.org/abs/2004.07780">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2004.07780v5">こちら</a><br>
+<br>
+「ショートカット学習」の概念を定義した論文。
+「標準的なベンチマークではうまく機能するものの、実世界のようなより困難なテスト条件には転用できない決定ルール」を学習する現象。
+トレーニングデータセットに含まれる、無関係な特徴とターゲットラベルとの間に見せかけの相関。モデルは包括的な表現を学習する代わりに、「最も簡単な」利用可能なパターンを利用するようになる。
+</p>
+
+<p>
+『ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness』(2018)<br>
+　(ImageNet学習済みCNNはテクスチャバイアスを持つ：形状バイアスを高めることで精度とロバスト性が向上する)<br>
+　論文は<a href="https://arxiv.org/abs/1811.12231">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1811.12231v3">こちら</a><br>
+<br>
+物体認識において、深層ニューラルネットワークが物体の全体的な形状ではなく、その質感に基づいて分類することを学習することで、しばしば「近道」を取ってしまうことを示している (質感バイアス)
 </p>
 
 <h3>● Softmax Collapse</h3>
@@ -1175,6 +1194,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
