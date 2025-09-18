@@ -1187,15 +1187,16 @@ ResNetの重要な前身。<br>
 <br>
 　生成ニューラルネットワーク (VAEとMDN-RNN) を用いて環境の圧縮された予測モデルを学習し、効率的なエージェント制御を促進する。
 </p>
+<center><img src="images/world_model.png"></center>
 <p>
 『Recurrent world models facilitate policy evolution』(2018)<br>
 　論文は<a href="https://arxiv.org/abs/1809.01999">こちら</a>,　要約は<a href="https://www.alphaxiv.org/ja/overview/1809.01999v1">こちら</a><br>
 <br>
 「ワールドモデル」の概念を定義した初期の研究の一つ。
 </p>
-<center><img src="images/world_model.png"></center>
     </body>
 </html>
+
 
 
 
