@@ -1163,6 +1163,7 @@ ResNetの重要な前身。<br>
 <br>
 　弱い教師あり学習の下で、強力な生徒が弱い教師よりも優れた性能を発揮できる、弱から強への汎化という概念を初めて導入した。
 </p>
+<center><img src="images/weak-to-strong.png"></center>
 
 <h3>● Word Embeddings (単語埋め込み) </h3>
 <p>
@@ -1192,8 +1193,10 @@ ResNetの重要な前身。<br>
 <br>
 「ワールドモデル」の概念を定義した初期の研究の一つ。
 </p>
+<center><img src="images/world_model.png"></center>
     </body>
 </html>
+
 
 
 
