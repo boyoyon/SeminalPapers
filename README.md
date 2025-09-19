@@ -747,7 +747,7 @@ PPOの直接の前身であるTrust Region Policy Optimization（TRPO）を
 <p>
 『What Can Grokking Teach Us About Learning Under Nonstationarity?』(2025<br>
 　(非定常性下での学習についてグロッキングから何が学べるでしょうか?)<br>
-　論文は<a href="https://arxiv.org/abs/2507.20057">こちら</a><br>
+　論文は<a href="https://arxiv.org/abs/2507.20057">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2025_WHAT%20CAN%20GROKKING%20TEACH%20US%20ABOUT%20LEARNING/WHAT%20CAN%20GROKKING%20TEACH%20US%20ABOUT%20LEARNING%20UNDER%20NONSTATIONARITY.html">こちら</a><br>
 <br>
 　Grokkingを加速することができるなら, primacy bias に打ち勝って継続的に学習できる
 </p>
@@ -1339,6 +1339,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
