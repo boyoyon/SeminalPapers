@@ -705,23 +705,6 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 　ネットワーク層を常微分方程式に支配される連続的な変換としてモデル化する新しい深層学習アーキテクチャであるニューラル常微分方程式（Neural ODEs）を導入した。
 </p>
 
-<h3>● NTK: Neural Tanget Kernel</h3>
-<p>
-『Neural tangent kernel: convergence and generalization in neural networks』(2018)<br>
-　論文は<a href="https://arxiv.org/abs/1806.07572">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1806.07572v4">こちら</a>
-</p>
-<p>
-Neural Tangent Kernel (NTK) を導入した画期的な論文
-</p>
-
-<h3>● NTM: Neural Turing Machines</h3>
-<p>
-　『Neural turing machines』(2014)<br>  
-　論文は<a href="https://arxiv.org/abs/1410.5401">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1410.5401v2">こちら</a><br>
-<br>
-    ニューラルネットワークに外部メモリを付加することに関する画期的な論文<br>
-</p>
-
 <h3>● NFL: No Free Lunch Theorem (ノーフリーランチ定理)</h3>
 あらゆる問題に普遍的に通用する万能なアルゴリズムは存在しない,という定理。
 <p>
@@ -738,6 +721,23 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 　論文は<a href="https://arxiv.org/abs/2304.05366">こちら</a>, 要約は<a href="https://arxiv.org/abs/2304.05366">こちら</a><br>
 <br>
 　「No Free Lunch」定理が実世界の低複雑度データには適用されないことを示し、現代のニューラルネットワークが固有の「単純性バイアス」を持っており、それによって多様なタスクやデータスケールにわたる広範な汎化が可能になることを示した。
+</p>
+
+<h3>● NTK: Neural Tanget Kernel</h3>
+<p>
+『Neural tangent kernel: convergence and generalization in neural networks』(2018)<br>
+　論文は<a href="https://arxiv.org/abs/1806.07572">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1806.07572v4">こちら</a>
+</p>
+<p>
+Neural Tangent Kernel (NTK) を導入した画期的な論文
+</p>
+
+<h3>● NTM: Neural Turing Machines</h3>
+<p>
+　『Neural turing machines』(2014)<br>  
+　論文は<a href="https://arxiv.org/abs/1410.5401">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1410.5401v2">こちら</a><br>
+<br>
+    ニューラルネットワークに外部メモリを付加することに関する画期的な論文<br>
 </p>
 
 <h3>● NVS: Novel view synthesis (新規視点合成), NeRF:  Neural Radiance Fields</h3>
@@ -1528,6 +1528,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
