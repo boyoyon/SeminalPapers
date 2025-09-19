@@ -1146,6 +1146,13 @@ AIエージェントが真の人間目標ではなく不完全な代理報酬を
 「標準的なベンチマークではうまく機能するものの、実世界のようなより困難なテスト条件には転用できない決定ルール」を学習する現象。
 トレーニングデータセットに含まれる、無関係な特徴とターゲットラベルとの間に見せかけの相関。モデルは包括的な表現を学習する代わりに、「最も簡単な」利用可能なパターンを利用するようになる。
 </p>
+<p>
+『The Pitfalls of Simplicity Bias in Neural Networks』(2020)<br>
+　(ニューラルネットワークにおける単純性バイアスの落とし穴)<br>
+　論文は<a href="https://arxiv.org/abs/2006.07710">こちら</a><br>
+<br>
+　単純性バイアスとそれがもたらす問題、特にショートカット学習について議論している。
+</p>
 
 <p>
 『ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness』(2018)<br>
@@ -1496,6 +1503,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
