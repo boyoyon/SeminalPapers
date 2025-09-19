@@ -20,13 +20,7 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 </p>
 
 <h3>● 3D  Gaussian Splatting (3DGS)</h3>
-<p>
-『3D Gaussian Splatting for Real-Time Radiance Field Rendering』(2023)<br>
-　論文は<a href="https://arxiv.org/abs/2308.04079">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2308.04079v1">こちら</a>
-</p>
-<p>
-3D Gaussian Splatting (GS) 技術を導入した画期的な論文
-</p>
+→ NVS: Novel View Synthesis
 
 <h3>● Acquiescence Bias (黙認バイアス)</h3>
 <p>
@@ -138,6 +132,41 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 Vision Transformer (ViT) のMLPブロック内の特定の「レジスタニューロン」が、高ノルムトークンの因果的な発生源であることを特定した。未学習のトークンを付加し、これらの高ノルム活性をリダイレクトする訓練不要の手法「テスト時レジスタ」を導入した。これにより、よりクリーンなアテンションマップ、密な視覚タスクと物体発見における性能向上、そしてVision-Languageモデルにおける解釈可能性の向上がもたらされた。<br>
 <br>
 言語モデルにおける同様の現象（「アテンションシンク」）と関連しており、このような計算パターンがモダリティを超えたトランスフォーマーアーキテクチャにとって基本的なものである可能性を示唆している。
+</p>
+
+<h3>● Baldwin effect (ボールドウィン効果)</h3>
+学習能力が高くなる方向に選択が進むことを示唆したもの。<br>
+<br>
+<p>
+『A new factor in evolution』(1896)<br>
+　(進化における新しい要素)<br>
+　論文は<a href="https://www.journals.uchicago.edu/doi/pdf/10.1086/276408">こちら</a><br>
+<br>
+　ボールドウィン効果を紹介するもの。<br>
+　学習した行動が、生物の行動獲得能力を高める遺伝的特性に対する選択圧を生み出すことによって、進化の過程に影響を与える可能性があると提唱している。
+</p>
+<p>
+『How learning can guide evolution』(1987)<br>
+　(学習が進化を導く方法)<br>
+　論文は<a href="https://pages.ucsd.edu/~rbelew/courses/cogs184_w10/readings/HintonNowlan97.pdf">こちら</a><br>
+<br>
+　獲得形質は遺伝しないという仮定は、生物が生涯を通じて学習する適応が進化の過程を導くことができないと解釈されることが多い。この推論は誤りである（2）。学習は進化が作用する探索空間の形状を変化させ、それによって共適応した対立遺伝子の集合に向かう良好な進化経路を提供する。我々は、この効果により、表現型によって獲得された形質が遺伝子型に伝達されないにもかかわらず、学習生物は学習していない生物よりもはるかに速く進化できることを実証する。
+</p>
+<p>
+『Encoding innate ability through a genomic bottleneck』(2024)<br>
+　(ゲノムボトルネックを介した生来の能力のエンコード)<br>
+　論文は<a href="https://www.biorxiv.org/content/biorxiv/early/2022/05/26/2021.03.16.435261.full.pdf">こちら</a><br>
+<br>
+動物は、ゲノムにコード化された神経回路から生じる広範な生得的な行動能力を持って生まれます。しかし、ゲノムの情報容量は、任意の脳回路の接続性を指定するために必要な量よりも桁違いに小さいため、回路形成をコード化する規則は、世代から世代へと受け継がれる際に「ゲノムボトルネック」を通過しなければならないことを示しています。<br>
+本稿では、人工ニューラルネットワークの文脈における生得的な行動能力の問題を、重み行列の非可逆圧縮の観点から定式化します。その結果、いくつかの標準的なネットワークアーキテクチャは数桁圧縮可能であり、事前学習の性能は完全に学習されたネットワークに近づく可能性があることが分かりました。<br>
+興味深いことに、複雑なテスト問題では、単純なテスト問題とは異なり、ゲノムボトルネックアルゴリズムは回路の本質的な特徴も捉え、新しいタスクやデータセットへの転移学習を強化します。
+</p>
+<p>
+『Evolution imposes an inductive bias that alters and accelerates learning dynamics』(2025)<br>
+　(進化は学習力学を変化させ、加速させる帰納的バイアスを課す)<br>
+　論文は<a href="https://arxiv.org/abs/2505.10651">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.10651v1">こちら</a><br>
+<br>
+　進化的最適化とオンライン学習を分離する新しいアルゴリズムを通じて、進化的条件付けがニューラルネットワークの学習ダイナミクスをどのように形成するかを示し、サンプル効率の向上とファインチューニング能力の加速を明らかにしつつ、ボールウィン効果の計算論的証拠を提供した。
 </p>
 
 <h3>● Bening Overfitting (良性過学習)</h3>
@@ -679,6 +708,13 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 <p>
 　ニューラルラディアンスフィールドを導入し、新規視点合成における支配的なパラダイムとなった画期的な論文。
 </p>
+<p>
+『3D Gaussian Splatting for Real-Time Radiance Field Rendering』(2023)<br>
+　論文は<a href="https://arxiv.org/abs/2308.04079">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2308.04079v1">こちら</a><br>
+<br>
+　3D Gaussian Splatting (GS) 技術を導入した画期的な論文
+</p>
+
 
 <h3>● Over-Squashing</h3>
 <p>
@@ -1445,6 +1481,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
