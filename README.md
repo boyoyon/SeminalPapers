@@ -1193,7 +1193,7 @@ AIエージェントが真の人間目標ではなく不完全な代理報酬を
 
 <h3>● Self-awareness (自己認識)</h3>
 <p>
-『Agentic Knowledgeable Self-awareness』()<br>
+『Agentic Knowledgeable Self-awareness』(2025)<br>
 　(エージェント的で知識のある自己認識)<br>
 　論文は<a href="https://arxiv.org/abs/2504.03553">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2504.03553v2">こちら</a><br>
 <br>
@@ -1613,6 +1613,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
