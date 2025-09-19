@@ -1258,6 +1258,13 @@ ResNetの重要な前身。<br>
 <br>
 　テキストに依存せず、純粋な視覚表現を通じて計画を可能にする新しいパラダイム「視覚計画」を提案する。このパラダイムでは、計画は視覚領域における段階的推論を符号化した画像のシーケンスを介して実行され、人間が未来の行動をスケッチまたは視覚化する方法に類似している。
 </p>
+<p>
+『Mental rotation of three-dimensional objects』(1971)<br>
+　(立体の心的回転)<br>
+　論文は<a href="https://facultypsy.hope.edu/psychlabs/exp/rotate/readings/ShepardMetzler_1971.pdf">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/1971_Mental%20Rotation%20of%20Three-Dimensional%20Objects/Mental%20Rotation%20of%20Three-Dimensional%20Objects.html">こちら</a><br>
+<br>
+　メンタルイメージに関する画期的な論文。人間は推論のために簡略化された視覚的手がかりを精神的に構築し、操作する。
+</p>
 
 <h3>● Weak-to-strong generalization (弱から強への一般化)</h3>
 <p>
@@ -1300,6 +1307,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
