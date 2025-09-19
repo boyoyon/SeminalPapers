@@ -390,6 +390,14 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 <br>
 　Generative Adversarial Imitation Learning (GAIL) フレームワークを導入し、GANとIRLの関連性を確立した基礎的な論文
 </p>
+<p>
+『Inverse Reinforcement Learning without Reinforcement Learning』(2023)<br>
+　(強化学習なしの逆強化学習)<br>
+　論文は<a href="https://arxiv.org/abs/2303.14623v4">こちら</a><br>
+<br>
+　逆強化学習（IRL）は、熟練者のデモンストレーションを合理化する報酬関数の学習を目的とする、模倣学習のための強力な手法群である。従来のIRL手法には計算上の弱点があり、難しい強化学習（RL）問題をサブルーチンとして繰り返し解く必要があった。
+模倣学習というより容易な問題を、より困難なRL問題を繰り返し解く問題に縮約した。理論上は指数関数的な高速化を実現する。実際に、連続制御タスクにおいて従来技術を大幅に高速化できることが分かった。
+</p>
 
 <h3>● Knowledge Distillation (知識蒸留)</h3>
 <p>
@@ -1323,6 +1331,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
