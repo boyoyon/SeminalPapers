@@ -1254,7 +1254,7 @@ ResNetの重要な前身。<br>
 <p>
 『Visual Planning: Let’s Think Only with Images』(2025)<br>
 　(ビジュアルプランニング：画像だけで考えよう)<br>
-　論文は<a href="https://arxiv.org/abs/2505.11409">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.11409v1">こちら</a><br>
+　論文は<a href="https://arxiv.org/abs/2505.11409">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.11409v1">こちら</a>, ChatPaperは<a href="https://chatpaper.com/ja/paper/137226">こちら</a><br>
 <br>
 　テキストに依存せず、純粋な視覚表現を通じて計画を可能にする新しいパラダイム「視覚計画」を提案する。このパラダイムでは、計画は視覚領域における段階的推論を符号化した画像のシーケンスを介して実行され、人間が未来の行動をスケッチまたは視覚化する方法に類似している。
 </p>
@@ -1300,6 +1300,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
