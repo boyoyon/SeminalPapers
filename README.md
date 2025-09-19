@@ -78,6 +78,23 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 攻撃者が特定の例が訓練セットに含まれていたかどうかを判断する、密接に関連した問題であるメンバーシップ推論攻撃に関する基礎的な研究
 </p>
 
+<h3>● AI Alignment (AIを人間の意図する目的や嗜好、倫理原則に合致させること). DPO: Direct preference optimization（ダイレクト選好最適化) RLHF:Reinforcement Learning from Human Feedback (人間からのフィードバックによる強化学習)</h3>
+<p>
+『Direct preference optimization: Your language model is secretly a reward model』(2023)<br>
+　(ダイレクト選好最適化：あなたの言語モデルは密かに報酬モデルである)<br>
+　論文は<a href="https://arxiv.org/abs/2305.18290">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2305.18290v3">こちら</a><br>
+<br>
+　人間からのフィードバックによる強化学習（RLHF:Reinforcement Learning from Human Feedback）の複雑さを回避し、大規模言語モデルを人間の好みに合わせてファインチューニングする手法を導入してい
+</p>
+
+<p>
+『Training language models to follow instructions with human feedback』(2022)<br>
+　(人間からのフィードバックによる指示追従言語モデルの訓練)<br>
+　論文は<a href="https://arxiv.org/abs/2203.02155">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2203.02155v1">こちら</a><br>　
+<br>
+多段階の人間からのフィードバックによる強化学習（RLHF）パイプラインを確立した
+</p>
+
 <h3>● AI-image detectors</h3>
 <p>
 『CNN-generated images are surprisingly easy to spot... for now』(2019)<br>
@@ -1394,6 +1411,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
