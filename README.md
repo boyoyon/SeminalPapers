@@ -96,6 +96,13 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 <br>
 多段階の人間からのフィードバックによる強化学習（RLHF）パイプラインを確立した
 </p>
+<p>
+『A general language assistant as a laboratory for alignment』(2021)<br>
+　(アライメントの実験室としての一般言語アシスタント)<br>
+　論文は<a href="https://arxiv.org/abs/2112.00861">こちら</a><br>
+<br>
+　有用性、正直さ、無害さに焦点を当てたアライメント評価のフレームワーク
+</p>
 
 <h3>● AI-image detectors</h3>
 <p>
@@ -1413,6 +1420,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
