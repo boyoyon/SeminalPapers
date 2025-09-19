@@ -1190,7 +1190,7 @@ ResNetの重要な前身。<br>
 
 <p>
 『Towards AI-Native Software Engineering (SE 3.0): A Vision and a Challenge Roadmap』(2024)<br>
-　()<br>
+　(AIネイティブなソフトウェア工学（SE 3.0）へ：展望と課題ロードマップ)<br>
 　論文は<a href="https://arxiv.org/abs/2410.06107">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2410.06107v1">こちら</a><br>
 <br>
 　現在のAI支援アプローチを超えるAIネイティブなソフトウェア開発のビジョンであるソフトウェアエンジニアリング3.0を提案。
@@ -1394,6 +1394,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
