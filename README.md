@@ -403,6 +403,18 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 単語埋め込みにおける強い性別ステレオタイプを実証している。
 </p>
 
+<h3>● Inductive Bias (帰納バイアス)</h3>
+学習時に遭遇したことのない入力に対する出力の予測を可能にするために用いる一連の仮定から生じるバイアスのこと
+
+<p>
+『The need for biases in learning generalizations.』(1980)<br>
+　(一般化の学習におけるバイアスの必要性)<br>
+　論文は<a href="https://www.cs.cmu.edu/~tom/pubs/NeedForBias_1980.pdf">こちら</a><br>
+<br>
+　機械学習における帰納的バイアスの概念を導入したもの。<br>
+「学習とは、過去の経験から一般化を行い、その経験に「関連する」新しい状況に対処する能力を伴う。新しい状況に対処するために必要な帰納的飛躍は、状況のある一般化を他の一般化よりも選択するための特定のバイアスがある場合にのみ可能となるように思われる。...」
+</p>
+
 <h3>●intent extraction (意図抽出), goal understanding (目標理解)</h3>
 <p>
 『Identifying User Goals from UI Trajectories』(2024)<br>
@@ -1433,3 +1445,4 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
