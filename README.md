@@ -78,8 +78,11 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 攻撃者が特定の例が訓練セットに含まれていたかどうかを判断する、密接に関連した問題であるメンバーシップ推論攻撃に関する基礎的な研究
 </p>
 
-<h3>● AI Alignment (AIアライメント)</h3>
+<h3>● AI Alignment (AIアライメント), RLHF, DPO</h3>
 ・人間の意図する目的や嗜好、倫理原則に合致させること<br>
+・RLHF: Reinforment Learning from Human Feedback<br>
+・DPO: Direct Preference Optimization<br>
+
 <p>
 『Direct preference optimization: Your language model is secretly a reward model』(2023)<br>
 　(ダイレクト選好最適化：あなたの言語モデルは密かに報酬モデルである)<br>
