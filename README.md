@@ -453,7 +453,7 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 </p>
 <p>
 『Neural redshift: Random networks are not random functions』(2024)<br>
-　()<br>
+　(Neural redshift: ランダムネットワークはランダム関数ではない)<br>
 　論文は<a href="https://arxiv.org/abs/2403.02241">こちら</a><br>
 <br>
 　ReLU活性化関数が単純性バイアスにとって重要であり、活性化関数がネットワークの帰納的バイアスに影響を与える最も重要な要素であることを示した。
@@ -1510,6 +1510,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
