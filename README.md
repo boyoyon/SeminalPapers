@@ -398,6 +398,14 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 　逆強化学習（IRL）は、熟練者のデモンストレーションを合理化する報酬関数の学習を目的とする、模倣学習のための強力な手法群である。従来のIRL手法には計算上の弱点があり、難しい強化学習（RL）問題をサブルーチンとして繰り返し解く必要があった。
 模倣学習というより容易な問題を、より困難なRL問題を繰り返し解く問題に縮約した。理論上は指数関数的な高速化を実現する。実際に、連続制御タスクにおいて従来技術を大幅に高速化できることが分かった。
 </p>
+<p>
+『Inverse Reinforcement Learning Meets Large Language Model Post-Training: Basics, Advances, and Opportunities』()<br>
+　(逆強化学習と大規模言語モデルの追加学習の融合：基礎、進展、そして機会)<br>
+　論文は<a href="https://arxiv.org/abs/2507.13158">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2507.13158v1">こちら</a><br>
+<br>
+　大規模言語モデル（LLM）の生成を、報酬関数が事前に定義されていないマルコフ決定過程（MDP\R）として捉え、逆強化学習（IRL）がLLMの学習後調整とアライメントにどのように適用されるかを包括的にレビューしたチュートリアル。
+RLHFやDPOといった手法がIRLの一種であることを示している。
+</p>
 
 <h3>● Knowledge Distillation (知識蒸留)</h3>
 <p>
@@ -1331,6 +1339,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
