@@ -404,8 +404,8 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 </p>
 
 <h3>● Inductive Bias (帰納バイアス)</h3>
-学習時に遭遇したことのない入力に対する出力の予測を可能にするために用いる一連の仮定から生じるバイアスのこと
-
+学習時に遭遇したことのない入力に対する出力の予測を可能にするために用いる一連の仮定から生じるバイアスのこと。<br>
+<br>
 <p>
 『The need for biases in learning generalizations.』(1980)<br>
 　(一般化の学習におけるバイアスの必要性)<br>
@@ -1445,4 +1445,5 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
