@@ -451,6 +451,13 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 グラフはエンティティ（ノード）とその関係（エッジ）を明示的に符号化できる一方で、多様な問題領域を表現するのに十分な柔軟性を保つことができるので, 関係構造の自然な表現を提供すると主張。
 記号的AIアプローチとコネクショニストAIアプローチの橋渡しにおいて、概念的に大きな進歩を遂げた。
 </p>
+<p>
+『Do We Always Need the Simplicity Bias? Looking for Optimal Inductive Biases in the Wild』(2025)<br>
+　(我々は常に単純性バイアスを必要とするのか？野生における最適な帰納的バイアスを探して)<br>
+　論文は<a href="https://arxiv.org/abs/2503.10065">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2503.10065v1">こちら</a><br>
+<br>
+ニューラルネットワークにとって単純性バイアスが普遍的に有益であるという広く信じられている見方を調査し、この研究は、カスタム活性化関数をメタ学習することで、帰納的バイアスを特定のタスクに適応させ、回帰および表形式データセットのパフォーマンスを向上させ、grokkingのような現象を排除できることを示している。
+</p>
 
 <h3>●intent extraction (意図抽出), goal understanding (目標理解)</h3>
 <p>
@@ -1489,6 +1496,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
