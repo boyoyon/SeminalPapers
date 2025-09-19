@@ -32,6 +32,15 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 (アンケート回答者が、自分の本心とは関係なく、ある発言に同意する傾向がある場合、同意バイアスまたは「イエス」バイアスとも呼ばれる黙認バイアスを示すと言われている)。異なるモデル、タスク、言語（英語、ドイツ語、ポーランド語）におけるLLMの黙認バイアスの存在を調査した。結果は、人間とは対照的に、LLMは同意か不同意かに関わらず、「いいえ」と答える傾向を示すことを示唆している。
 </p>
 
+<h3>● Active learning (能動学習)</h3>
+<p>
+『Active learning of inverse models with intrinsically motivated goal exploration in robots』(2013)<br>
+　(ロボットにおける内発的動機付けに基づく目標探索による逆モデルの能動学習)<br>
+　論文は<a href="https://arxiv.org/abs/1301.4862">こちら</a>, 要約は<a href="">こちら</a><br>
+<br>
+　高次元ロボティクススキルのレパートリーを学習する上での、能力進捗度に基づく目標選択の効率性を導入・実証した。
+</p>
+
 <h3>●Adversarial Vulnerabilities (敵対的脆弱性)</h3>
 <p>
 『Intriguing properties of neural networks』(2013)<br>
@@ -505,6 +514,17 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 <br>
 　インタラクションデータのみからユーザーの意図をモデル化し、知識グラフを用いてユーザーの嗜好の多様な側面を捉えるための基礎的な研究
 </p>
+
+<h3>● Intrinsic Motivation (内発的動機付け)</h3>
+<p>
+『Intrinsic Motivation Systems for Autonomous
+Mental Development』(2007)<br>
+　(自律的精神発達のための内発的動機付けシステム)<br>
+　論文は<a href="http://www.pyoudeyer.com/ims.pdf">こちら</a>, 要約は<a href="">こちら</a><br>
+<br>
+　エージェントが経験的学習進捗を最大化することによって内発的に動機付けられるという極めて重要な考え方を導入した。
+</p>
+
 
 <h3>● IRL: Inverse Reinforcement Learning (逆強化学習)</h3>
 <p>
@@ -1171,6 +1191,15 @@ AIエージェントが真の人間目標ではなく不完全な代理報酬を
 　科学的斬新さの代理として言語モデルの予測の失敗を利用する
 </p>
 
+<h3>● Self-awareness (自己認識)</h3>
+<p>
+『Agentic Knowledgeable Self-awareness』()<br>
+　(エージェント的で知識のある自己認識)<br>
+　論文は<a href="https://arxiv.org/abs/2504.03553">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2504.03553v2">こちら</a><br>
+<br>
+　大規模言語モデルエージェントが状況的自己認識に基づいて知識の利用を自律的に調整できるようにするデータ駆動型フレームワーク。エージェントは直接行動するか、内省するか、外部知識を参照するかを動的に選択できるようになる。これにより呼び出される知識の量を大幅に削減する。
+</p>
+
 <h3>● Self-Play(自己対局), Without human knowledge (人間知識なし)</h3>
 <p>
 『Mastering the game of go without human knowledge』(2017)<br>
@@ -1584,6 +1613,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
