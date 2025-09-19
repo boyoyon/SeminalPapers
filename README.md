@@ -1305,8 +1305,16 @@ ResNetの重要な前身。<br>
 <br>
 「ワールドモデル」の概念を定義した初期の研究の一つ。
 </p>
+<p>
+『General agents need world models』()<br>
+　(汎用エージェントは世界モデルを必要とする)<br>
+　論文は<a href="https://arxiv.org/abs/2506.01622">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2506.01622v2">こちら</a><br>
+<br>
+　Google DeepMindによるこの研究は、多段階の目標指向タスクを確実に達成できるあらゆる人工エージェントが、その環境の正確な予測モデルを学習している必要があることを形式的に証明している。
+</p>
     </body>
 </html>
+
 
 
 
