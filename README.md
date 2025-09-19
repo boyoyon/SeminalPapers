@@ -452,6 +452,13 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 記号的AIアプローチとコネクショニストAIアプローチの橋渡しにおいて、概念的に大きな進歩を遂げた。
 </p>
 <p>
+『Neural redshift: Random networks are not random functions』(2024)<br>
+　()<br>
+　論文は<a href="https://arxiv.org/abs/2403.02241">こちら</a><br>
+<br>
+　ReLU活性化関数が単純性バイアスにとって重要であり、活性化関数がネットワークの帰納的バイアスに影響を与える最も重要な要素であることを示した。
+</p>
+<p>
 『Do We Always Need the Simplicity Bias? Looking for Optimal Inductive Biases in the Wild』(2025)<br>
 　(我々は常に単純性バイアスを必要とするのか？野生における最適な帰納的バイアスを探して)<br>
 　論文は<a href="https://arxiv.org/abs/2503.10065">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2503.10065v1">こちら</a><br>
@@ -1503,6 +1510,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
