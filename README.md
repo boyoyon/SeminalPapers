@@ -658,6 +658,49 @@ PINNsは後に解析的微分ではなくバックプロパゲーションを用
 現代の物理情報ニューラルネットワーク (PINN) フレームワークを導入した
 </p>
 
+<h3>●Policy Optimization(方策最適化), GRPO, PPO, A3C, CPI</h3>
+
+<p>
+『DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models』(2024)<br>
+　(DeepSeekMath: オープン言語モデルにおける数学的推論の限界を押し広げる)<br>
+　論文は<a href="https://arxiv.org/abs/2402.03300">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2402.03300v3">こちら</a><br>
+<br>
+　近接方策最適化（PPO）に代わる、メモリ効率の高いグループ相対方策最適化（GRPO）を導入した。
+</p>
+
+<p>
+『Proximal policy optimization algorithms』(2017)<br>
+　(近接方策最適化アルゴリズム)<br>
+　論文は<ahref="https://arxiv.org/abs/1707.06347">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1707.06347v2">こちら</a><br>
+<br>
+　近接方策最適化（PPO）を導入した。
+</p>
+
+<p>
+『Trust region policy optimization』(2015)<br>
+　(信頼領域方策最適化)<br>
+　論文は<a href="https://arxiv.org/abs/1502.05477">こちら</a>, 要約は<a href="https://www.alphaxiv.org/overview/1502.05477v5">こちら</a><br>
+<br>
+PPOの直接の前身であるTrust Region Policy Optimization（TRPO）を
+導入した。
+</p>
+
+<p>
+『Asynchronous methods for deep reinforcement learning』(2016)<br>
+　(深層強化学習における非同期手法)<br>
+　論文は<a href="https://arxiv.org/abs/1602.01783">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1602.01783v2">こちら</a><br>
+<br>
+主要なオンライン方策勾配手法であるAsynchronous Advantage Actor-Critic (A3C) が提案された。
+</p>
+
+<p>
+『Approximately optimal approximate reinforcement learning』(2002)<br>
+　(近似最適な近似強化学習)<br>
+　論文は<a href="https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/KakadeLangford-icml2002.pdf">こちら</a><br>
+<br>
+　PPOが最適化する代理目的関数の理論的基盤を提供する保守的方策反復 (CPI) を導入した。
+</p>
+
 <h3>● POMDPs: Partially Observable Markov Decision Proces (部分観測マルコフ決定過程)</h3>
 <p>
 『Planning and acting in partially observable stochastic domains』(1998)<br>
@@ -1196,6 +1239,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
