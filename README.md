@@ -1179,6 +1179,23 @@ ResNetの重要な前身。<br>
 ファインチューニングされたモデルの重みと事前学習済みの初期化との差が、タスク固有の知識をエンコードするベクトルとして扱えることを示している。   
 </p>
 
+<h3>● Technical Debt (技術的負債)</h3>
+<p>
+『Hidden technical debt in Machine learning systems』(2015)<br>
+　(機械学習システムにおける隠れた技術的負債)<br>
+　論文は<a href="https://proceedings.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf">こちら</a><br>
+<br>
+技術的負債というソフトウェアエンジニアリングのフレームワークを用いることで、現実世界の機械学習システムでは、莫大な継続的な保守コストが発生することを示した。
+</p>
+
+<p>
+『Towards AI-Native Software Engineering (SE 3.0): A Vision and a Challenge Roadmap』(2024)<br>
+　()<br>
+　論文は<a href="https://arxiv.org/abs/2410.06107">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2410.06107v1">こちら</a><br>
+<br>
+　現在のAI支援アプローチを超えるAIネイティブなソフトウェア開発のビジョンであるソフトウェアエンジニアリング3.0を提案。
+</p>
+
 <h3>● ToM: Theory of Mind (心の理論)</h3>
 <p>
 『Does the chimpanzee have a theory of mind? 』(1978)<br>
@@ -1377,6 +1394,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
