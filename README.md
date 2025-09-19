@@ -323,6 +323,15 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 <br>
 　敵対的生成ネットワーク（GAN）アーキテクチャを導入した基礎的な論文
 </p>
+<p>
+『The GAN is dead; long live the GAN! A Modern GAN Baseline』(2025)<br>
+　(GANは死んだ。GAN万歳！現代のGANベースライン)<br>
+※ タイトルは英語の古い慣用句「The king is dead; long live the king!（王は死んだ、王万歳！）」をもじったもの。前の王が亡くなった瞬間に新しい王が即位することを意味し、王位の継続性を強調する表現。<br>
+　論文は<a href="https://arxiv.org/abs/2501.05441">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2501.05441v1">こちら</a><br>
+<br>
+アドホックなトリックをすべて捨て、一般的なGANで使用されている時代遅れのバックボーンを現代的なアーキテクチャに置き換えた。
+FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上回り、最先端の GAN や拡散モデルと比べても遜色ない。
+</p>
 
 <h3>● GNN: Graph Neural Networks</h3>
 <p>
@@ -1415,6 +1424,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
