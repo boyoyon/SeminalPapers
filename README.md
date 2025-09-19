@@ -872,6 +872,38 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 報酬ハッキングは、安全でアラインされた(=人間の価値観に沿った) 人工知能システムを開発する上での最も重要な課題の一つである。
 AIエージェントが真の人間目標ではなく不完全な代理報酬を最適化すると、代理スコアは高くなるものの、実際の目標においては壊滅的に失敗する予期せぬ行動を発見する可能性がある。報酬ハッキングがいつ、なぜ発生するのかを理解するための初の形式的な数学的フレームワークを提供し、逸話的な証拠を超えて厳密な理論分析を行っている。
 </p>
+<p>
+『The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models』(2022)<br>
+　(報酬誤設定の影響：乖離モデルの把握と改善)<br>
+　論文は<a href="https://arxiv.org/abs/2201.03544">こちら</a><br>
+<br>
+報酬ハッキングに特化して焦点を当てた初の査読済み研究であり、その現象の実証研究を提示していると指摘している。
+</p>
+
+<p>
+『Reinforcement learning with a corrupted reward channel』(2017)<br>
+　(汚染された報酬チャネルを持つ強化学習)<br>
+　論文は<a href="https://arxiv.org/abs/1705.08417">こちら</a><br>
+<br>
+　エージェントが破損した報酬信号を受け取る状況をモデル化する形式モデルであるCorrupt Reward Markov Decision Process
+（CRMDP）を導入した。
+</p>
+
+<p>
+『Consequences of misaligned AI』(2021)<br>
+　(不整合(人間の価値観に沿わない)AIの帰結)<br>
+　論文は<a href="https://arxiv.org/abs/2102.03896">こちら</a><br>
+<br>
+　代理報酬関数が真の報酬の持つ特徴の一部のみを使用する場合に何が起こるかを検証した。
+</p>
+
+<p>
+『Specification gaming: the flip side of AI ingenuity』(2020)<br>
+　(仕様の悪用：AIの創意工夫の負の側面)<br>
+　ブログは<a href="https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/">こちら</a><br>
+<br>
+　（「仕様ゲーム」と称される）報酬ハッキングの豊富な事例を広範に提供している
+</p>
 
 <h3>● Scaling Law (べき則)</h3>
 <p>
@@ -1259,6 +1291,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
