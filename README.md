@@ -1060,6 +1060,24 @@ AIエージェントが真の人間目標ではなく不完全な代理報酬を
 物体認識において、深層ニューラルネットワークが物体の全体的な形状ではなく、その質感に基づいて分類することを学習することで、しばしば「近道」を取ってしまうことを示している (質感バイアス)
 </p>
 
+<h3>● Small Data</h3>
+<p>
+『Dark, Beyond Deep: A Paradigm Shift to Cognitive AI with Humanlike Common Sense』(2020)<br>
+　(深層のその先、そして深遠なる闇へ：人間のような常識を備えた認知的AIへのパラダイムシフト)<br>
+　論文は<a href="https://arxiv.org/abs/2004.09044">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2004.09044v1">こちら</a><br>
+<br>
+現在の「小さなタスクのためのビッグデータ」アプローチから、人間のような常識推論を重視する「大きなタスクのための小さなデータ」フレームワークへの移行を説得力のある議論で提案
+</p>
+
+
+<p>
+『Escaping the Big Data Paradigm with Compact Transformers』(2021)<br>
+　(コンパクトトランスフォーマーによるビッグデータパラダイムからの脱却)<br>
+　論文は<a href="https://arxiv.org/abs/2104.05704">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2104.05704v4">こちら</a><br>
+<br>
+Transformerベースのモデルが小さなデータセットでもスクラッチから効果的に学習でき、最先端のCNNと同等またはそれ以上の性能を達成できることを実証した。
+</p>
+
 <h3>● Softmax Collapse</h3>
 <p>
 『Grokking at the Edge of Numerical Stability』(2025)<br>
@@ -1359,6 +1377,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
