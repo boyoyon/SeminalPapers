@@ -375,7 +375,16 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 
 <h3>● IRL: Inverse Reinforcement Learning (逆強化学習)</h3>
 <p>
-エキスパートの行動を観察し, エキスパートは何を報酬として, どう行動するか(Policy)を学習する。<br>
+エキスパートの行動を観察し, エキスパートは何を報酬として, どう行動するか(Policy)を学習する。
+</p>
+<p>
+『Algorithms for inverse reinforcement learning』(2000)<br>
+　(逆強化学習のアルゴリズム)<br>
+　論文は<a href="https://ai.stanford.edu/~ang/papers/icml00-irl.pdf">こちら</a><br>
+<br>
+　IRLの基礎論文。
+</p>
+<p>
 『 Generative adversarial imitation learning.』(2016)<br>
 　論文は<a href="https://arxiv.org/abs/1606.03476">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1606.03476v1">こちら</a><br>
 <br>
@@ -1314,6 +1323,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
