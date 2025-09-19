@@ -635,6 +635,27 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 
 </p>
 
+<h3>● Mamba</h3>
+<p>
+『Mamba: Linear-Time Sequence Modeling with Selective State Spaces』(2023)<br>
+　(Mamba: 選択的状態空間を用いた線形時間シーケンスモデリング)<br>
+　論文は<a href="https://arxiv.org/abs/2312.00752">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2312.00752v2">こちら</a><br>
+<br>
+　選択的状態空間モデル（SSM）を導入することで、シーケンス長に対して線形にスケーリングしながらTransformerの性能に匹敵する線形時間シーケンスモデルを構築した。
+</p>
+
+<p>
+『Are transformers effective for time series forecasting ?』(2022)<br>
+　(トランスフォーマーは時系列予測に効果的か？)<br>
+　論文は<a href="https://arxiv.org/abs/2205.13504">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2205.13504v3">こちら</a><br>
+<br>
+　時系列予測における標準的なTransformerモデルの有効性に疑問を呈することで、Mamba 研究にとって極めて重要な動機付けを提供した。<br>
+・最近、長期時系列予測 (LTSF) タスクに対する Transformer ベースのソリューションが急増している。<br>
+・しかし, 順列不変自己注意メカニズムの性質上、時間的情報の損失が避けられない。<br>
+・この主張を検証するために、比較として LTSF-Linear という非常に単純な 1 層線形モデルを導入した。<br>
+・実験結果から、LTSF-Linearは既存の洗練されたTransformerベースのLTSFモデルをあらゆるケースで、しかも多くの場合大幅に上回る驚くべき性能を示すことが示された。
+</p>
+
 <h3>● Measurement Semantics (計測意味論)</h3>
 <p>
 『Nonlinear Modeling and Forecasting』(1992)<br>
@@ -1556,6 +1577,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
