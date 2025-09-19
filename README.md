@@ -719,6 +719,14 @@ PPOの直接の前身であるTrust Region Policy Optimization（TRPO）を
 あるタスクで最初に学習されたニューラルネットワークが、異なるデータ分布や目的（あるいはその両方）で学習されると、新しいタスクにおいてランダムに初期化されたネットワークよりもパフォーマンスが低下する。<br>
 → AIモデルを継続学習する場合, 課題になる。
 </p>
+<p>
+『What Can Grokking Teach Us About Learning Under Nonstationarity?』(2025<br>
+　(非定常性下での学習についてグロッキングから何が学べるでしょうか?)<br>
+　論文は<a href="https://arxiv.org/abs/2507.20057">こちら</a><br>
+<br>
+　Grokkingを加速することができるなら, primacy bias に打ち勝って継続的に学習できる
+</p>
+<img src="images/primacy_bias.png">
 
 <h3>● Priming</h3>
 <p>
@@ -1251,6 +1259,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
