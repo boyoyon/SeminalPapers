@@ -1161,6 +1161,26 @@ ResNetの重要な前身。<br>
 ファインチューニングされたモデルの重みと事前学習済みの初期化との差が、タスク固有の知識をエンコードするベクトルとして扱えることを示している。   
 </p>
 
+<h3>● ToM: Theory of Mind (心の理論)</h3>
+<p>
+『Does the chimpanzee have a theory of mind? 』(1978)<br>
+　(チンパンジーは心の理論を持つか?)<br>
+　論文は Google Scholarで検索すると pdf に辿り着ける<br>
+<br>
+　「心の理論」(ToM) の概念を導入した画期的な論文
+</p>
+
+『Towards Cognitive Synergy in LLM-Based Multi-Agent Systems: Integrating Theory of Mind and Critical Evaluation』(2025)<br>
+　(LLMベースのマルチエージェントシステムにおける認知的相乗効果に向けて：心の理論と批判的評価の統合)<br>
+<br>
+　論文は<a href="https://arxiv.org/abs/2507.21969">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2507.21969v1">こちら</a><br>
+<br>
+
+現在のLLMベースのマルチエージェントシステムにおける根本的な限界、すなわち、人間のような協調的知能を達成できないという問題に取り組んでいます。
+
+LLMベースのマルチエージェントシステムにおける広範な研究に基づいており、動的な心の理論（ToM）と構造化された批判的評価という2つの重要な認知メカニズムを導入しています。
+</p>
+
 <h3>● ToT: Tree of Thoughts (思考ツリー)</h3>
 <p>
 『Tree of thoughts: Deliberate problem solving with large language models』(2023)<br>
@@ -1339,6 +1359,7 @@ ResNetの重要な前身。<br>
 </p>
     </body>
 </html>
+
 
 
 
