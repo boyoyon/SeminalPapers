@@ -82,7 +82,7 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 ・人間の意図する目的や嗜好、倫理原則に合致させること<br>
 ・RLHF: Reinforment Learning from Human Feedback<br>
 ・DPO: Direct Preference Optimization<br>
-
+<br>
 <p>
 『Direct preference optimization: Your language model is secretly a reward model』(2023)<br>
 　(ダイレクト選好最適化：あなたの言語モデルは密かに報酬モデルである)<br>
@@ -1426,6 +1426,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
