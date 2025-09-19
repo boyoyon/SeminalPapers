@@ -894,6 +894,16 @@ PPOの直接の前身であるTrust Region Policy Optimization（TRPO）を
 LLM, AIエージェントの社会などで同様の現象が研究されている。
 </p>
 
+<h3>● Prospective Learning (展望学習)</h3>
+<p>
+『Prospective Learning: Principled Extrapolation to the Future』(2022)<br>
+　(展望学習：未来への原理に基づいた外挿)<br>
+　論文は<a href="https://arxiv.org/abs/2201.07372">こちら</a><br>
+<br>
+　従来、機械学習は、未来の分布が過去と同一であるか、あるいは敵対的に変化するという仮定の下で評価されることが多い。しかし、これらの仮定は、現実世界の多くの問題に対して、楽観的すぎるか悲観的すぎる可能性がある。<br>
+前向き学習を研究することで、自然知能と人工知能の両方における現在の厄介な課題に対するより深い洞察と解決策が得られるであろう･･･
+</p>
+
 <h3>● Proxy Token</h3>
 <p>
 『Generalized Decoupled Learning for Enhancing Open-Vocabulary Dense Perception』(2025)<br>
@@ -1536,6 +1546,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
