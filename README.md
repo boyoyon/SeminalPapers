@@ -188,7 +188,6 @@ Vision Transformer (ViT) のMLPブロック内の特定の「レジスタニュ�
 　人間や動物は、例がランダムに提示されるのではなく、意味のある順序で整理され、徐々に多くの概念、そして徐々に複雑な概念を示すように提示されると、はるかによく学習する。<br>
 このような学習戦略を機械学習の文脈で定式化し、「カリキュラム学習」と呼ぶ。
 </p>
-<h3>●</h3>
 <p>
 『Intrinsically Motivated Goal Exploration Processes with Automatic Curriculum Learning』(2017)<br>
 　(自動カリキュラム学習による内発的動機づけ目標探索プロセス)<br>
@@ -1585,6 +1584,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
