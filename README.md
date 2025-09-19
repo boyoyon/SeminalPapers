@@ -722,6 +722,24 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
     ニューラルネットワークに外部メモリを付加することに関する画期的な論文<br>
 </p>
 
+<h3>● NFL: No Free Lunch Theorem (ノーフリーランチ定理)</h3>
+あらゆる問題に普遍的に通用する万能なアルゴリズムは存在しない,という定理。
+<p>
+『The lack of a priori distinctions between learning algorithms』(1996)<br>
+　(学習アルゴリズム間の先験的な区別の欠如)<br>
+　論文は Google Scholar で検索すると pdf に辿り着ける<br>
+<br>
+　教師あり学習における「ノーフリーランチ」 (NFL) 定理の基礎論文
+</p>
+
+<p>
+『The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning』(2023)<br>
+　(ノーフリーランチ定理、コルモゴロフ複雑性、そして機械学習における帰納バイアスの役割)<br>
+　論文は<a href="https://arxiv.org/abs/2304.05366">こちら</a>, 要約は<a href="https://arxiv.org/abs/2304.05366">こちら</a><br>
+<br>
+　「No Free Lunch」定理が実世界の低複雑度データには適用されないことを示し、現代のニューラルネットワークが固有の「単純性バイアス」を持っており、それによって多様なタスクやデータスケールにわたる広範な汎化が可能になることを示した。
+</p>
+
 <h3>● NVS: Novel view synthesis (新規視点合成), NeRF:  Neural Radiance Fields</h3>
 <p>
 『NeRF: Representing scenes as neural radiance fields for view synthesis』(2020)<br>
@@ -1510,6 +1528,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
