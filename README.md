@@ -625,15 +625,6 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 ハイパーパラメータ最適化における強力なベースラインとしてランダムサーチを確立した。
 </p>
 
-<h3>● NeRF</h3>
-<p>
-『NeRF: Representing scenes as neural radiance fields for view synthesis』(2020)<br>
-　論文は<a href="https://arxiv.org/abs/2003.08934">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2003.08934v2">こちら</a>
-</p>
-<p>
-　Neural Radiance Fields (NeRF)を導入した論文
-</p>
-
 <h3>● Neural Collapse </h3>
 <p>
 『Prevalence of neural collapse during the terminal phase of deep learning training』(2020)<br>
@@ -678,6 +669,15 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 　論文は<a href="https://arxiv.org/abs/1410.5401">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1410.5401v2">こちら</a><br>
 <br>
     ニューラルネットワークに外部メモリを付加することに関する画期的な論文<br>
+</p>
+
+<h3>● NVS: Novel view synthesis (新規視点合成), NeRF:  Neural Radiance Fields</h3>
+<p>
+『NeRF: Representing scenes as neural radiance fields for view synthesis』(2020)<br>
+　論文は<a href="https://arxiv.org/abs/2003.08934">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2003.08934v2">こちら</a>
+</p>
+<p>
+　ニューラルラディアンスフィールドを導入し、新規視点合成における支配的なパラダイムとなった画期的な論文。
 </p>
 
 <h3>● Over-Squashing</h3>
@@ -1445,5 +1445,6 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
