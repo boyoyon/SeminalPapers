@@ -510,6 +510,13 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 　一般化の概念は、統計学習理論で定義された古典的な概念から離れ、領域外一般化（OODG）を重視する方向に移行してきました。容易から困難へと一般化が進む中で、難易度の進行が暗黙的に領域シフトの方向を規定するという考えがますます重要になっています。この新たな枠組みは、文献では長さ外挿、論理的外挿、アルゴリズム的外挿など、様々な名称で登場していますが、正式な定義は存在しません。私たちは、統一的なテーマは帰納法であると主張します。<br>
 学習者の帰納的バイアスによっても好まれる仮説の交差点･･･
 </p>
+<p>
+『Scaling Agents via Continual Pre-training』(2025)<br>
+　(継続的事前学習によるエージェントのスケーリング)<br>
+　論文は<a href="https://arxiv.org/abs/2509.13310">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.13310v1">こちら</a><br>
+<br>
+　ファインチューニング前に大規模言語モデルにエージェント的な帰納バイアスを付与する中間トレーニング段階であるAgentic Continual Pre-training（Agentic CPT）を開発した。
+</p>
 
 <h3>●intent extraction (意図抽出), goal understanding (目標理解)</h3>
 <p>
@@ -1675,6 +1682,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
