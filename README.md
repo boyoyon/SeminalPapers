@@ -405,6 +405,18 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 　アテンション機構が組み込みの解釈性を提供するGNNアーキテクチャであるGraph Attention Networks（GAT）を導入した。
 </p>
 
+<h3>● Goal-Conditioned Reinforcement Learning (目標条件付き強化学習)</h3>
+<p>
+『Hindsight experience replay』(2017)<br>
+　(後知恵経験再生)<br>
+　論文は<a href="https://arxiv.org/abs/1707.01495">こちら</a>, 要約は<a href="">こちら</a><br>
+<br>
+　目標条件付き強化学習において非常に影響力のある手法である Hindsight Experience Replay (HER) を導入した。<br>
+・疎な報酬への対応は、強化学習 (RL) における最大の課題の 1 つある。本研究では、Hindsight Experience Replay という新しい手法を導入し, 疎でバイナリの報酬からサンプル効率の高い学習を可能にし、複雑な報酬エンジニアリングの必要性を回避する。<br>
+・任意のオフポリシー RL アルゴリズムと組み合わせることができ、暗黙のカリキュラムの一形態と見なすことができる。<br>
+・ロボットアームで物体を操作するタスクでこのアプローチを実証する。
+</p>
+
 <h3>● Grokking</h3>
 <p>
 『Grokking: Generalization beyond overfitting on small algorithmic datasets』(2022)<br>
@@ -1622,6 +1634,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
