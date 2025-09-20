@@ -204,6 +204,17 @@ Vision Transformer (ViT) のMLPブロック内の特定の「レジスタニュ�
 <br>
 　内発的動機付け目標探索プロセス（IMGEP）を形式化し、挑戦的なシミュレーション環境や現実世界のロボット環境で、ネストされたツール使用を含む多様で複雑なスキルを自律エージェントが発見できるようにするアーキテクチャであるActive Model Babbling（AMB）を導入した。AMBは、オブジェクト中心のモジュール性と能力進捗に基づいた内発的動機付けを活用することで、自動的な学習カリキュラムを生成する。
 </p>
+<p>
+『Hindsight experience replay』(2017)<br>
+　(後知恵経験再生)<br>
+　論文は<a href="https://arxiv.org/abs/1707.01495">こちら</a>, 要約は<a href="">こちら</a><br>
+<br>
+　目標条件付き強化学習(Goal-Conditioned Reinforcement Learning)において非常に影響力のある手法である Hindsight Experience Replay (HER) を導入した。<br>
+・疎な報酬への対応は、強化学習 (RL) における最大の課題の 1 つある。<br>
+・Hindsight Experience Replay という新しい手法を導入し, 疎でバイナリの報酬からサンプル効率の高い学習を可能にし、複雑な報酬エンジニアリングの必要性を回避する。<br>
+・任意のオフポリシー RL アルゴリズムと組み合わせることができ、暗黙のカリキュラムの一形態と見なすことができる。<br>
+・ロボットアームで物体を操作するタスクでこのアプローチを実証する。
+</p>
 
 <h3>● Catastrophic Forgetting (破局的忘却)</h3>
 　(問題の形式化)
@@ -403,18 +414,6 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 　論文は<a href="https://arxiv.org/abs/1710.10903">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1710.10903v3">こちら</a><br>
 <br>
 　アテンション機構が組み込みの解釈性を提供するGNNアーキテクチャであるGraph Attention Networks（GAT）を導入した。
-</p>
-
-<h3>● Goal-Conditioned Reinforcement Learning (目標条件付き強化学習)</h3>
-<p>
-『Hindsight experience replay』(2017)<br>
-　(後知恵経験再生)<br>
-　論文は<a href="https://arxiv.org/abs/1707.01495">こちら</a>, 要約は<a href="">こちら</a><br>
-<br>
-　目標条件付き強化学習において非常に影響力のある手法である Hindsight Experience Replay (HER) を導入した。<br>
-・疎な報酬への対応は、強化学習 (RL) における最大の課題の 1 つある。本研究では、Hindsight Experience Replay という新しい手法を導入し, 疎でバイナリの報酬からサンプル効率の高い学習を可能にし、複雑な報酬エンジニアリングの必要性を回避する。<br>
-・任意のオフポリシー RL アルゴリズムと組み合わせることができ、暗黙のカリキュラムの一形態と見なすことができる。<br>
-・ロボットアームで物体を操作するタスクでこのアプローチを実証する。
 </p>
 
 <h3>● Grokking</h3>
@@ -1634,6 +1633,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
