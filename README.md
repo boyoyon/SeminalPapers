@@ -36,7 +36,7 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 <p>
 『Active learning of inverse models with intrinsically motivated goal exploration in robots』(2013)<br>
 　(ロボットにおける内発的動機付けに基づく目標探索による逆モデルの能動学習)<br>
-　論文は<a href="https://arxiv.org/abs/1301.4862">こちら</a>, 要約は<a href="">こちら</a><br>
+　論文は<a href="https://arxiv.org/abs/1301.4862">こちら</a><br>
 <br>
 　高次元ロボティクススキルのレパートリーを学習する上での、能力進捗度に基づく目標選択の効率性を導入・実証した。
 </p>
@@ -520,7 +520,7 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 『Intrinsic Motivation Systems for Autonomous
 Mental Development』(2007)<br>
 　(自律的精神発達のための内発的動機付けシステム)<br>
-　論文は<a href="http://www.pyoudeyer.com/ims.pdf">こちら</a>, 要約は<a href="">こちら</a><br>
+　論文は<a href="http://www.pyoudeyer.com/ims.pdf">こちら</a><br>
 <br>
 　エージェントが経験的学習進捗を最大化することによって内発的に動機付けられるという極めて重要な考え方を導入した。
 </p>
@@ -1613,6 +1613,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
