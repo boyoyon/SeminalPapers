@@ -1243,6 +1243,25 @@ AIエージェントが真の人間目標ではなく不完全な代理報酬を
 　大規模言語モデルエージェントが状況的自己認識に基づいて知識の利用を自律的に調整できるようにするデータ駆動型フレームワーク。エージェントは直接行動するか、内省するか、外部知識を参照するかを動的に選択できるようになる。これにより呼び出される知識の量を大幅に削減する。
 </p>
 
+<h3>● self-consistency (自己無撞着性, 自己整合性) </h3>
+<p>
+『Self-consistency improves chain of thought reasoning in language models』(2022)<br>
+　(自己整合性が言語モデルにおける思考連鎖推論を改善する)<br>
+　論文は<a href="https://arxiv.org/abs/2203.11171">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2203.11171v4">こちら</a><br>
+<br>
+　複数の推論経路をサンプリングし、多数決を取ることで推論を改善する「自己無撞着性」（self-consistency）の概念を導入した。<br>
+・CoTプロンプティングは、最終的な回答を出す前に中間的な推論ステップを生成することで、LLMが多段階推論問題を解決できるようになった。<br>
+・しかし、標準的なCoTアプローチは貪欲デコーディングに依存しており、最も確率の高い単一の推論パスのみを選択するため、最適ではない解に陥る可能性があった。
+</p>
+
+<p>
+『Internalizing Self-Consistency in Language Models: Multi-Agent Consensus Alignment』(2025)<br>
+　(言語モデルにおける自己一貫性の内在化：マルチエージェント合意整合)<br>
+　論文は<a href="https://arxiv.org/abs/2509.15172">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.15172v1">こちら</a><br>
+<br>
+　単一エージェント内の多数決(Single-agent sampling consistency)を多エージェント議論合意(Multi-agent debate agreement)に拡張した。
+</p>
+
 <h3>● Self-Play(自己対局), Without human knowledge (人間知識なし)</h3>
 <p>
 『Mastering the game of go without human knowledge』(2017)<br>
@@ -1656,6 +1675,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
