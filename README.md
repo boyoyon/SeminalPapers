@@ -644,7 +644,6 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 「中間を見失う(lost in the middle)」現象の経験的証拠を提供し、原理に基づいたコンテンツ選択がLLM固有の限界をどのように克服できるかを示している。
 </p>
 
-
 <h3>● LTH: Lottery Ticket Hyposis (宝くじ仮説)</h3>
 <p>
 『The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks』(2019)<br>
@@ -787,6 +786,16 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 　論文は<a href="https://arxiv.org/abs/2304.05366">こちら</a>, 要約は<a href="https://arxiv.org/abs/2304.05366">こちら</a><br>
 <br>
 　「No Free Lunch」定理が実世界の低複雑度データには適用されないことを示し、現代のニューラルネットワークが固有の「単純性バイアス」を持っており、それによって多様なタスクやデータスケールにわたる広範な汎化が可能になることを示した。
+</p>
+
+<h3>● Novelty Search (新規性探索)</h3>
+<p>
+『Abandoning Objectives: Evolution through the
+Search for Novelty Alone』(2011)<br>
+　(目標の放棄：新規性の探索のみによる進化)<br>
+　論文は<a href="https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehman_ecj11.pdf">こちら</a><br>
+<br>
+　外部の目的関数なしに探索を推進する、関連する重要なアルゴリズムであるノベルティサーチを導入した。
 </p>
 
 <h3>● NTK: Neural Tanget Kernel</h3>
@@ -1613,6 +1622,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
