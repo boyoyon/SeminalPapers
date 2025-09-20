@@ -1533,6 +1533,22 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 　　
 </p>
 
+<h3>● Unified Tokenizer (統合トークナイザー)</h3>
+<p>
+『UniTok: A Unified Tokenizer for Visual Generation and Understanding』(2025)<br>
+　(UniTok: 視覚生成および理解のための統合トークナイザー)<br>
+　論文は<a href="https://arxiv.org/abs/2502.20321">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2502.20321v2">こちら</a><br>
+<br>
+　画像に限定された統一トークナイザーへの重要な最近の試み
+</p>
+<p>
+『AToken: A Unified Tokenizer for Vision』(2025)<br>
+　(AToken: 統一された視覚トークナイザー)<br>
+　論文は<a href="https://arxiv.org/abs/2509.14476">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.14476v1">こちら</a><br>
+<br>
+　再構成と理解の両タスク、および画像、動画、3Dといったモダリティを統一する初のトークナイザー
+</p>
+
 <h3>●VAE: Variational Auto Encoder</h3>
 <p>
 『Auto-Encoding Variational Bayes』(2013)<br>
@@ -1682,6 +1698,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
