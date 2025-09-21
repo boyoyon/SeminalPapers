@@ -764,6 +764,13 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 　汎化が「スプリアス状態」という明確な中間段階を経て出現することを示している。
 </p>
 <p>
+『In search of dispersed memories: Generative diffusion models are associative memory networks.』(2023)<br>
+　(分散記憶の探求：生成拡散モデルは連想記憶ネットワークである)<br>
+　論文は<a href="https://arxiv.org/abs/2309.17290">こちら</a><br>
+<br>
+　拡散モデルと連想記憶との間の関連性を明示的に確立した。また、拡散モデルにおける対数確率が、密な連想記憶のエネルギー関数として解釈できることを初めて観測した。
+</p>
+<p>
 『Dynamical regimes of diffusion models』(2024)<br>
 　(拡散モデルの動的レジーム)<br>
 　論文は<a href="https://arxiv.org/abs/2402.18491">こちら</a><br>
@@ -1801,6 +1808,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
