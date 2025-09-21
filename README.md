@@ -1801,6 +1801,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <h3>● World Model</h3>
 <a href="https://gigazine.net/news/20250921-world-models/">GIGAZINE</a>で紹介されていた記事<br>
 <a href="https://www.quantamagazine.org/world-models-an-old-idea-in-ai-mount-a-comeback-20250902/">AIにおける古い考え方「世界モデル」が復活</a>
+「人工知能」という言葉が生まれる12年前の1943年、29歳のスコットランド人心理学者ケネス・クレイクが影響力のある論文を出版した。彼は「生物が頭の中に外部現実の『小規模モデル』を持っているとすれば、様々な選択肢を試し、どれが最善かを結論付けることができる。そしてあらゆる面で、より完全で、より安全で、より有能な方法で反応することができる」と考えた。クレイクのメンタルモデルまたはシミュレーションの概念は、「認知革命」の先駆けとなった。
 <p>
 『Making the world differentiable』(1990)<br>
 　論文は<a href="https://people.idsia.ch/~juergen/FKI-126-90_(revised)bw_ocr.pdf">こちら</a><br>
@@ -1836,45 +1837,3 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
