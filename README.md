@@ -86,6 +86,8 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 
 <h3>● AI Alignment (AIアライメント), RLHF, DPO</h3>
 ・人間の意図する目的や嗜好、倫理原則に合致させること<br>
+　<a href="https://intelligence.org/files/CFAI.pdf">Creating Friendly AI 1.0 (2001)</a>で概念が提唱され<br>
+　<a href="https://intelligence.org/files/obsolete/TechnicalAgenda%5Bold%5D.pdf">Aligning Superintelligence with Human Interests:A Technical Research Agenda (2014)</a>でAI Alignment という用語が提唱された。<br>
 ・RLHF: Reinforment Learning from Human Feedback<br>
 ・DPO: Direct Preference Optimization<br>
 <br>
@@ -1832,6 +1834,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
