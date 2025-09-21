@@ -1799,6 +1799,8 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
 
 <h3>● World Model</h3>
+<a href="https://gigazine.net/news/20250921-world-models/">GIGAZINE</a>で紹介されていた記事<br>
+<a href="https://www.quantamagazine.org/world-models-an-old-idea-in-ai-mount-a-comeback-20250902/">AIにおける古い考え方「世界モデル」が復活</a>
 <p>
 『Making the world differentiable』(1990)<br>
 　論文は<a href="https://people.idsia.ch/~juergen/FKI-126-90_(revised)bw_ocr.pdf">こちら</a><br>
@@ -1834,6 +1836,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
