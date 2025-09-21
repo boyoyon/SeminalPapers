@@ -755,6 +755,29 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 観測の意味がエージェントの内部モデルをどのように更新するかによって決定されるという考えを確立。
 </p>
 
+<h3>● Memorization to Generalization (記憶(暗記)から汎化へ), Associative Memory (連想記憶)</h3>
+<p>
+『Memorization to Generalization: Emergence of Diffusion Models from Associative Memory』(2025)<br>
+　(記憶から汎化へ：連想記憶からの拡散モデルの創発)<br>
+　論文は<a href="https://arxiv.org/abs/2505.21777">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.21777v1">こちら</a><br>
+<br>
+　汎化が「スプリアス状態」という明確な中間段階を経て出現することを示している。
+</p>
+<p>
+『Dynamical regimes of diffusion models』(2024)<br>
+　(拡散モデルの動的レジーム)<br>
+　論文は<a href="https://arxiv.org/abs/2402.18491">こちら</a><br>
+<br>
+　拡散モデルにおける記憶化から汎化への移行について、それを統計物理学における相転移として特徴づけた。
+</p>
+<p>
+『Dense associative memory for pattern recognition』(2016)<br>
+　(パターン認識のための高密度連想記憶)<br>
+　論文は<a href="https://arxiv.org/abs/1606.01164">こちら</a><br>
+<br>
+　高密度連想記憶（DenseAMs）を導入した。
+</p>
+
 <h3>● Modality Gap </h3>
 <p>
 『Mind the gap: Understanding the modality gap in multi-modal contrastive representation learning』(2022)<br>
@@ -1120,6 +1143,17 @@ RAG は "open-book"QAパラダイムの実装手法の一つ。<br>
 　要約は<a href="https://www.alphaxiv.org/ja/overview/2002.08910v4">こちら</a>
 </p>
 
+<h3>● Regularization (正則化)</h3>
+機械学習モデルの「過学習」を防ぎ、未知のデータに対する「汎化能力」を向上させるための手法。<br>
+<br>
+<p>
+『Why Diffusion Models Don't Memorize: The Role of Implicit Dynamical Regularization in Training』(2025)<br>
+　(拡散モデルが記憶しない理由：トレーニングにおける暗黙の力学的正則化の役割)<br>
+　論文は<a href="https://arxiv.org/abs/2505.17638">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.17638v1">こちら</a><br>
+<br>
+　拡散モデルがなぜうまく汎化するのかを分析し、訓練プロセスから生じる暗黙の動的正則化を明らかにした。この正則化により、過剰パラメータ化された設定であっても、モデルが訓練データを記憶することなく高品質なサンプルを生成する「汎化ウィンドウ」が確立される。
+</p>
+
 <h3>● ReLU: Rectified Linear Unit </h3>
 <p>
 『Neocognitron: A Self-organizing Neural Network Model
@@ -1411,6 +1445,29 @@ Transformerベースのモデルが小さなデータセットでもスクラッ
 　論文は<a href="https://arxiv.org/abs/2501.04697">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2501.04697v2">こちら</a><br>
 <br>
 　grokkingとして知られる遅延汎化現象が、Softmax関数の数値的不安定性（「Softmax Collapse」(SC)と名付けられた）と「素朴な損失最小化」(NLM: Naive Loss Minimization)と呼ばれる特定の訓練ダイナミクスによって引き起こされることを明らかにしている。StableMaxでSCを防ぐこと、または⊥GradオプティマイザでNLMを軽減することが迅速な汎化を可能にし、grokkingにおける正則化とMSE損失の役割に対する統一的な説明を提供することを示している。
+</p>
+
+<h3>● Spectral Bias (スペクトルバイアス) </h3>
+<p>
+『On the Spectral Bias of Neural Networks』(2018)<br>
+　(ニューラルネットワークのスペクトルバイアスについて)<br>
+　論文は<a href="https://arxiv.org/abs/1806.08734">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1806.08734v3">こちら</a><br>
+<br>
+　深層ReLUネットワークは低周波関数に偏っていること, モデルが最初に一般的で低周波数の特徴を学習し、その後、記憶に繋がるデータセット固有の高周波数の詳細に適合することを示した。
+</p>
+<p>
+『Training behavior of deep neural network in frequency domain』(2018)<br>
+　(深層ニューラルネットワークの周波数領域における学習挙動)<br>
+　論文は<a href="https://arxiv.org/abs/1807.01251">こちら</a><br>
+<br>
+　深層ニューラルネットワークが低周波関数を優先的に学習するという同じ主要な知見を得た研究
+</p>
+<p>
+『On the number of linear regions of deep neural networks』(2014)<br>
+　(深層ニューラルネットワークの線形領域の数について)<br>
+　論文は<a href="https://arxiv.org/abs/1402.1869">こちら</a><br>
+<br>
+　フーリエ解析にとって重要な理論的基盤を提供しており、深層ReLUネットワークにおける線形領域の数が深さ（層数）と共に指数関数的に増加することを示した。
 </p>
 
 <h3>● SSL: Self-Supervised Learning (自己教師あり学習)</h3>
@@ -1744,6 +1801,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
