@@ -290,6 +290,13 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 
 <h3>● Contrastive Learning (対照学習)</h3>
 <p>
+『Representation Learning with Contrastive Predictive Coding』(2018)<br>
+　(対照予測符号化を用いた表現学習)<br>
+　論文は<a href="https://arxiv.org/abs/1807.03748">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1807.03748v2">こちら</a><br>
+<br>
+　様々なモダリティの高次元の生データから高レベルで有用な表現を抽出する汎用的な教師なし学習フレームワークであるContrastive Predictive Coding (CPC) を導入しました。
+</p>
+<p>
  『A simple framework for contrastive learning of visual representations』(2020)<br>
 　論文は<a href="https://arxiv.org/abs/2002.05709">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2002.05709v3">こちら</a><br>
 <br>
@@ -1837,5 +1844,6 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
