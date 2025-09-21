@@ -33,6 +33,9 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 </p>
 
 <h3>● Active learning (能動学習)</h3>
+能動学習問題とは、学習者が自身の訓練データに影響を与えたり選択したりする能力、あるいはその必要性を持つ問題。<br>
+『Active Learning with Statistical Models』(1994)で提唱された。<br>
+<br>
 <p>
 『Active learning of inverse models with intrinsically motivated goal exploration in robots』(2013)<br>
 　(ロボットにおける内発的動機付けに基づく目標探索による逆モデルの能動学習)<br>
@@ -1829,6 +1832,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
