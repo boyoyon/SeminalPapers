@@ -189,7 +189,7 @@ Vision Transformer (ViT) のMLPブロック内の特定の「レジスタニュ�
 </p>
 <p>
 『Diffusion probabilistic models generalize when they fail to memorize』(2023)<br>
-　(拡散確率モデルは暗記に失敗すると一般化する)<br>
+　(拡散確率モデルは暗記に失敗すると汎化する)<br>
 　論文は<a href="https://openreview.net/forum?id=shciCbSk9h#all">こちら</a><br>
 <br>
 　鍵となる発見を「暗記・汎化の二分法」と呼び、汎化と暗記は互いに排他的な現象であると主張する。これは、深層ニューラルネットワークは「良性の」過学習を示し、データに過学習しているにもかかわらず、良好な汎化を示すという、教師あり学習の現代的な知見とは対照的です。
@@ -1726,6 +1726,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
