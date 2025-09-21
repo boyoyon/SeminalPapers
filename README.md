@@ -187,6 +187,13 @@ Vision Transformer (ViT) のMLPブロック内の特定の「レジスタニュ�
 <p>
 線形回帰の文脈における「良性過学習」の概念を正式に導入し、分析した基礎的な論文
 </p>
+<p>
+『Diffusion probabilistic models generalize when they fail to memorize』(2023)<br>
+　(拡散確率モデルは暗記に失敗すると一般化する)<br>
+　論文は<a href="https://openreview.net/forum?id=shciCbSk9h#all">こちら</a><br>
+<br>
+　鍵となる発見を「暗記・汎化の二分法」と呼び、汎化と暗記は互いに排他的な現象であると主張する。これは、深層ニューラルネットワークは「良性の」過学習を示し、データに過学習しているにもかかわらず、良好な汎化を示すという、教師あり学習の現代的な知見とは対照的です。
+</p>
 
 <h3>● Catastrophic Forgetting (破局的忘却)</h3>
 　(問題の形式化)
@@ -320,13 +327,6 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 　論文は<a href="https://arxiv.org/abs/2310.05264">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2310.05264v4">こちら</a><br>
 <br>
 拡散モデルが汎化レジームにおいて基礎となるデータ分布を首尾よく学習することを示す経験的証拠を提供する。拡散モデルが以前考えられていたよりも効果的に次元の呪いを克服できることを示唆している。
-</p>
-<p>
-『Diffusion probabilistic models generalize when they fail to memorize』(2023)<br>
-　(拡散確率モデルは暗記に失敗すると一般化する)<br>
-　論文は<a href="https://openreview.net/forum?id=shciCbSk9h#all">こちら</a><br>
-<br>
-　鍵となる発見を「暗記・汎化の二分法」と呼び、汎化と暗記は互いに排他的な現象であると主張する。これは、深層ニューラルネットワークは「良性の」過学習を示し、データに過学習しているにもかかわらず、良好な汎化を示すという、教師あり学習の現代的な知見とは対照的です。
 </p>
 
 <h3>● Deep Reinforment Learning (深層強化学習)</h3>
@@ -1726,6 +1726,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
