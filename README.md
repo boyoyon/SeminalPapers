@@ -322,6 +322,15 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 <h3>● Curse of Dimensionality (次元の呪い)</h3>
 データや問題の次元数（特徴量の数）が増えるにつれて、必要なデータ数や計算量が指数関数的に増加し、計算効率の低下やモデルの精度低下を招く現象
 <p>
+『Neural Galerkin Schemes with Active Learning for High-Dimensional Evolution Equations』(2022)<br>
+　(高次元発展方程式に対するアクティブラーニングを用いたニューラルガラーキンスキーム)<br>
+　論文は<a href="https://arxiv.org/abs/2203.01360">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2203.01360v4">こちら</a><br>
+<br>
+・アクティブラーニングを伴うニューラルガラーキン法は、高次元の発展方程式の正確なシミュレーションを可能にする。<br>
+・Physics-Informed Neural Networks（PINNs）のような既存のアプローチは、非効率なサンプリング戦略と因果関係を無視したグローバルな最適化アプローチのため、高次元の時間依存問題で苦戦することがよくある。<br>
+・この手法は、特に局所的で発展する特徴を持つシステムにおいて、「次元の呪い」を効果的に克服する。
+</p>
+<p>
 『The Emergence of Reproducibility and Generalizability in Diffusion Models』(2023)<br>
 　(拡散モデルにおける再現性および汎化性の創発)<br>
 　論文は<a href="https://arxiv.org/abs/2310.05264">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2310.05264v4">こちら</a><br>
@@ -1726,6 +1735,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
