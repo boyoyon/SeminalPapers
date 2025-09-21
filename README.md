@@ -526,6 +526,15 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 記号的AIアプローチとコネクショニストAIアプローチの橋渡しにおいて、概念的に大きな進歩を遂げた。
 </p>
 <p>
+『Generalization in diffusion models arises from geometry-adaptive harmonic representations』(2023)<br>
+　(拡散モデルにおける汎化は、幾何学適応型調和表現に由来する)<br>
+　論文は<a href="https://arxiv.org/abs/2310.02557">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2310.02557v3">こちら</a><br>
+<br>
+　拡散モデルが十分なデータで訓練された際に、独自のデータ密度を学習することで汎化することを示している。
+ノイズ除去器が適応型正規直交基底で収縮操作を実行していることが明らかになった。
+この汎化は、拡散モデルの深層ニューラルネットワークデノイザーが、画像コンテンツのスパースなエンコーディングを可能にする幾何学適応型調和表現（GAHBs）を学習することに起因する。帰納的バイアスがGAHB表現と整合することを確認した。
+</p>
+<p>
 『Neural redshift: Random networks are not random functions』(2024)<br>
 　(Neural redshift: ランダムネットワークはランダム関数ではない)<br>
 　論文は<a href="https://arxiv.org/abs/2403.02241">こちら</a><br>
@@ -1735,6 +1744,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
