@@ -322,7 +322,7 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 拡散モデルが汎化レジームにおいて基礎となるデータ分布を首尾よく学習することを示す経験的証拠を提供する。拡散モデルが以前考えられていたよりも効果的に次元の呪いを克服できることを示唆している。
 </p>
 <p>
-『Diffusion probabilistic models generalize when they fail to memorize』()<br>
+『Diffusion probabilistic models generalize when they fail to memorize』(2023)<br>
 　(拡散確率モデルは暗記に失敗すると一般化する)<br>
 　論文は<a href="https://openreview.net/forum?id=shciCbSk9h#all">こちら</a><br>
 <br>
@@ -1726,6 +1726,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
