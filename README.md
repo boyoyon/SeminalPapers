@@ -972,6 +972,27 @@ PINNsは後に解析的微分ではなくバックプロパゲーションを用
 現代の物理情報ニューラルネットワーク (PINN) フレームワークを導入した
 </p>
 
+<h3>● Policy Collapse (ポリシー崩壊), Collapse of Policy Entropy (ポリシーエントロピー崩壊)</h3>
+強化学習（RL）において、訓練されたポリシーの行動分布が急速に決定論的になりすぎて、探索と適応の能力を失い、パフォーマンスの停滞を伴うことが多い現象を指す。<br>
+
+<p>
+『An Entropy Regularization Free Mechanism for Policy-based Reinforcement Learning』(2021)<br>
+　(エントロピー正則化を必要としないポリシーベース強化学習メカニズム)<br>
+　論文は<a href="https://arxiv.org/abs/2106.00707">こちら</a><br>
+<br>
+　ポリシーベースの強化学習法は、ポリシー崩壊問題に悩まされる。
+ポリシーベースの方法向けに設計されたエントロピー正規化を必要としないメカニズムを提案。
+</p>
+
+<p>
+『The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models』(2025)<br>
+　(推論言語モデルのための強化学習のエントロピーメカニズム)<br>
+　論文は<a href="https://arxiv.org/abs/2505.22617">こちら</a><br>
+<br>
+　共分散の高いトークンをクリップして KL ペナルティを適用することで、ポリシーがエントロピーの崩壊を回避
+</p>
+
+
 <h3>●Policy Optimization(方策最適化), GRPO, PPO, A3C, CPI</h3>
 
 <p>
@@ -1808,6 +1829,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
