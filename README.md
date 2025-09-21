@@ -312,6 +312,23 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 ・ロボットアームで物体を操作するタスクでこのアプローチを実証する。
 </p>
 
+<h3>● Curse of Dimensionality (次元の呪い)</h3>
+データや問題の次元数（特徴量の数）が増えるにつれて、必要なデータ数や計算量が指数関数的に増加し、計算効率の低下やモデルの精度低下を招く現象
+<p>
+『The Emergence of Reproducibility and Generalizability in Diffusion Models』(2023)<br>
+　(拡散モデルにおける再現性および汎化性の創発)<br>
+　論文は<a href="https://arxiv.org/abs/2310.05264">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2310.05264v4">こちら</a><br>
+<br>
+拡散モデルが汎化レジームにおいて基礎となるデータ分布を首尾よく学習することを示す経験的証拠を提供する。拡散モデルが以前考えられていたよりも効果的に次元の呪いを克服できることを示唆している。
+</p>
+<p>
+『Diffusion probabilistic models generalize when they fail to memorize』()<br>
+　(拡散確率モデルは暗記に失敗すると一般化する)<br>
+　論文は<a href="https://openreview.net/forum?id=shciCbSk9h#all">こちら</a><br>
+<br>
+　鍵となる発見を「暗記・汎化の二分法」と呼び、汎化と暗記は互いに排他的な現象であると主張する。これは、深層ニューラルネットワークは「良性の」過学習を示し、データに過学習しているにもかかわらず、良好な汎化を示すという、教師あり学習の現代的な知見とは対照的です。
+</p>
+
 <h3>● Deep Reinforment Learning (深層強化学習)</h3>
 <p>
 『Human-level control through deep reinforcement learning』(2015)<br>
@@ -1709,6 +1726,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
