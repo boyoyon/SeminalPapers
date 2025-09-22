@@ -1245,8 +1245,8 @@ Vision-Language-Action（VLA）モデルの強化学習（RL）訓練中に、AI
 
 <p>
 『SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning』(2025)<br>
-　(https://arxiv.org/abs/2509.09674)<br>
-　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.09674v1">こちら</a><br>
+　(SimpleVLA-RL: 強化学習によるVLAトレーニングのスケーリング)<br>
+　論文は<a href="https://arxiv.org/abs/2509.09674">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.09674v1">こちら</a><br>
 <br>
 　Vision-Language-Action（VLA）モデルのトレーニングを大規模化する効率的なオンライン強化学習フレームワークSimpleVLA-RLが導入された。<br>
 RL訓練されたポリシーがデモンストレーションされた行動よりも効率的な代替策を発見する「プッシュカット」と呼ぶ現象を記録している。
@@ -1998,6 +1998,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
