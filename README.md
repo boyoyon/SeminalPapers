@@ -1011,6 +1011,20 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 　3D Gaussian Splatting (GS) 技術を導入した画期的な論文
 </p>
 
+<h3>● Open-Ended Generation </h3>
+
+ストーリーテリングや芸術的な執筆のような検証不可能な創造的タタスクにおいて、果てしなく生成し続けること
+
+<p>
+『Reverse-Engineered Reasoning for Open-Ended Generation』(2025)<br>
+　(オープンエンド生成のための逆算推論)<br>
+　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.06160v1">こちら</a><br>
+<br>
+　大規模言語モデル（LLM）の分野は、「深い推論」パラダイム、特に明確な報酬シグナルがモデルを導く数学やプログラミングのような検証可能な領域において、目覚ましい進歩を遂げてき。しかし、客観的な正解を欠くオープンエンドで創造的な生成タスクにおいて苦戦している。<br>
+「推論を前方へ構築する」から「推論を後方から回復する」へのパラダイムシフト
+を提案している。
+</p>
+
 <h3>● Over-Squashing</h3>
 <p>
 『On the bottleneck of graph neural networks and its practical implications』(2020)<br>
@@ -1571,6 +1585,28 @@ AIエージェントが真の人間目標ではなく不完全な代理報酬を
 物体認識において、深層ニューラルネットワークが物体の全体的な形状ではなく、その質感に基づいて分類することを学習することで、しばしば「近道」を取ってしまうことを示している (質感バイアス)
 </p>
 
+<h3>● Skip Connection (スキップ接続)</h3>
+<p>
+『Deep residual learning for image recognition』(2015)<br>
+　論文は<a href="https://arxiv.org/abs/1512.03385">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1512.03385v1">こちら</a><br>
+<br>
+ResNetとスキップコネクションを用いた深層残差学習の概念を導入。
+スキップコネクションがいかにしてはるかに深いネットワークの訓練を可能にし、性能劣化の問題を克服するかを示し、議論されるその後の多くの研究の基礎を形成した。
+</p>
+<p>
+『Highway networks』(2015)<br>
+　論文は<a href="https://arxiv.org/abs/1505.00387">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1505.00387v2">こちら</a><br>
+<br>
+ResNetの重要な前身。<br>
+非常に深いネットワークにおける情報フローを促進するために、スキップコネクションとゲーティングメカニズムを使用するというアイデアを導入した。
+</p>
+<p>
+『U-net: Convolutional networks for biomedical image segmentation』(2015)<br>
+　論文は<a href="https://arxiv.org/abs/1505.04597">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1505.04597v1">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2015_UNet/2015_U-Net%20-%20Convolutional%20Networks%20for%20Biomedical%20Image%20Segmentation.html">こちら</a><br>
+<br>
+セグメンテーションにおける正確な局在化のために、エンコーダパスからの特徴をデコーダパスと結合するために長距離スキップコネクションを効果的に利用する画期的なアーキテクチャーを導入した
+</p>
+
 <h3>● Small Data</h3>
 <p>
 『Dark, Beyond Deep: A Paradigm Shift to Cognitive AI with Humanlike Common Sense』(2020)<br>
@@ -1668,28 +1704,6 @@ MoCo として知られる論文。
 　論文は<a href="https://arxiv.org/abs/2005.10242">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2005.10242v10">こちら</a><br>
 <br>
 　自己教師あり表現を評価するためのアライメントと均一性という指標を導入した基礎論文   
-</p>
-
-<h3>● Skip Connection (スキップ接続)</h3>
-<p>
-『Deep residual learning for image recognition』(2015)<br>
-　論文は<a href="https://arxiv.org/abs/1512.03385">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1512.03385v1">こちら</a><br>
-<br>
-ResNetとスキップコネクションを用いた深層残差学習の概念を導入。
-スキップコネクションがいかにしてはるかに深いネットワークの訓練を可能にし、性能劣化の問題を克服するかを示し、議論されるその後の多くの研究の基礎を形成した。
-</p>
-<p>
-『Highway networks』(2015)<br>
-　論文は<a href="https://arxiv.org/abs/1505.00387">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1505.00387v2">こちら</a><br>
-<br>
-ResNetの重要な前身。<br>
-非常に深いネットワークにおける情報フローを促進するために、スキップコネクションとゲーティングメカニズムを使用するというアイデアを導入した。
-</p>
-<p>
-『U-net: Convolutional networks for biomedical image segmentation』(2015)<br>
-　論文は<a href="https://arxiv.org/abs/1505.04597">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/1505.04597v1">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2015_UNet/2015_U-Net%20-%20Convolutional%20Networks%20for%20Biomedical%20Image%20Segmentation.html">こちら</a><br>
-<br>
-セグメンテーションにおける正確な局在化のために、エンコーダパスからの特徴をデコーダパスと結合するために長距離スキップコネクションを効果的に利用する画期的なアーキテクチャーを導入した
 </p>
 
 <h3>● sycophancy (おべっか, 追従性)</h3>
@@ -1964,6 +1978,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
