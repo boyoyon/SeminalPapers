@@ -1295,6 +1295,16 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 この影響力のある論文は、標準的な神経科学の分析手法が、既知の計算システムを正確に説明できない可能性があると論じている。
 </p>
 
+<h3>● Representation Learning (表現学習)</h3>
+<p>
+『Deep Learning is Not So Mysterious or Different』(2025)<br>
+　(ディープラーニングはそれほど神秘的でも異質でもない)<br>
+　論文は<a href="https://arxiv.org/abs/2503.02113">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2025_DL_not_so_Mysterious/2025_Deep_Learning_is_Not_So_Mysterious_or_Different.html">こちら</a><br>
+<br>
+　一見すると、基底関数を学習する必要はないように思える。しかし、基底関数を学習することで、カーネル (特定の問題に対する類似性メトリック) を効果的に学習していることになる。類似性メトリックを学習できることは、ユークリッド距離などの類似性の標準的な概念が破綻する高次元の自然信号 (画像、音声、テキストなど) にとって非常に重要である。類似性学習としての表現学習というこの概念は、モデリングの標準的な基底関数の観点を超えている。<br>
+ニューラル ネットワークは距離の概念を学習するだけでなく、この距離の尺度は入力空間内の位置に応じて変化する。つまり、非定常である。ニューラル ネットワークは、自然なデータ分布とよく一致する可能性のある低いコルモゴロフ複雑度に対する強いバイアスも提供する。
+<br>
+
 <h3>● Reward Hacking (報酬ハッキング)</h3>
 <p>
 『Defining and Characterizing Reward Hacking』(2022)<br>
@@ -1886,6 +1896,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
