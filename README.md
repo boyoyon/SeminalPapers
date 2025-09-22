@@ -829,7 +829,7 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 またモード間の高精度な経路を発見するための学習手順を導入する。この新たな幾何学的知見に基づき、「Fast Geometric Ensembling (FGE)」と名付けた新たなアンサンブル手法も提案する。
 </p>
 <p>
-『Symmetries, flat minima, and the conserved quantities of gradient flow』(2018)<br>
+『Symmetries, flat minima, and the conserved quantities of gradient flow』(2022)<br>
 　(対称性、平坦な最小値、そして勾配流の保存量)<br>
 　論文は<a href="https://arxiv.org/abs/2210.17216">こちら</a><br>
 <br>
@@ -1882,6 +1882,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
