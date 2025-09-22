@@ -797,6 +797,42 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 　高密度連想記憶（DenseAMs）を導入した。
 </p>
 
+<h3>● Mental Model (心的モデル), Mental Rotation (心的回転)</h3>
+<p>
+『Mental rotation of three-dimensional objects』(1971)<br>
+　(立体の心的回転)<br>
+　論文は<a href="https://facultypsy.hope.edu/psychlabs/exp/rotate/readings/ShepardMetzler_1971.pdf">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/1971_Mental%20Rotation%20of%20Three-Dimensional%20Objects/Mental%20Rotation%20of%20Three-Dimensional%20Objects.html">こちら</a><br>
+<br>
+　メンタルイメージに関する画期的な論文。人間は推論のために簡略化された視覚的手がかりを精神的に構築し、操作する。
+</p>
+<p>
+『Large Vision Models can solve mental rotation problems』(2025)<br>
+　(大規模視覚モデルは心的回転の問題を解決できる)<br>
+　論文は<a href="https://arxiv.org/html/2509.15271v1">こちら</a><br>
+<br>
+　さまざまなメンタルローテーションタスクにわたってViT、CLIP、DINOv2、およびDINOv3の体系的な評価を紹介する。<br>
+
+i) 自己教師ありViTは教師ありViTよりも幾何学的構造をより適切に捉える<br>
+ii) 中間層は最終層よりも優れたパフォーマンスを発揮する<br>
+iii) タスクの難易度は回転の複雑さとオクルージョンとともに増加する<br>
+ことがわかった。<br>
+
+これは人間の反応時間を反映しており、空間表現の埋め込みにおける同様の制約を示唆している。
+</p>
+
+<p>
+『Spatial Mental Modeling from Limited Views』(2025)<br>
+　()<br>
+　論文は<a href="https://arxiv.org/abs/2506.21458">こちら</a><br>
+<br>
+
+人間は、目に見えない空間の内部表現である空間メンタルモデルを構築し、レイアウト、視点、動きについて推論する。<br>
+3,268枚の画像に21,154の質問を組み合わせた新しいMindCubeベンチマークは、既存のVLM(視覚言語モデル)がほぼランダムなパフォーマンスしか示さないというこの重大なギャップを明らかにしている。<br>
+「マッピングしてから推論する」という相乗的なアプローチによって大幅な改善がたらされる。<br>
+モデルをまず認知マップを生成し、次にそれに基づいて推論するように同時トレーニングする。これらの内部マップに基づいて推論を行うようにモデルをトレーニングすることで、精度は37.8%から60.8%（23.0%増）に向上した。強化学習を追加することで、パフォーマンスはさらに向上し、70.7%（32.9%増）となった。<br>
+我々の重要な知見は、このような空間メンタルモデルの足場構築、つまり柔軟な推論プロセスを用いて内部構造化された空間表現を積極的に構築・活用することで、観測不可能な空間の理解が大幅に向上するという点である。
+</p>
+
 <h3>● Modality Gap </h3>
 <p>
 『Mind the gap: Understanding the modality gap in multi-modal contrastive representation learning』(2022)<br>
@@ -1852,13 +1888,6 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <br>
 　テキストに依存せず、純粋な視覚表現を通じて計画を可能にする新しいパラダイム「視覚計画」を提案する。このパラダイムでは、計画は視覚領域における段階的推論を符号化した画像のシーケンスを介して実行され、人間が未来の行動をスケッチまたは視覚化する方法に類似している。
 </p>
-<p>
-『Mental rotation of three-dimensional objects』(1971)<br>
-　(立体の心的回転)<br>
-　論文は<a href="https://facultypsy.hope.edu/psychlabs/exp/rotate/readings/ShepardMetzler_1971.pdf">こちら</a>, 機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/1971_Mental%20Rotation%20of%20Three-Dimensional%20Objects/Mental%20Rotation%20of%20Three-Dimensional%20Objects.html">こちら</a><br>
-<br>
-　メンタルイメージに関する画期的な論文。人間は推論のために簡略化された視覚的手がかりを精神的に構築し、操作する。
-</p>
 
 <h3>● Weak-to-strong generalization (弱から強への一般化)</h3>
 <p>
@@ -1918,6 +1947,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
