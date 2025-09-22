@@ -1240,6 +1240,18 @@ DeCLIPは、CLIPの自己注意を分離し、「コンテンツ」と「コン�
 タイトル(最適脳損傷)が怖い･･･
 </p>
 
+<h3>● "Pushcut" Phenomenon  </h3>
+Vision-Language-Action（VLA）モデルの強化学習（RL）訓練中に、AIモデルが以前の教師あり学習（SFT）データにはなかった、これまで見られなかった新しい行動パターンを発見する現象<br>
+
+<p>
+『SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning』(2025)<br>
+　(https://arxiv.org/abs/2509.09674)<br>
+　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.09674v1">こちら</a><br>
+<br>
+　Vision-Language-Action（VLA）モデルのトレーニングを大規模化する効率的なオンライン強化学習フレームワークSimpleVLA-RLが導入された。<br>
+RL訓練されたポリシーがデモンストレーションされた行動よりも効率的な代替策を発見する「プッシュカット」と呼ぶ現象を記録している。
+</p>
+
 <h3>● Qualia (クオリア)</h3>
 <p>
 『Constructive Approach to Bidirectional Influence between Qualia Structure and Language Emergence』(2024)<br>
@@ -1986,6 +1998,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
