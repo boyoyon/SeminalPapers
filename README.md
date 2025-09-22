@@ -435,6 +435,11 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 
 <h3>● Flat minima hypothesis (平坦な最適解空間仮説)</h3>
 → Mode Conectivity (モード連結性)
+<img src="images/flat_minima.png">
+<a href="https://wordpress.cs.vt.edu/optml/2018/04/29/entropy-sgd-biasing-gd-into-wide-valleys/">こちら</a><br>
+<br>
+<img src="images/flat_minima2.png">
+<a href="https://dl.acm.org/doi/abs/10.1145/3531146.3533232">こちら</a><br>
 
 <h3>● Generative Model (生成モデル)</h3>
 <p>
@@ -1896,6 +1901,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
