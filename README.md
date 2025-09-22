@@ -975,13 +975,38 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 　3D Gaussian Splatting (GS) 技術を導入した画期的な論文
 </p>
 
-
 <h3>● Over-Squashing</h3>
 <p>
 『On the bottleneck of graph neural networks and its practical implications』(2020)<br>
 　論文は<a href="https://arxiv.org/abs/2006.05205">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2006.05205v4">こちら</a><br>
 <br>
 　GNNにおける「オーバースクワッシング」問題を初めて特定し命名した点で、現在の研究の基礎となっている。   
+</p>
+
+<h3>● PAC Learning: Probably Approximately Correct Learning (おそらく近似的に正しい学習) </h3>
+<p>
+『A Theory of the Learnable』(1984)<br>
+　(学習可能なものの理論)<br>
+　論文は<a href="https://web.mit.edu/6.435/www/Valiant84.pdf">こちら</a><br>
+<br>
+　「おそらく近似的に正しい（PAC）学習フレームワーク」を導入した基礎論文
+</p>
+<p>
+『Thoughts on Hypothesis Boosting』(1988)<br>
+　(仮説ブースティングについての考察)<br>
+　論文は<a href="https://www.cis.upenn.edu/~mkearns/papers/boostnote.pdf">こちら</a><br>
+<br>
+　PAC学習モデルを基盤に、「(ランダムな推測よりもわずかに優れた性能の識別器を生成する)弱い学習器」を組み合わせて「(高い確率で、ほぼ正確に識別できる識別器を生成する)強い学習器」を作ることができるのか？という問いかけを行った。
+</p>
+<p>
+『The Strength of Weak Learnability』(1990）<br>
+　(弱い学習可能性の強み)<br>
+　論文は<a href="https://link.springer.com/content/pdf/10.1007/BF00116037.pdf">こちら</a><br>
+<br>
+　弱い学習器の存在と強い学習器の存在が数学的に等価であることを証明した。つまり、弱い学習器があれば、そこから強い学習器を作り出すことができることを証明し，後のブースティングアルゴリズムの基礎となる構成法を示した。
+</p>
+<<p>
+　DNN の中間層, 訓練中の Drop Out はブースティングと見なすことができる。 
 </p>
 
 <h3>● Perceptual Metric (知覚メトリック, 知覚的距離)</h3>
@@ -1893,6 +1918,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
