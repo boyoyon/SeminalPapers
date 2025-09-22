@@ -822,7 +822,7 @@ iii) タスクの難易度は回転の複雑さとオクルージョンととも
 
 <p>
 『Spatial Mental Modeling from Limited Views』(2025)<br>
-　()<br>
+　(限定された視点からの空間メンタルモデリング)<br>
 　論文は<a href="https://arxiv.org/abs/2506.21458">こちら</a><br>
 <br>
 
@@ -1947,6 +1947,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
