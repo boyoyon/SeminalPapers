@@ -1018,7 +1018,7 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 <p>
 『Reverse-Engineered Reasoning for Open-Ended Generation』(2025)<br>
 　(オープンエンド生成のための逆算推論)<br>
-　論文は<a href="">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.06160v1">こちら</a><br>
+　論文は<a href="https://arxiv.org/abs/2509.06160">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.06160v1">こちら</a><br>
 <br>
 　大規模言語モデル（LLM）の分野は、「深い推論」パラダイム、特に明確な報酬シグナルがモデルを導く数学やプログラミングのような検証可能な領域において、目覚ましい進歩を遂げてき。しかし、客観的な正解を欠くオープンエンドで創造的な生成タスクにおいて苦戦している。<br>
 「推論を前方へ構築する」から「推論を後方から回復する」へのパラダイムシフト
@@ -1978,6 +1978,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
