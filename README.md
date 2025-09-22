@@ -433,6 +433,9 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 しかし、それはまた、AI安全コミュニティがこれらの能力が普及する前に、積極的に対処すべき新しい種類の危険をもたらします。
 </p>
 
+<h3>● Flat minima hypothesis (平坦な最適解空間仮説)</h3>
+→ Mode Conectivity (モード連結性)
+
 <h3>● Generative Model (生成モデル)</h3>
 <p>
 『Generative Adversarial Networks』(2014)<br>
@@ -804,6 +807,34 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 <br>
 「モダリティギャップ」を初めて特定し、命名した論文。<br>
 異なるデータモダリティ（画像とテキストなど）が共有表現に近接して埋め込まれていることを示す。体系的な分析により、このギャップはモデルの初期化と対照学習による最適化の組み合わせによって引き起こされることが実証された。
+</p>
+
+<h3>● Mode Conectivity (モード連結性), Flat minima hypothesis (平坦な最適解空間仮説)</h3>
+
+<p>
+『Essentially No Barriers in the Empirical Risk: Revisiting the Flatness-Generalization Connection』(2018)<br>
+　(ニューラルネットワークのエネルギーランドスケープには本質的に障壁はない)<br>
+　論文は<a href="https://arxiv.org/abs/1803.00885">こちら</a><br>
+<br>
+　ニューラルネットワークを異なる初期値から学習させて得られた、複数の局所最適解（モード）が、低い損失値の連続した経路でつながっていることを発見した。<br>
+　(CIFAR10とCIFAR100における最近のニューラルネットワークアーキテクチャの最小値間の連続パスを構築した。驚くべきことに、パスは学習ランドスケープとテストランドスケープの両方で本質的に平坦であった。)
+</p>
+
+<p>
+『Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs』(2018)<br>
+　(損失面、モード接続性、およびDNNの高速アンサンブル)<br>
+　論文は<a href="https://arxiv.org/abs/1802.10026">こちら</a><br>
+<br>
+　DNN の損失関数は複雑であり、その幾何学的特性は十分に解明されていない。本研究では、これらの複雑な損失関数の最適解が、実際には単純な曲線で結ばれており、その曲線上では学習精度とテスト精度がほぼ一定であることを示す。<br>
+またモード間の高精度な経路を発見するための学習手順を導入する。この新たな幾何学的知見に基づき、「Fast Geometric Ensembling (FGE)」と名付けた新たなアンサンブル手法も提案する。
+</p>
+
+<p>
+『Understanding Mode Connectivity via Parameter Space Symmetry』(2025)<br>
+　(パラメータ空間の対称性によるモード連結性の理解)<br>
+　論文は<a href="https://arxiv.org/abs/2505.23681">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.23681v1">こちら</a><br>
+<br>
+　パラメータ空間の対称性を分析することでニューラルネットワークのモード接続性を説明する対称性ベースの理論的フレームワークを開発した。
 </p>
 
 <h3>● Model soups (モデルスープ)</h3>
@@ -1844,6 +1875,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
