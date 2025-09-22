@@ -671,14 +671,6 @@ RLHFやDPOといった手法がIRLの一種であることを示している。
 　生徒ごとに「最適な教師」が異なり、同じ生徒であってもデータセットごとに最適な教師が異なる場合があることを観察した。そこで、複数の教師の推論能力を生徒に統合し、様々な教師の教師間の矛盾を克服するために、我々はMerge-of-Thought Distillation（MoT）を提案する。
 </p>
 
-<h3>● Linear mode connectivity (線形モード接続性)</h3>
-<p>
-『Linear mode connectivity and the lottery ticket hypothesis』(2019)<br>
-　論文は<a href="https://arxiv.org/abs/1912.05671">こちら</a><br>
-<br>
-同じ初期化から訓練されたモデルが損失ランドスケープ内で連結され得ることを示唆
-</p>
-
 <h3>●LoRA: Low-rank adaptation of LLM (低ランク適応)</h3>
 <p>
 『Lora: Low-rank adaptation of large language models』(2021)<br>
@@ -1901,6 +1893,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
