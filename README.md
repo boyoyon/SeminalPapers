@@ -813,13 +813,6 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 
 <h3>● Memorization to Generalization (記憶(暗記)から汎化へ), Associative Memory (連想記憶)</h3>
 <p>
-『In search of dispersed memories: Generative diffusion models are associative memory networks』(2023)<br>
-　(分散記憶の探求：生成拡散モデルは連想記憶ネットワークである)<br>
-　論文は<a href="https://arxiv.org/abs/2309.17290">こちら</a><br>
-<br>
-　生成拡散モデルがエネルギーベースのモデルとして解釈でき、離散パターンで学習させた場合、そのエネルギー関数は現代のホップフィールドネットワークのものと（漸近的に）同一であることを示した。この等価性により、拡散モデルの教師あり学習を、現代のホップフィールドネットワークの連想ダイナミクスをディープニューラルネットワークの重み構造にエンコードするシナプス学習プロセスとして解釈できる。
-</p>
-<p>
 『Memorization to Generalization: Emergence of Diffusion Models from Associative Memory』(2025)<br>
 　(記憶から汎化へ：連想記憶からの拡散モデルの創発)<br>
 　論文は<a href="https://arxiv.org/abs/2505.21777">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2505.21777v1">こちら</a><br>
@@ -2071,6 +2064,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <h2 id="Z">Z</h2>
     </body>
 </html>
+
 
 
 
