@@ -680,7 +680,16 @@ RLHFやDPOといった手法がIRLの一種であることを示している。
 </p>
 
 <h3>● Latent learning (潜在学習) </h3>
-→The Reversal Curse (反転の呪い)
+学習する意図がない場合や、報酬などの刺激がない状態であっても、繰り返し情報を処理したり体験したりする中で、知識や行動パターンが形成される現象。<br>
+後で特定の状況で利用できる知識として、頭の中に「認知地図」のようなものが形成され、必要になったときに顕在化する形で現れる。<br>﻿
+<br>
+<p>
+『Latent learning: episodic memory complements parametric learning by enabling flexible reuse of experiences』(2025)<br>
+　(潜在学習：経験の柔軟な再利用を可能にすることで、エピソード記憶がパラメトリック学習を補完する)<br>
+　論文は<a href="https://arxiv.org/abs/2509.16189">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.16189v1">こちら</a><br>
+<br>
+　機械学習システムの弱点の一つは、潜在学習、つまり現在のタスクとは無関係だが将来のタスクで役立つ可能性のある情報を学習できないことであると主張する。この視点が、言語モデリングにおける反転の呪いからエージェントベースナビゲーションに関する新たな知見に至るまで、様々な失敗にどのように関連しているかを示す。
+</p>
 
 <h3>● Latent Zone (潜在ゾーン), Latent Space (潜在空間) </h3>
 <p>
@@ -1410,7 +1419,7 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 ニューラル ネットワークは距離の概念を学習するだけでなく、この距離の尺度は入力空間内の位置に応じて変化する。つまり、非定常である。ニューラル ネットワークは、自然なデータ分布とよく一致する可能性のある低いコルモゴロフ複雑度に対する強いバイアスも提供する。
 <br>
 
-<h3>● The Reversal Curse (反転の呪い), Latent learning (潜在学習) </h3>
+<h3>● Reversal Curse (反転の呪い), Latent learning (潜在学習) </h3>
 <p>
 『The Reversal Curse: LLMs trained on “A is B” fail to learn “B is A”』(2023)<br>
 　(逆転の呪い: 「AはB」で訓練されたLLMは「BはA」を学べない)<br>
@@ -1425,13 +1434,6 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 <br>
 　逆方向訓練と呼ばれる代替訓練手法を提案する。この手法では、すべての単語を2回使用することで利用可能なトークンの量を2倍にする。LLMは、エンティティなどの選択された部分文字列を保持（つまり、逆方向ではない）しながら、訓練文字列を逆方向に反転させることで、順方向と逆方向の両方向で訓練される。
 「反転の呪い」問題の解決に役立つことを示します。
-</p>
-<p>
-『Latent learning: episodic memory complements parametric learning by enabling flexible reuse of experiences』(2025)<br>
-　(潜在学習：経験の柔軟な再利用を可能にすることで、エピソード記憶がパラメトリック学習を補完する)<br>
-　論文は<a href="https://arxiv.org/abs/2509.16189">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.16189v1">こちら</a><br>
-<br>
-　機械学習システムの弱点の一つは、潜在学習、つまり現在のタスクとは無関係だが将来のタスクで役立つ可能性のある情報を学習できないことであると主張する。この視点が、言語モデリングにおける反転の呪いからエージェントベースナビゲーションに関する新たな知見に至るまで、様々な失敗にどのように関連しているかを示す。
 </p>
 
 <h3>● Reward Hacking (報酬ハッキング)</h3>
@@ -2035,6 +2037,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
