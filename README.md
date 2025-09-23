@@ -1080,13 +1080,13 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 </p>
 
 <h2 id="P">P</h2>
-<h3>● PAC Learning: Probably Approximately Correct Learning (おそらく近似的に正しい学習) </h3>
+<h3>● PAC Learning: Probably Approximately Correct Learning (確率的で近似的に正しい学習) </h3>
 <p>
 『A Theory of the Learnable』(1984)<br>
 　(学習可能なものの理論)<br>
 　論文は<a href="https://web.mit.edu/6.435/www/Valiant84.pdf">こちら</a><br>
 <br>
-　「おそらく近似的に正しい（PAC）学習フレームワーク」を導入した基礎論文
+　「確率的で近似的に正しい（PAC）学習フレームワーク」を導入した基礎論文
 </p>
 <p>
 『Thoughts on Hypothesis Boosting』(1988)<br>
@@ -2064,6 +2064,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <h2 id="Z">Z</h2>
     </body>
 </html>
+
 
 
 
