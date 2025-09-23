@@ -16,12 +16,14 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 </p>
 <p>
 源流が判れば, 引用論文を辿って, その後の進展を調べることができる。<br>
-アルファベット順
-</p>
 
+<a href="0-9">0-9</a>　<a href="A">A</a>　 <a href="B">B</a>　 <a href="C">C</a>　 <a href="D">D</a>　 <a href="E">E</a>　 <a href="F">F</a>　 <a href="G">G</a>　<a href="H">H</a>　 <a href="I">I</a>　 <a href="J">J</a>　 <a href="K">K</a>　 <a href="L">L</a>　 <a href="M">M</a>　 <a href="N">N</a>　<a href="O">O</a>　 <a href="P">P</a>　 <a href="Q">Q</a>　 <a href="R">R</a>　 <a href="S">S</a>　 <a href="T">T</a>　 <a href="U">U</a>　<a href="V">V</a>　 <a href="W">W</a>　 <a href="X">X</a>　 <a href="Y">Y</a>　 <a href="Z">Z</a>
+</p>
+<h2 id="0-9">0-9</h2>
 <h3>● 3D  Gaussian Splatting (3DGS)</h3>
 → NVS: Novel View Synthesis
 
+<h2 id="A">A</h2>
 <h3>● Acquiescence Bias (黙認バイアス)</h3>
 <p>
 『Acquiescence Bias in Large Language Models』(2025)<br>
@@ -148,6 +150,7 @@ Vision Transformer (ViT) のMLPブロック内の特定の「レジスタニュ�
 言語モデルにおける同様の現象（「アテンションシンク」）と関連しており、このような計算パターンがモダリティを超えたトランスフォーマーアーキテクチャにとって基本的なものである可能性を示唆している。
 </p>
 
+<h2 id="B">B</h2>
 <h3>● Baldwin effect (ボールドウィン効果)</h3>
 学習能力が高くなる方向に選択が進むことを示唆したもの。<br>
 <br>
@@ -200,6 +203,7 @@ Vision Transformer (ViT) のMLPブロック内の特定の「レジスタニュ�
 　鍵となる発見を「暗記・汎化の二分法」と呼び、汎化と暗記は互いに排他的な現象であると主張する。これは、深層ニューラルネットワークは「良性の」過学習を示し、データに過学習しているにもかかわらず、良好な汎化を示すという、教師あり学習の現代的な知見とは対照的です。
 </p>
 
+<h2 id="C">C</h2>
 <h3>● Catastrophic Forgetting (破局的忘却)</h3>
 　(問題の形式化)
 <p>
@@ -358,6 +362,7 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 拡散モデルが汎化レジームにおいて基礎となるデータ分布を首尾よく学習することを示す経験的証拠を提供する。拡散モデルが以前考えられていたよりも効果的に次元の呪いを克服できることを示唆している。
 </p>
 
+<h2 id="D">D</h2>
 <h3>● Deep Reinforment Learning (深層強化学習)</h3>
 <p>
 『Human-level control through deep reinforcement learning』(2015)<br>
@@ -425,6 +430,7 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 センサーがローパスフィルターのように振る舞うという物理モデルが、低照度下でのイベントの「時間的引きずり（temporal trailing）」現象を説明する
 </p>
 
+<h2 id="E">E</h2>
 <h3>● Episodic Memory (エピソード記憶)</h3>
 <p>
 『Episodic and semantic memory』(1972)<br>
@@ -441,6 +447,7 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 しかし、それはまた、AI安全コミュニティがこれらの能力が普及する前に、積極的に対処すべき新しい種類の危険をもたらします。
 </p>
 
+<h2 id="F">F</h2>
 <h3>● Flat minima hypothesis (平坦な最適解空間仮説)</h3>
 → Mode Conectivity (モード連結性)
 <img src="images/flat_minima.png">
@@ -449,6 +456,7 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 <img src="images/flat_minima2.png">
 <a href="https://dl.acm.org/doi/abs/10.1145/3531146.3533232">こちら</a><br>
 
+<h2 id="G">G</h2>
 <h3>● Generative Model (生成モデル)</h3>
 <p>
 『Generative Adversarial Networks』(2014)<br>
@@ -490,6 +498,7 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 最初に「グロッキング」現象を発見し、命名し、調査した論文
 </p>
 
+<h2 id="H">H</h2>
 <h3>● Hallucination (幻覚)</h3>
 <p>
 『Hallucinations in Neural Machine Translation』(2019)<br>
@@ -524,6 +533,7 @@ FFHQ、ImageNet、CIFAR、Stacked MNIST データセットで StyleGAN2 を上�
 　高次元データにおけるハブ性現象を提唱し、定義した基礎的な論文
 </p>
 
+<h2 id="I">I</h2>
 <h3>●Implicit Bias (暗黙のバイアス)</h3>
 <p>
 『Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings』(2016)<br>
@@ -652,6 +662,8 @@ Mental Development』(2007)<br>
 RLHFやDPOといった手法がIRLの一種であることを示している。
 </p>
 
+<h2 id="J">J</h2>
+<h2 id="K">K</h2>
 <h3>● Knowledge Distillation (知識蒸留)</h3>
 <p>
 『Distilling the knowledge in a neural network』(2015)<br>
@@ -679,6 +691,7 @@ RLHFやDPOといった手法がIRLの一種であることを示している。
 　生徒ごとに「最適な教師」が異なり、同じ生徒であってもデータセットごとに最適な教師が異なる場合があることを観察した。そこで、複数の教師の推論能力を生徒に統合し、様々な教師の教師間の矛盾を克服するために、我々はMerge-of-Thought Distillation（MoT）を提案する。
 </p>
 
+<h2 id="L">L</h2>
 <h3>● Latent learning (潜在学習) </h3>
 学習する意図がない場合や、報酬などの刺激がない状態であっても、繰り返し情報を処理したり体験したりする中で、知識や行動パターンが形成される現象。<br>
 後で特定の状況で利用できる知識として、頭の中に「認知地図」のようなものが形成され、必要になったときに顕在化する形で現れる。<br>﻿
@@ -767,6 +780,7 @@ LLMの注意バイアスである「真ん中が失われる」現象を特定�
 
 </p>
 
+<h2 id="M">M</h2>
 <h3>● Mamba</h3>
 <p>
 『Mamba: Linear-Time Sequence Modeling with Selective State Spaces』(2023)<br>
@@ -929,6 +943,7 @@ iii) タスクの難易度は回転の複雑さとオクルージョンととも
 　スパース活性化に対する基礎的な学習ベースのアプローチであるスパースゲート型混合専門家（MoE）層を導入した画期的な論文。
 </p>
 
+<h2 id="N">N</h2>
 <h3>● NAS: Neural Architecture Search</h3>
 <p>
 『Efficient Global Neural Architecture Search』(2025)<br>
@@ -1041,6 +1056,7 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 　3D Gaussian Splatting (GS) 技術を導入した画期的な論文
 </p>
 
+<h2 id="O">O</h2>
 <h3>● Open-Ended Generation </h3>
 
 ストーリーテリングや芸術的な執筆のような検証不可能な創造的タタスクにおいて、果てしなく生成し続けること
@@ -1063,6 +1079,7 @@ Neural Tangent Kernel (NTK) を導入した画期的な論文
 　GNNにおける「オーバースクワッシング」問題を初めて特定し命名した点で、現在の研究の基礎となっている。   
 </p>
 
+<h2 id="P">P</h2>
 <h3>● PAC Learning: Probably Approximately Correct Learning (おそらく近似的に正しい学習) </h3>
 <p>
 『A Theory of the Learnable』(1984)<br>
@@ -1274,6 +1291,7 @@ Vision-Language-Action（VLA）モデルの強化学習（RL）訓練中に、AI
 RL訓練されたポリシーがデモンストレーションされた行動よりも効率的な代替策を発見する「プッシュカット」と呼ぶ現象を記録している。
 </p>
 
+<h2 id="Q">Q</h2>
 <h3>● Qualia (クオリア)</h3>
 <p>
 『Constructive Approach to Bidirectional Influence between Qualia Structure and Language Emergence』(2024)<br>
@@ -1323,6 +1341,7 @@ RL訓練されたポリシーがデモンストレーションされた行動よ
 ・自己診断や事前に設定された緊急時対応計画を必要とせず、ロボットが2分以内に損傷に適応することを可能にする、インテリジェントな試行錯誤アルゴリズムを紹介する。
 </p>
 
+<h2 id="R">R</h2>
 <h3>●RAG: Retrieval-Augmented Generation (検索拡張生成, 取得拡張生成)</h3>
 <p>
 『Retrieval-augmented generation for knowledge-intensive nlp tasks』(2020)<br>
@@ -1479,6 +1498,7 @@ AIエージェントが真の人間目標ではなく不完全な代理報酬を
 　（「仕様ゲーム」と称される）報酬ハッキングの豊富な事例を広範に提供している
 </p>
 
+<h2 id="S">S</h2>
 <h3>● Scaling Law (べき則)</h3>
 <p>
 　『Scaling laws for neural language models』(2020)<br>
@@ -1793,7 +1813,7 @@ MoCo として知られる論文。
 　LSTMsが文法的な依存関係を学習できるかを評価するために用いられる主語と動詞の一致タスクを導入した、記念碑的な論文
 </p>
 
-
+<h2 id="T">T</h2>
 <h3>● Task Arithmetic (タスク算術)</h3>
 <p>
 『Editing Models with Task Arithmetic』(2022)<br>
@@ -1876,6 +1896,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 　　
 </p>
 
+<h2 id="U">U</h2>
 <h3>● Unified Tokenizer (統合トークナイザー)</h3>
 <p>
 『UniTok: A Unified Tokenizer for Visual Generation and Understanding』(2025)<br>
@@ -1892,6 +1913,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 　再構成と理解の両タスク、および画像、動画、3Dといったモダリティを統一する初のトークナイザー
 </p>
 
+<h2 id="V">V</h2>
 <h3>●VAE: Variational Auto Encoder</h3>
 <p>
 『Auto-Encoding Variational Bayes』(2013)<br>
@@ -1979,6 +2001,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 　テキストに依存せず、純粋な視覚表現を通じて計画を可能にする新しいパラダイム「視覚計画」を提案する。このパラダイムでは、計画は視覚領域における段階的推論を符号化した画像のシーケンスを介して実行され、人間が未来の行動をスケッチまたは視覚化する方法に類似している。
 </p>
 
+<h2 id="W">W</h2>
 <h3>● Weak-to-strong generalization (弱から強への一般化)</h3>
 <p>
 『Weak-to-strong generalization: Eliciting strong capabilities with weak supervision』(2023)<br>
@@ -2035,8 +2058,13 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <br>
 　基盤モデルが真に根底にある「世界モデル」を学習しているのか、それとも単によく予測するだけなのかを評価するために「帰納バイアスプローブ」を導入している。この結果、これらのモデルは予測に優れている一方で、物理学、格子問題、ゲームの各ドメインにおいて、根本的な支配原理ではなく、タスク固有のヒューリスティックや粗い表現を学習していることが一貫して示され、真の世界モデルに対する帰納バイアスが弱いことが明らかになった。
 </p>
+
+<h2 id="X">X</h2>
+<h2 id="Y">Y</h2>
+<h2 id="Z">Z</h2>
     </body>
 </html>
+
 
 
 
