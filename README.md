@@ -1408,9 +1408,16 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 <br>
 　自己回帰型大規模言語モデル（LLM）を「AはBである」という形式の文で学習させた場合、逆方向の「BはAである」という文には自動的に汎化しない, という驚くべき欠陥「逆転の呪い」現象を特定した。
 </p>
-
 <p>
-『Latent learning: episodic memory complements parametric learning by enabling flexible reuse of experiences』()<br>
+『Reverse Training to Nurse the Reversal Curse』(2024)<br>
+　(逆転の呪いを解く逆転トレーニング)<br>
+　論文は<a href="https://arxiv.org/abs/2403.13799">こちら</a><br>
+<br>
+　逆方向訓練と呼ばれる代替訓練手法を提案する。この手法では、すべての単語を2回使用することで利用可能なトークンの量を2倍にする。LLMは、エンティティなどの選択された部分文字列を保持（つまり、逆方向ではない）しながら、訓練文字列を逆方向に反転させることで、順方向と逆方向の両方向で訓練される。
+「反転の呪い」問題の解決に役立つことを示します。
+</p>
+<p>
+『Latent learning: episodic memory complements parametric learning by enabling flexible reuse of experiences』(2025)<br>
 　(潜在学習：経験の柔軟な再利用を可能にすることで、エピソード記憶がパラメトリック学習を補完する)<br>
 　論文は<a href="https://arxiv.org/abs/2509.16189">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.16189v1">こちら</a><br>
 <br>
@@ -2018,6 +2025,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
