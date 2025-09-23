@@ -679,6 +679,9 @@ RLHFやDPOといった手法がIRLの一種であることを示している。
 　生徒ごとに「最適な教師」が異なり、同じ生徒であってもデータセットごとに最適な教師が異なる場合があることを観察した。そこで、複数の教師の推論能力を生徒に統合し、様々な教師の教師間の矛盾を克服するために、我々はMerge-of-Thought Distillation（MoT）を提案する。
 </p>
 
+<h3>● Latent learning (潜在学習) </h3>
+→The Reversal Curse (反転の呪い)
+
 <h3>●LoRA: Low-rank adaptation of LLM (低ランク適応)</h3>
 <p>
 『Lora: Low-rank adaptation of large language models』(2021)<br>
@@ -1397,6 +1400,23 @@ ReLU（Rectified Linear Unit）を導入し、収束の加速とスパース性�
 ニューラル ネットワークは距離の概念を学習するだけでなく、この距離の尺度は入力空間内の位置に応じて変化する。つまり、非定常である。ニューラル ネットワークは、自然なデータ分布とよく一致する可能性のある低いコルモゴロフ複雑度に対する強いバイアスも提供する。
 <br>
 
+<h3>● The Reversal Curse (反転の呪い), Latent learning (潜在学習) </h3>
+<p>
+『The Reversal Curse: LLMs trained on “A is B” fail to learn “B is A”』(2023)<br>
+　(逆転の呪い: 「AはB」で訓練されたLLMは「BはA」を学べない)<br>
+　論文は<a href="https://arxiv.org/abs/2309.12288">こちら</a><br>
+<br>
+　自己回帰型大規模言語モデル（LLM）を「AはBである」という形式の文で学習させた場合、逆方向の「BはAである」という文には自動的に汎化しない, という驚くべき欠陥「逆転の呪い」現象を特定した。
+</p>
+
+<p>
+『Latent learning: episodic memory complements parametric learning by enabling flexible reuse of experiences』()<br>
+　(潜在学習：経験の柔軟な再利用を可能にすることで、エピソード記憶がパラメトリック学習を補完する)<br>
+　論文は<a href="https://arxiv.org/abs/2509.16189">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.16189v1">こちら</a><br>
+<br>
+　機械学習システムの弱点の一つは、潜在学習、つまり現在のタスクとは無関係だが将来のタスクで役立つ可能性のある情報を学習できないことであると主張する。この視点が、言語モデリングにおける反転の呪いからエージェントベースナビゲーションに関する新たな知見に至るまで、様々な失敗にどのように関連しているかを示す。
+</p>
+
 <h3>● Reward Hacking (報酬ハッキング)</h3>
 <p>
 『Defining and Characterizing Reward Hacking』(2022)<br>
@@ -1998,6 +2018,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
