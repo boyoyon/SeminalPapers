@@ -17,7 +17,7 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 <p>
 源流が判れば, 引用論文を辿って, その後の進展を調べることができる。<br>
 
-<a href="0-9">0-9</a>　<a href="A">A</a>　 <a href="B">B</a>　 <a href="C">C</a>　 <a href="D">D</a>　 <a href="E">E</a>　 <a href="F">F</a>　 <a href="G">G</a>　<a href="H">H</a>　 <a href="I">I</a>　 <a href="J">J</a>　 <a href="K">K</a>　 <a href="L">L</a>　 <a href="M">M</a>　 <a href="N">N</a>　<a href="O">O</a>　 <a href="P">P</a>　 <a href="Q">Q</a>　 <a href="R">R</a>　 <a href="S">S</a>　 <a href="T">T</a>　 <a href="U">U</a>　<a href="V">V</a>　 <a href="W">W</a>　 <a href="X">X</a>　 <a href="Y">Y</a>　 <a href="Z">Z</a>
+<a href="#0-9">0-9</a>　<a href="#A">A</a>　 <a href="#B">B</a>　 <a href="#C">C</a>　 <a href="#D">D</a>　 <a href="#E">E</a>　 <a href="#F">F</a>　 <a href="#G">G</a>　<a href="#H">H</a>　 <a href="#I">I</a>　 <a href="#J">J</a>　 <a href="#K">K</a>　 <a href="#L">L</a>　 <a href="#M">M</a>　 <a href="#N">N</a>　<a href="#O">O</a>　 <a href="#P">P</a>　 <a href="#Q">Q</a>　 <a href="#R">R</a>　 <a href="#S">S</a>　 <a href="#T">T</a>　 <a href="#U">U</a>　<a href="#V">V</a>　 <a href="#W">W</a>　 <a href="#X">X</a>　 <a href="#Y">Y</a>　 <a href="#Z">Z</a>
 </p>
 <h2 id="0-9">0-9</h2>
 <h3>● 3D  Gaussian Splatting (3DGS)</h3>
@@ -2064,6 +2064,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <h2 id="Z">Z</h2>
     </body>
 </html>
+
 
 
 
