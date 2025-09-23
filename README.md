@@ -682,6 +682,16 @@ RLHFやDPOといった手法がIRLの一種であることを示している。
 <h3>● Latent learning (潜在学習) </h3>
 →The Reversal Curse (反転の呪い)
 
+<h3>● Latent Zone (潜在ゾーン), Latent Space (潜在空間) </h3>
+<p>
+『Latent Zoning Network: A Unified Principle for Generative Modeling, Representation Learning, and Classification』(2025)<br>
+　(潜在ゾーニングネットワーク：生成モデリング、表現学習、および分類の統一的原理)<br>
+　論文は<a href="https://arxiv.org/abs/2509.15591">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2509.15591v1">こちら</a><br>
+<br>
+　統一された原理で, 生成モデリング、表現学習、分類の 3つのタスクすべてに対処できるかを問う。このような統一により、ML パイプラインが簡素化され、タスク間の相乗効果を高めることができる。 この目標に向けた一歩として、潜在ゾーニング ネットワーク (LZN) を紹介する。 
+</p>
+<img src="images/latent_zone.png">
+
 <h3>●LoRA: Low-rank adaptation of LLM (低ランク適応)</h3>
 <p>
 『Lora: Low-rank adaptation of large language models』(2021)<br>
@@ -2025,6 +2035,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 </p>
     </body>
 </html>
+
 
 
 
