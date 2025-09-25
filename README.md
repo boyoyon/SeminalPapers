@@ -90,7 +90,7 @@ DNN 関連の研究で源流になるような論文を集めようと思う。<
 ・人間の意図する目的や嗜好、倫理原則に合致させること<br>
 　<a href="https://intelligence.org/files/CFAI.pdf">Creating Friendly AI 1.0 (2001)</a>で概念が提唱され<br>
 　<a href="https://intelligence.org/files/obsolete/TechnicalAgenda%5Bold%5D.pdf">Aligning Superintelligence with Human Interests:A Technical Research Agenda (2014)</a>でAI Alignment という用語が提唱された。<br>
-・RLHF: Reinforment Learning from Human Feedback<br>
+・RLHF: Reinforcement Learning from Human Feedback<br>
 ・DPO: Direct Preference Optimization<br>
 <br>
 <p>
@@ -351,7 +351,7 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 　論文は<a href="https://arxiv.org/abs/2203.01360">こちら</a>, 要約は<a href="https://www.alphaxiv.org/ja/overview/2203.01360v4">こちら</a><br>
 <br>
 ・アクティブラーニングを伴うニューラルガラーキン法は、高次元の発展方程式の正確なシミュレーションを可能にする。<br>
-・Physics-Informed Neural Networks（PINNs）のような既存のアプローチは、非効率なサンプリング戦略と因果関係を無視したグローバルな最適化アプローチのため、高次元の時間依存問題で苦戦することがよくある。<br>
+・Physics-Inforcemed Neural Networks（PINNs）のような既存のアプローチは、非効率なサンプリング戦略と因果関係を無視したグローバルな最適化アプローチのため、高次元の時間依存問題で苦戦することがよくある。<br>
 ・この手法は、特に局所的で発展する特徴を持つシステムにおいて、「次元の呪い」を効果的に克服する。
 </p>
 <p>
@@ -363,7 +363,7 @@ Chain-of-Thought (CoT) プロンプティングを導入し、普及させた画
 </p>
 
 <h2 id="D">D</h2>
-<h3>● Deep Reinforment Learning (深層強化学習)</h3>
+<h3>● Deep Reinforcement Learning (深層強化学習)</h3>
 <p>
 『Human-level control through deep reinforcement learning』(2015)<br>
 　論文は<a href="https://training.incf.org/sites/default/files/2023-05/Human-level%20control%20through%20deep%20reinforcement%20learning.pdf">こちら</a>
@@ -2096,6 +2096,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <h2 id="Z">Z</h2>
     </body>
 </html>
+
 
 
 
