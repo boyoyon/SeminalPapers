@@ -471,7 +471,13 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 　論文は<a href="https://arxiv.org/abs/1703.04933">こちら</a><br>
 <br>
 　モデルのパラメータを再パラメータ化（重みのスケーリングなど）することで、汎化性能を変えずに最小値の鋭さを人為的に操作できることを示し、この仮説に疑問を投げかけた。
-スケール不変な「平坦さ」の定義が提案されたり、平坦さの定義自体が再考されたりする研究が進められている。
+</p>
+<p>
+『Relative Flatness and Generalization』(2020)<br>
+　(相対的な平坦性と一般化)<br>
+　論文は<a href="https://arxiv.org/abs/2001.00939">こちら</a><br>
+<br>
+　再パラメータ化不変な相対平坦性の尺度を導入した。
 </p>
 <p>
 『Flatness is Necessary, Neural Collapse is Not: Rethinking Generalization via Grokking』(2025)<br>
@@ -2090,6 +2096,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <h2 id="Z">Z</h2>
     </body>
 </html>
+
 
 
 
