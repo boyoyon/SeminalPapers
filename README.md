@@ -449,12 +449,30 @@ word2vecに関するこの記念碑的な論文は、言語モデルが構造的
 
 <h2 id="F">F</h2>
 <h3>● Flat minima hypothesis (平坦な最適解空間仮説)</h3>
-→ Mode Conectivity (モード連結性)
-<img src="images/flat_minima.png">
-<a href="https://wordpress.cs.vt.edu/optml/2018/04/29/entropy-sgd-biasing-gd-into-wide-valleys/">こちら</a><br>
+<p>
+『Flat Minima』(1997)<br>
+　(平坦な最小値)<br>
+　論文は<a href="https://www.bioinf.jku.at/publications/older/3304.pdf">こちら</a><br>
 <br>
+　平坦な最小値が優れた汎化性能につながることを、情報理論（最小記述長原理、MDL）とベイズ主義的な観点から初めて詳細に論じた。
+</p>
+<img src="images/flat_minima.png">
+<p>
+『Entropy-SGD: biasing gradient descent into wide valleys』(2016)<br>
+　(エントロピーSGD：勾配降下法を広い谷に偏らせる)<br>
+　論文は<a href="https://wordpress.cs.vt.edu/optml/2018/04/29/entropy-sgd-biasing-gd-into-wide-valleys/">こちら</a><br>
+<br>
+　実際に平坦な最小値へとモデルを誘導する具体的な最適化アルゴリズムを提案した
+</p>
 <img src="images/flat_minima2.png">
-<a href="https://dl.acm.org/doi/abs/10.1145/3531146.3533232">こちら</a><br>
+<p>
+『Sharp Minima Can Generalize For Deep Nets』(2017)<br>
+　(鋭い極小値はディープネットにも一般化できる)<br>
+　論文は<a href="https://arxiv.org/abs/1703.04933">こちら</a><br>
+<br>
+　モデルのパラメータを再パラメータ化（重みのスケーリングなど）することで、汎化性能を変えずに最小値の鋭さを人為的に操作できることを示し、この仮説に疑問を投げかけた。
+スケール不変な「平坦さ」の定義が提案されたり、平坦さの定義自体が再考されたりする研究が進められている。
+</p>
 
 <h2 id="G">G</h2>
 <h3>● Generative Model (生成モデル)</h3>
@@ -2064,6 +2082,7 @@ LLMベースのマルチエージェントシステムにおける広範な研�
 <h2 id="Z">Z</h2>
     </body>
 </html>
+
 
 
 
